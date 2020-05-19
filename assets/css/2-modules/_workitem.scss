@@ -1,5 +1,5 @@
 .typecontent {
-        background:#fff url('/assets/img/texture.png') repeat;
+        background:#fff url('{{site.baseurl}}/assets/img/texture.png') repeat;
         border-radius:15px;
         overflow:hidden;
         padding:15px;}
@@ -7,7 +7,7 @@
 
 body.workitem{
        .workcontent {
-        background:#fff url('/assets/img/texture.png') repeat;
+        background:#fff url('{{site.baseurl}}/assets/img/texture.png') repeat;
         border-radius:15px;
         overflow:hidden;
         @include gridsupport(){

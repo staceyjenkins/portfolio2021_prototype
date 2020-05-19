@@ -7,7 +7,7 @@ body.home .notebook{
 
 body.notebook, body.blogpost {
     .blogcontent {
-        background:#fff url('/assets/img/texture.png') repeat;
+        background:#fff url('{{site.baseurl}}/assets/img/texture.png') repeat;
         border-radius: $grid-gap/2;
         overflow:hidden;
         position:relative;
