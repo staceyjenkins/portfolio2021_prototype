@@ -1,0 +1,45 @@
+---
+layout: default
+title: Notebook
+pageclass: notebook
+pagination:
+  enabled: true
+  permalink: '/page:num/'
+---
+<div class="notebookcontent">
+   <div class="titlecontent">
+        <div class="title_overlay">
+        <h2 class="page_header">Notebook</h2>
+            </div>
+       </div>
+            <div class="blogcontent">
+                <div class="blog_structure">
+                <div class="post_area">
+                    <ul class="list_of_posts">
+                     {% for post in site.posts %}
+                    {% include /partials/postloop.html %}
+                    {% endfor %}   
+                    </ul>
+                    {% if paginator.total_pages > 1 %}
+<div class=”pagination”>
+ <ul>
+{% if paginator.previous_page %}
+ <li class=”prev”><a href=”/posts/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}”>Previous</a></li>
+{% endif %}
+ <li><a {% if paginator.page == 1 %}class=”active” {% endif %}href=”/posts/”>1</a></li>
+{% for count in (2..paginator.total_pages) %}
+ <li><a {% if paginator.page == count %}class=”active” {% endif %}href=”/posts/page{{ count }}”>{{ count }}</a></li>
+{% endfor %}
+{% if paginator.next_page %}
+ <li class=”next”><a href=”/posts/page{{ paginator.next_page }}”>Next</a></li>
+{% endif %}
+ </ul>
+</div>
+{% endif %}
+                </div>
+                     
+                {% include /partials/sidebar.html %}
+          </div>
+    </div>
+</div>
+    

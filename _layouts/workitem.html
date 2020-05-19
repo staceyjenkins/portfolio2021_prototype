@@ -1,0 +1,54 @@
+---
+layout: default
+pageclass: work
+---
+
+<div class="work">            
+    <div class="workcontent">
+            <div class="workitem_heroimage">
+            <figure><img src="{{site.url}}/assets/img/work/{{page.thumb}}" alt="{{page.title}}"></figure>
+            </div>    
+            <div class="workitem_maincontent">
+                <header class="workitem_header">
+                <p class="workitem_components">{{page.type}}</p>
+                <h2 class="workitem_title">{{page.title}}</h2>
+                </header>
+                <div class="workitem_description">
+             {{ content }}
+                </div>
+            </div>
+
+            </div>
+    <div class="relatedwork">
+    <h3>Related Work</h3>
+    <ul class="work_list">
+        {% assign maxRelated = 4 %}
+        {% assign minCommonCategories = 2 %}
+        {% assign maxRelatedCounter = 0 %}
+        
+            <!--*--->{% for work in site.workitems %}
+                {% assign sameCategoryCount = 0 %}
+                {% assign commonCategories = 0 %}
+                   
+                    <!--**--->{% if work.url != page.url %}
+                    <!--***--->{% for category in work.categories %}
+                    <!--****--->{% if page.categories contains category %}
+                    {% assign sameCategoryCount = sameCategoryCount | plus: 1 %}
+                    {% capture categoryMarkup %}<p class="label label-default">{{category}}</p>{% endcapture %}
+                    {% assign commonCategories = commonCategories | append: categoryMarkup %}
+                    <!--****--->{% endif %}
+                    <!--***--->{% endfor %}
+                    <!--**--->{% endif %}
+        
+                <!--*****--->{% if sameCategoryCount >= minCommonCategories %}
+        
+                {% include /partials/workloop.html %}
+        
+                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                <!--******--->{% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+                <!--******--->{% endif %}
+                <!--*****--->{% endif %}
+            <!--*--->{% endfor %}
+            </ul>
+</div>

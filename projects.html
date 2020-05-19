@@ -1,0 +1,22 @@
+---
+layout: default
+title: Projects
+pageclass: mywork
+permalink: /projects/
+---
+
+<div class="mywork">
+   <div class="titlecontent">
+        <div class="title_overlay">
+        <h2 class="page_header">Projects</h2>
+            </div>
+       </div>
+            <div class="portfolio">
+                <div class="work_row">
+                <ul class="work_list">
+               {% for work in site.workitems %}
+                {% include /partials/workloop.html %}
+                {% endfor %}
+            </ul>
+                </div>
+    </div>

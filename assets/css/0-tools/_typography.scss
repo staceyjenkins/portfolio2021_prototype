@@ -1,0 +1,477 @@
+/*TYPOGRAPHY*/
+// -------------------------------------------------- */
+
+//https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/
+// Variables
+$base-font-size: 106; // Gets used as %
+$bl: 1.76;
+
+$base: 16 * ($base-font-size / 100);
+$leading: $base * $bl;
+
+// Vertical rhythm mixins
+@mixin line-height($number){
+  line-height: #{$number * $leading + 'px'};
+  line-height: #{$number * $bl + 'rem'};
+}
+@mixin margin-top($number) {
+  margin-top: #{$number * $leading + 'px'};
+  margin-top: #{$number * $bl + 'rem'};
+}
+@mixin margin-bottom($number){
+ margin-bottom: #{$number * $leading + 'px'};
+  margin-bottom: #{$number * $bl + 'rem'};
+}
+
+/* http://www.stubbornella.org/content/2013/07/01/easy-peasy-rem-conversion-with-sass/*/
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+@mixin emSize($size) {
+  //font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+@function setSize($map, $object, $style){
+  @if map-has-key($map, $object){
+    @return map-get(map-get($map, $object), $style);
+  }
+}
+
+@mixin setTypeSize($size:s1){
+  
+  $sizes:(
+    s4:(
+    fontsize:120,
+    lineheight:4,
+    margintop:1,
+    marginbottom:0,
+    ),
+    s3:(
+    fontsize:45,
+    lineheight:2,
+    margintop:1,
+    marginbottom:1,
+          ),
+    s2:(
+    fontsize:28,
+    lineheight:1,
+    margintop:1,
+    marginbottom:1,
+          ),
+    s1:(
+     fontsize:17,
+    lineheight:1,
+    margintop:1,
+      marginbottom:1,
+      ),
+    s0:(
+     fontsize:14,
+     lineheight:1,
+     margintop:1,
+     marginbottom:0,
+      ),
+  );
+  
+  
+  //2. Grab colour and its tone value from map
+  @if ($size != null) {
+    $fontsize: setSize($sizes, $size, fontsize) * 1px;
+   $topmargin: setSize($sizes, $size, margintop);
+   $bottommargin: setSize($sizes, $size, marginbottom);
+   $lineheight: setSize($sizes, $size, lineheight);
+    @include emSize($fontsize);
+    @include line-height($lineheight);
+    @include margin-bottom($bottommargin);
+    @include margin-top($topmargin);
+  } @else {
+       $fontsize: setSize($sizes, s1, fontsize);
+   $topmargin: setSize($sizes, s1, margintop);
+   $bottommargin: setSize($sizes, s1, marginbottom);
+   $lineheight: setSize($sizes, s1, lineheight);
+    @include emSize($fontsize);
+    @include line-height($lineheight);
+    @include margin-bottom($bottommargin);
+    @include margin-top($topmargin);
+  }
+  };
+
+
+/*Declaring main heading and body copy families*/
+$primary: 'Open Sans', Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+$secondary: 'Abril Fatface', Georgia,Times,Times New Roman,serif;
+
+$fontFamilies:(
+ secondary:(font-family: $secondary, cap-height:0.7),
+  primary:(font-family:$primary, cap-height:0.63)
+);
+
+@mixin setTypeFace($typeface:'primary'){
+  font-family: getTypeface($typeface, 'font-family');
+};
+
+@function getTypeface($typeface, $typefacefeature:'font-family'){
+  @return unquote(map-get(map-get($fontFamilies, $typeface), $typefacefeature));
+};
+
+// -------------------------------------------------- */
+
+$standardmeasure: calc(1rem * #{$bl});
+
+
+/* TYPOGRAPHY RESET */
+html {
+  /* Change default typefaces here */
+    font-size: #{$base-font-size + '%'};
+    @include setTypeFace('primary');
+}
+
+/* Copy & Lists */
+p {
+  @include setTypeSize('s1');
+  color: colour(charcoal, 600);
+  text-align:left;
+}
+ul,
+ol {
+  margin-top: $standardmeasure;
+  margin-bottom: $standardmeasure;
+  color: colour(charcoal, 600);
+}
+ul li,
+ol li {
+  line-height: $standardmeasure;
+  color: colour(charcoal, 600);
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: $standardmeasure;
+  margin-top: $standardmeasure;
+  margin-bottom: $standardmeasure;
+  background:white;
+  border-radius:15px;
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  padding: $standardmeasure;
+  flex-direction:column;
+  box-shadow:0px 10px 20px  transparentize(colour(charcoal,900), 0.80);
+  color: colour(charcoal, 600);
+  quotes: "\201C""\201D""\2018""\2019"; 
+}
+
+blockquote:before {
+  color: colour(charcoal, 200);
+  content: open-quote;
+  color: colour(charcoal, 600);
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  margin-top: $standardmeasure;
+  margin-bottom: 0;
+  line-height: $standardmeasure;
+  color: colour(blue, 700);
+}
+h1 {
+@include setTypeSize('s4');
+@include setTypeFace('secondary');
+}
+h2  {
+@include setTypeSize('s3');
+@include setTypeFace('secondary');
+}
+h3, h4, h5, h6 {
+@include setTypeSize('s2');
+@include setTypeFace('secondary');
+}
+
+/* Tables */
+table {
+  margin: $standardmeasure 0;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: calc(1.75rem/2);
+  line-height: $standardmeasure;
+}
+
+
+table td {color: colour(charcoal, 600);}
+table th {color:colour(blue,600);}
+/* Code blocks */
+code {
+  vertical-align: bottom;
+}
+/* Leading paragraph text */
+.lead, .intro {
+  @include setTypeSize('s2');
+  text-align:center;
+    max-width:40ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Hug the block above you */
+.hug {
+  margin-top: 0;
+}
+
+p + figure, figure + figure, figure + p {margin:4.5rem 0;}
+
+figure + h3 {margin-top:2rem;}
+
+.intro + h3, .intro + h4, .intro + .infographic_masonry_grid {margin-top: calc(#{$standardmeasure} * 2);}
+
+p a, p a:visited {color:colour(teal,700);
+                 text-decoration: none !important;
+                 border-bottom: 0.08rem solid colour(charcoal,300);
+                 transition: border-color .15s ease-out;}
+p a:hover {color:colour(teal,900);
+           border-bottom: 0.0625rem solid colour(teal,900);}
+
+// -------------------------------------------------- */
+
+/*USEFUL MIXINS*/
+// -------------------------------------------------- */
+@mixin allCaps(){
+    text-transform:uppercase;
+    letter-spacing:0.10em;
+    font-weight:bold;
+    color:white;
+}
+
+@mixin mainhead(){
+    @include setTypeFace('secondary');
+    @include setTypeSize('s3');
+    text-shadow:0px 5px 10px 
+        transparentize(colour(charcoal,900), 0.80);
+     color:colour(blue, 700);
+}
+
+@mixin subhead(){
+    @include setTypeSize('s0');
+    @include setTypeFace('primary')
+    @include allCaps();
+    color:colour(teal, 500); 
+}
+
+@mixin subhead_large(){
+    @include setTypeSize('s1');
+    font-weight:600;
+    max-width:46ch;
+    @include for-size(tablet-portrait-up){
+    @include setTypeSize('s2');
+    font-weight:400;
+    max-width:32ch;
+    }
+    
+    @include setTypeFace('primary')
+    @include allCaps();
+    color:colour(teal, 500); 
+}
+
+@mixin button(){
+    @include allCaps();
+    @include setTypeFace('primary');
+    text-decoration:none;
+    display:inline-block;
+    min-width:80px;
+    height:40px;
+    padding: 6px 20px;
+    width:auto;
+    cursor:pointer;
+    border: none;
+    background: colour(teal, 600);
+    position:relative;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px transparentize(colour(teal, 800), 0.60);
+    transition: all .2s ease-in-out;
+    &:focus {outline:2px solid colour(charcoal,500);}
+    &:hover {
+        background: colour(teal, 700);
+        transform: scale(1.1);
+    }
+    &::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+.button {@include button;}
+.contactme {@include button;
+            @include setTypeSize('s0');
+            margin-top:0 !important;}
+
+// -------------------------------------------------- */
+
+
+/*OVERRIDES*/
+// -------------------------------------------------- */
+
+figure.media, .single_post figure {figcaption, figcaption p {font-style: italic;
+                               @include setTypeSize('s1');
+             @include setTypeFace('primary');
+             color:colour(charcoal, 600);}
+}
+
+.sitenavigation {
+    .contactme {@include setTypeSize('s0');}
+    .menu{
+    display:flex;
+    align-items:center;
+   list-style:none;
+  margin:0;
+  padding:0;
+  
+         
+  a {@include allCaps();
+     @include setTypeSize('s0');
+    @include setTypeFace('primary');
+       text-decoration:none;
+             
+        &:after{content:"";
+           display:block;
+           height:1px;
+           border-bottom: solid 1px white;  
+           transform: scaleX(0);  
+           transition: transform 250ms ease-in-out;}
+
+        &:hover {
+            
+            &:after{width:100%;
+                         transform: scaleX(1);}}
+    
+    }      
+  li {display:inline-block; vertical-align:center; padding: 0 20px;}
+  li.current {background:colour(blue, 700);
+              border-radius:11px;}  
+  li a {transition: all 0.3s ease 0s;}
+    }
+    
+}
+
+/* header module */
+.page_header{@include setTypeSize(s4);
+            font-weight:bold;
+             @include setTypeFace(secondary);
+                color:colour(yellow,100);
+                text-align:center;}
+.work_header, .notebook_header {@include mainhead();}
+
+body.home {
+    .page_header {
+        color: colour(teal, 600);
+        @include for-size(header_breakpoint){
+            text-align:left;
+        }
+    }
+    .page_lead {@include setTypeSize(s2);
+            font-weight:400;
+            text-align:center;
+            color:colour(blue,300);
+             @include setTypeFace(primary);
+             
+        @include for-size(header_breakpoint){
+            text-align:left;
+        }
+        
+        }
+    .work_header {
+    @include for-size(big-desktop-up){
+         color:colour(yellow, 200);
+    }
+}
+}
+
+body.mywork, body.notebook, body.error {
+    .page_header {text-shadow: 0px 5px 10px transparentize(colour(teal, 800), 0.40);}
+}
+
+
+/* portfolio module */
+.portfolio, .relatedwork{
+.work_article .card {
+    .card_caption {text-align:center;}
+    .work_title {@include setTypeSize('s2');
+                 @include setTypeFace('secondary');
+                  text-align:left;
+                }
+    .work_components {@include subhead();
+                      line-height:1.3125rem;
+                      margin-top:0;}
+    .work_title a {text-decoration:none;}
+    .work_title a, .work_title a:visited {color: colour(blue, 400);}
+    }
+    .work_article .card:hover {
+        .work_title a {color: colour(blue, 600);}
+        .work_components {color: colour(teal, 700);}
+}
+}
+
+/* work items */
+body.workitem {
+        .workitem_components {@include subhead_large();
+                               text-align:center;
+                               margin-left: auto;
+                               margin-right: auto;}
+             .workitem_title {
+                  text-align:center;
+                    @include setTypeSize('s3');
+                 @include for-size(tablet-portrait-up){
+                 @include setTypeSize('s4');
+                               }
+    }
+}
+
+/* notebook post extracts */
+li.post {
+    .post_category {@include subhead();
+                    text-align:center;
+                    margin:0;
+        @include for-size(tablet-portrait-up){
+            text-align:left;
+        }
+    }
+    .post_title {@include setTypeSize('s2');
+                margin:0;
+        @include for-size(tablet-portrait-up){
+            text-align:left;
+        }
+    
+    }
+    .post_time {@include setTypeSize('s0');
+                margin:0;
+                color: colour(charcoal, 500);
+                text-align:center;
+        @include for-size(tablet-portrait-up){
+            text-align:left;
+        }
+    
+    }
+    .post_footer {text-align:left;}
+    .post_permalink {@include setTypeSize('s0');
+                    margin-top:0;
+                    margin-right:auto;}
+}
+
+// -------------------------------------------------- */
+
+
+
+

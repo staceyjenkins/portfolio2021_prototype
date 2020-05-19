@@ -1,0 +1,21 @@
+//CSS Grid Support Mixin Shorthand
+// -------------------------------------------------- */
+@mixin gridsupport() {
+       @supports(display:grid){
+         @content;
+      }
+}
+
+// -------------------------------------------------- */
+
+
+
+/* USEFUL GLOBALS */
+// -------------------------------------------------- */
+
+@mixin linklist(){
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+// -------------------------------------------------- */

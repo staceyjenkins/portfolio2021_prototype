@@ -1,0 +1,22 @@
+<li class="post">
+                        <div class="post_image">
+                        <figure class="image_container">
+                        <a href="{{post.url}}">
+                        <img src="{{post.thumb}}" alt="{{post.title}}"/>
+                        </a>
+                        </figure>
+                        </div>    
+                        <div class="post_caption">
+                        <header class="post_header">
+                        <p class="post_category">{{post.category}}</p>
+                         <h3 class="post_title">{{post.title}}</h3>
+                        <p class="post_time"><time datetime="{{post.date}}">{{post.date | date_to_long_string}}</time></p> 
+                    </header>
+                        <div class="post_excerpt">
+                        <p>{{post.excerpt}}</p>
+                        </div>
+                        <footer class="post_footer">
+                        <a class="post_permalink button" href="{{post.url}}">Read more</a>
+                        </footer>
+                        </div>
+                    </li>

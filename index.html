@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+pageclass: home
+---
+<div class="homecontent">
+    <div class="titlecontent">
+        <div class="title_overlay">
+        <h2 class="page_header">I'm Stacey! </h2>
+        <p class="page_lead">I’m a Welsh digital designer and illustrator based in Berkshire. I help people leap ahead and create fantastic content for fantastic people, from pencil to pixel.</p>
+        {% include /partials/socials.html %}
+            </div>
+       </div>
+    <div class="portfolio">
+        <h4 class="work_header">Here's what I do...</h4>
+        <div class="work_row">
+            
+            
+            
+                <ul class="work_list">
+                {% for work in site.workitems limit:4 %}
+                {% include /partials/workloop.html %}
+                {% endfor %}
+            </ul>
+             
+            <div class="portfolio_link">
+            <a class="button" href="/projects/">Show more projects</a>
+            </div>
+            
+           
+    </div>
+    </div>
+        <div class="seperator">
+        <figure>
+        <img src="../assets/img/seperator.png"></figure>
+        </div>
+    <div class="notebook">
+        <h4 class="notebook_header">Notebook</h4>
+        <ul class="list_of_posts">
+         {% for post in site.posts limit:3 %}
+        {% include /partials/postloop.html %}
+            {% endfor %}   
+        </ul>
+            <div class="notebook_link">
+            <a class="button" href="/notebook/">Show more notes</a>
+            </div>
+    
+    </div>
