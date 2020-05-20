@@ -14,8 +14,8 @@
     <!--  Essential META Tags -->
 
     <meta property="og:title" content="Turtle Promotions - Stacey Jenkins - Design and Illustration">
-    <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <meta property="og:image" content="turtle_1.jpeg">
+    <meta property="og:description" content="A quirky logo design and brand language for a music promoter in South Wales">
+    <meta property="og:image" content="http://localhost:4000/assets/img/work/turtle_1.jpeg">
     <meta property="og:url" content="http://localhost:4000/projects/turtlepromotions/">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -32,6 +32,7 @@
     
     
  </head>
+
     <body class="workitem">
     <main class="site">   
     <div class="sitecontent">
@@ -40,7 +41,7 @@
     <div class="header_bar">
       <div class="logo_holder">
        <figure class="logo" aria-label="Stacey 'froginjar' Jenkins - Design & Illustration">
-           <a href="" title="Stacey 'froginajar' Jenkins - Design & Illustration">
+           <a href="http://localhost:4000" title="Stacey 'froginajar' Jenkins - Design & Illustration">
            <h1>Stacey 'froginjar' Jenkins - Design &amp; Illustration</h1>
           <svg width="653px" height="523px" viewBox="0 0 653 523" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -275,7 +276,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/herbees/" target="_blank">
+                        <a href="/projects/herbees/">
                         Herbees Restaurant
                         </a>    
                         </h5>
@@ -425,6 +426,32 @@
     <!--scripts-->
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="http://localhost:4000/assets/js/disqusloader.js"></script>
+    
+    <script>
+    
+    var $options = {
+        
+        scriptUrl: '//http-www-staceyjenkins-co-uk.disqus.com/embed.js',
+        laziness: 1,
+        throttle: 250,
+          disqusConfig: function()
+  {
+    this.page.title       = 'Turtle Promotions';
+    this.page.url         = 'http://localhost:4000/projects/turtlepromotions/';
+    this.page.identifier  = '/projects/turtlepromotions/';
+  }
+    };
+
+    disqusLoader( '.disqus', $options );
+     
+      
+    </script>  
+
+
+
+  
+      
         </main>
 </body>
 </html>

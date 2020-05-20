@@ -14,8 +14,8 @@
     <!--  Essential META Tags -->
 
     <meta property="og:title" content="Projects - Stacey Jenkins - Design and Illustration">
-    <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <meta property="og:image" content="">
+    <meta property="og:description" content="A selection of work by digital designer and illustrator Stacey Jenkins">
+    <meta property="og:image" content="http://localhost:4000/assets/img/header/header_top_characters.png">
     <meta property="og:url" content="http://localhost:4000/projects/">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -32,6 +32,7 @@
     
     
  </head>
+
     <body class="mywork">
     <main class="site">   
     <div class="sitecontent">
@@ -40,7 +41,7 @@
     <div class="header_bar">
       <div class="logo_holder">
        <figure class="logo" aria-label="Stacey 'froginjar' Jenkins - Design & Illustration">
-           <a href="" title="Stacey 'froginajar' Jenkins - Design & Illustration">
+           <a href="http://localhost:4000" title="Stacey 'froginajar' Jenkins - Design & Illustration">
            <h1>Stacey 'froginjar' Jenkins - Design &amp; Illustration</h1>
           <svg width="653px" height="523px" viewBox="0 0 653 523" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -115,7 +116,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/awaydays/" target="_blank">
+                        <a href="/projects/awaydays/">
                         Away Day Interactive Quiz
                         </a>    
                         </h5>
@@ -137,7 +138,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/caffienecalc/" target="_blank">
+                        <a href="/projects/caffienecalc/">
                         The Caffeine Calculator
                         </a>    
                         </h5>
@@ -159,7 +160,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/debatabase/" target="_blank">
+                        <a href="/projects/debatabase/">
                         The Great Oscar Debatabase
                         </a>    
                         </h5>
@@ -181,7 +182,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/gameofthrones/" target="_blank">
+                        <a href="/projects/gameofthrones/">
                         The Road to Season 6
                         </a>    
                         </h5>
@@ -203,7 +204,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/heightofjackpots/" target="_blank">
+                        <a href="/projects/heightofjackpots/">
                         Height of Jackpots in Coins
                         </a>    
                         </h5>
@@ -225,7 +226,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/herbees/" target="_blank">
+                        <a href="/projects/herbees/">
                         Herbees Restaurant
                         </a>    
                         </h5>
@@ -247,7 +248,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/infographics/" target="_blank">
+                        <a href="/projects/infographics/">
                         Infographics
                         </a>    
                         </h5>
@@ -269,7 +270,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/internetcensorship/" target="_blank">
+                        <a href="/projects/internetcensorship/">
                         Internet Censorship Around The World
                         </a>    
                         </h5>
@@ -291,7 +292,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/rmfactory/" target="_blank">
+                        <a href="/projects/rmfactory/">
                         RM Factory
                         </a>    
                         </h5>
@@ -313,7 +314,7 @@
                     <div class="card_caption">
                         <div class="card_text">
                         <h5 class="work_title">
-                        <a href="/projects/turtlepromotions/" target="_blank">
+                        <a href="/projects/turtlepromotions/">
                         Turtle Promotions
                         </a>    
                         </h5>
@@ -401,6 +402,32 @@
     <!--scripts-->
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="http://localhost:4000/assets/js/disqusloader.js"></script>
+    
+    <script>
+    
+    var $options = {
+        
+        scriptUrl: '//http-www-staceyjenkins-co-uk.disqus.com/embed.js',
+        laziness: 1,
+        throttle: 250,
+          disqusConfig: function()
+  {
+    this.page.title       = 'Projects';
+    this.page.url         = 'http://localhost:4000/projects/';
+    this.page.identifier  = '/projects/';
+  }
+    };
+
+    disqusLoader( '.disqus', $options );
+     
+      
+    </script>  
+
+
+
+  
+      
         </main>
 </body>
 </html>

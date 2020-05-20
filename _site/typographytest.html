@@ -15,7 +15,7 @@
 
     <meta property="og:title" content=" - Stacey Jenkins - Design and Illustration">
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="http://localhost:4000/assets/img/">
     <meta property="og:url" content="http://localhost:4000/typographytest.html">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -32,6 +32,7 @@
     
     
  </head>
+
     <body class="">
     <main class="site">   
     <div class="sitecontent">
@@ -40,7 +41,7 @@
     <div class="header_bar">
       <div class="logo_holder">
        <figure class="logo" aria-label="Stacey 'froginjar' Jenkins - Design & Illustration">
-           <a href="" title="Stacey 'froginajar' Jenkins - Design & Illustration">
+           <a href="http://localhost:4000" title="Stacey 'froginajar' Jenkins - Design & Illustration">
            <h1>Stacey 'froginjar' Jenkins - Design &amp; Illustration</h1>
           <svg width="653px" height="523px" viewBox="0 0 653 523" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -547,6 +548,32 @@
     <!--scripts-->
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="http://localhost:4000/assets/js/disqusloader.js"></script>
+    
+    <script>
+    
+    var $options = {
+        
+        scriptUrl: '//http-www-staceyjenkins-co-uk.disqus.com/embed.js',
+        laziness: 1,
+        throttle: 250,
+          disqusConfig: function()
+  {
+    this.page.title       = '';
+    this.page.url         = 'http://localhost:4000/typographytest.html';
+    this.page.identifier  = '/typographytest.html';
+  }
+    };
+
+    disqusLoader( '.disqus', $options );
+     
+      
+    </script>  
+
+
+
+  
+      
         </main>
 </body>
 </html>
