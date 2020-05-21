@@ -1,6 +1,8 @@
 masthead:
-    - title: "Notebook"
-      url: /notebook/
+    - title: "projects"
+      url: /#portfolio
+    - title: "Blog"
+      url: /blog/
     - title: "Shop"
       url: /shop/
  

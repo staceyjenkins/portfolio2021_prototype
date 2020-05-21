@@ -1,11 +1,11 @@
 $grid-gap: 30px;
 $grid-width: 100% + #{$grid-gap};
 
-body.home .notebook{
+body.home .blog{
     .list_of_posts {margin: 0 $grid-gap/2;}
 }
 
-body.notebook, body.blogpost {
+body.blog, body.blogpost {
     .blogcontent {
         background:#fff url('../../assets/img/texture.png') repeat;
         border-radius: $grid-gap/2;
@@ -96,7 +96,7 @@ body.notebook, body.blogpost {
 }
 
 
-body.home .notebook, body.notebook, body.blogpost .relatedposts {
+body.home .blog, body.blog, body.blogpost .relatedposts {
     li.post {
         @include gridsupport(){
         display:grid;
