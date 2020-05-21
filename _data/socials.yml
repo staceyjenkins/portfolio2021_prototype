@@ -1,0 +1,9 @@
+    - title: "Twitter"
+      icon: twitter
+      url: "http://www.twitter.com/froginajar"
+    - title: "LinkedIn"
+      url: "https://www.linkedin.com/in/stacey-jenkins-design/"
+      icon: linkedin
+    - title: "Email"
+      url: "mailto: hello@staceyjenkins.co.uk"
+      icon: envelope

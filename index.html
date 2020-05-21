@@ -29,14 +29,10 @@ pageclass: home
         <h4 class="work_header">Here's what I do...</h4>
         <div class="work_row">
                 <ul class="work_list">
-                {% for work in site.workitems limit:4 %}
+                {% for work in site.workitems %}
                 {% include /partials/workloop.html %}
                 {% endfor %}
             </ul>
-             
-            <div class="portfolio_link">
-            <a class="button" href="/projects/">Show more projects</a>
-            </div>
             </div>
             </div> 
         </div>
