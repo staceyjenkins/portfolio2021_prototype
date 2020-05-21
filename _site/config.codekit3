@@ -7,7 +7,7 @@
 		"uuidString": "6AD95B2A-248A-4120-BEEB-C2A8EB2640A9"
 		}
 	],
-"creatorBuild": "32001",
+"creatorBuild": "32147",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -103,6 +103,22 @@
 		"oAP": "/_includes/partials/postloop.html",
 		"oF": 0
 		},
+	"/_includes/partials/section_bottom.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_includes/partials/section_bottom.html",
+		"oF": 0
+		},
+	"/_includes/partials/section_top.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_includes/partials/section_top.html",
+		"oF": 0
+		},
 	"/_includes/partials/sidebar.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -179,14 +195,14 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/_site/assets/css/0-tools/fonts.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/_site/assets/css/fonts.css": {
 		"aP": 1,
@@ -198,44 +214,18 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/_site/assets/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/_site/assets/css/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/_site/assets/css/styles.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
-		},
-	"/_site/assets/fonts/abrilfatface-regular-webfont.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/fonts/abrilfatface-regular-webfont.woff",
-		"oF": 0
-		},
-	"/_site/assets/fonts/abrilfatface-regular-webfont.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/assets/fonts/abrilfatface-regular-webfont.woff2",
-		"oF": 0
+		"sct": 1
 		},
 	"/_site/assets/fonts/Aleo/aleo-bold-webfont.woff": {
 		"cB": 0,
@@ -269,68 +259,214 @@
 		"oAP": "/_site/assets/fonts/Aleo/aleo-regular-webfont.woff2",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-bold-webfont.woff": {
+	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-bold-webfont.woff",
+		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.eot",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-bold-webfont.woff2": {
+	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-bold-webfont.woff2",
+		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.ttf",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-italic-webfont.woff": {
+	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-italic-webfont.woff",
+		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-italic-webfont.woff2": {
+	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-italic-webfont.woff2",
+		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff2",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-regular-webfont.woff": {
+	"/_site/assets/fonts/opensans/opensans-bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-regular-webfont.woff",
+		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.eot",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-regular-webfont.woff2": {
+	"/_site/assets/fonts/opensans/opensans-bold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-bold-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-regular-webfont.woff2",
+		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.ttf",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-semibold-webfont.woff": {
+	"/_site/assets/fonts/opensans/opensans-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-semibold-webfont.woff",
+		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.woff",
 		"oF": 0
 		},
-	"/_site/assets/fonts/opensans-semibold-webfont.woff2": {
+	"/_site/assets/fonts/opensans/opensans-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/fonts/opensans-semibold-webfont.woff2",
+		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.woff2",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-italic-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.eot",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-italic-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-italic-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.ttf",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-italic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.woff",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-italic-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.woff2",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-regular-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.eot",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-regular-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.ttf",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-regular-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.woff",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-regular-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.woff2",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-semibold-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.eot",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-semibold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-semibold-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.ttf",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-semibold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.woff",
+		"oF": 0
+		},
+	"/_site/assets/fonts/opensans/opensans-semibold-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.woff2",
 		"oF": 0
 		},
 	"/_site/assets/img/blog/tumblr_o0a984tyWD1v28ub8o1_1280.jpg": {
@@ -2332,6 +2468,48 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/_site/assets/img/sections/section_bottom.png": {
+		"ft": 32768,
+		"iS": 10825,
+		"oA": 0,
+		"oAP": "/_site/assets/img/sections/section_bottom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/assets/img/sections/section_bottom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/img/sections/section_bottom.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/_site/assets/img/sections/section_top.png": {
+		"ft": 32768,
+		"iS": 6454,
+		"oA": 0,
+		"oAP": "/_site/assets/img/sections/section_top.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/assets/img/sections/section_top.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_site/assets/img/sections/section_top.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/_site/assets/img/seperator.png": {
 		"ft": 32768,
 		"iS": 5040,
@@ -3003,6 +3181,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/_site/assets/js/disqusloader.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_site/assets/js/disqusloader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/_site/assets/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3047,1172 +3236,548 @@
 		"oAP": "/_site/index.html",
 		"oF": 1
 		},
-	"/_site/notebook/2016/01/25/ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html": {
+	"/_site/notebook/a-cute-little-punky-eel-mermie-for-mermay/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/01/25/ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html",
+		"oAP": "/_site/notebook/a-cute-little-punky-eel-mermie-for-mermay/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/01/26/breaking-out-a-new-sketchbook-with-some-witchsona.html": {
+	"/_site/notebook/a-little-gnomish-comfort-sketch-from-a-few-days/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/01/26/breaking-out-a-new-sketchbook-with-some-witchsona.html",
+		"oAP": "/_site/notebook/a-little-gnomish-comfort-sketch-from-a-few-days/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/01/27/curled-up-and-scribbled-a-quick-rumney-before-bed.html": {
+	"/_site/notebook/although-i-properly-drew-this-back-in-2016-this/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/01/27/curled-up-and-scribbled-a-quick-rumney-before-bed.html",
+		"oAP": "/_site/notebook/although-i-properly-drew-this-back-in-2016-this/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/01/27/dyn-dammit-im-a-telwyth-not-a-miracle-worker.html": {
+	"/_site/notebook/an-adorable-lil-ely-study-i-forgot-to-post-dont/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/01/27/dyn-dammit-im-a-telwyth-not-a-miracle-worker.html",
+		"oAP": "/_site/notebook/an-adorable-lil-ely-study-i-forgot-to-post-dont/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/01/27/oh-hello-roath-you-appear-to-have-discarded-your.html": {
+	"/_site/notebook/and-heres-the-finished-portrait-of-titania-the/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/01/27/oh-hello-roath-you-appear-to-have-discarded-your.html",
+		"oAP": "/_site/notebook/and-heres-the-finished-portrait-of-titania-the/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/01/29/current-status-of-the-telwythtaff-tribe-top-row.html": {
+	"/_site/notebook/another-goofy-lou-scannnon-to-break-in-a-new/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/01/29/current-status-of-the-telwythtaff-tribe-top-row.html",
+		"oAP": "/_site/notebook/another-goofy-lou-scannnon-to-break-in-a-new/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/01/30/ely-was-moping-around-so-i-thought-id-sketch-im.html": {
+	"/_site/notebook/aske-had-a-major-character-moment-in-tonights/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/01/30/ely-was-moping-around-so-i-thought-id-sketch-im.html",
+		"oAP": "/_site/notebook/aske-had-a-major-character-moment-in-tonights/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/01/doodling-on-the-train-i-do-believe-ive-met-my.html": {
+	"/_site/notebook/attempting-to-learn-blueskywolf09s-tala/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/01/doodling-on-the-train-i-do-believe-ive-met-my.html",
+		"oAP": "/_site/notebook/attempting-to-learn-blueskywolf09s-tala/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/05/my-badass-shieldmaiden-inspired-dwarven-paladin.html": {
+	"/_site/notebook/been-drawing-a-lot-of-modern-khoury-and-loyalty/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/05/my-badass-shieldmaiden-inspired-dwarven-paladin.html",
+		"oAP": "/_site/notebook/been-drawing-a-lot-of-modern-khoury-and-loyalty/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/07/heres-the-completed-design-for-my-5e-dwarven.html": {
+	"/_site/notebook/been-redrawing-my-buddy-krauzer168s-ronin/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/07/heres-the-completed-design-for-my-5e-dwarven.html",
+		"oAP": "/_site/notebook/been-redrawing-my-buddy-krauzer168s-ronin/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/07/my-movie-mashup-poster-for-critical-role-is-done.html": {
+	"/_site/notebook/been-trying-to-push-frog-in-a-jars-design-away/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/07/my-movie-mashup-poster-for-critical-role-is-done.html",
+		"oAP": "/_site/notebook/been-trying-to-push-frog-in-a-jars-design-away/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/09/of-all-the-creatures-to-wander-into-my-town-it.html": {
+	"/_site/notebook/birthday-sketch-for-my-good-friend-dan-aka/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/09/of-all-the-creatures-to-wander-into-my-town-it.html",
+		"oAP": "/_site/notebook/birthday-sketch-for-my-good-friend-dan-aka/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/11/when-frogs-feeling-very-tired-this-trio-are-too.html": {
+	"/_site/notebook/breaking-in-a-new-sketchbook-with-scribbly-dd/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/11/when-frogs-feeling-very-tired-this-trio-are-too.html",
+		"oAP": "/_site/notebook/breaking-in-a-new-sketchbook-with-scribbly-dd/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/12/sketch-of-my-two-paladin-sisters-aske-and-eir.html": {
+	"/_site/notebook/breaking-out-a-new-sketchbook-with-some-witchsona/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/12/sketch-of-my-two-paladin-sisters-aske-and-eir.html",
+		"oAP": "/_site/notebook/breaking-out-a-new-sketchbook-with-some-witchsona/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/13/so-youve-read-about-thievery-but-youre-too.html": {
+	"/_site/notebook/christening-the-new-sketchbook-sketchbook/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/13/so-youve-read-about-thievery-but-youre-too.html",
+		"oAP": "/_site/notebook/christening-the-new-sketchbook-sketchbook/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/17/finally-completed-this-warm-up-drawing-of-ratta.html": {
+	"/_site/notebook/completed-the-crests-for-my-dd-group-the-6bs/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/17/finally-completed-this-warm-up-drawing-of-ratta.html",
+		"oAP": "/_site/notebook/completed-the-crests-for-my-dd-group-the-6bs/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/19/despite-ely-being-based-on-a-golden-lion-tamarin.html": {
+	"/_site/notebook/curled-up-and-scribbled-a-quick-rumney-before-bed/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/19/despite-ely-being-based-on-a-golden-lion-tamarin.html",
+		"oAP": "/_site/notebook/curled-up-and-scribbled-a-quick-rumney-before-bed/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/19/i-have-a-real-soft-spot-for-this-feisty-seagull.html": {
+	"/_site/notebook/current-status-of-the-telwythtaff-tribe-top-row/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/19/i-have-a-real-soft-spot-for-this-feisty-seagull.html",
+		"oAP": "/_site/notebook/current-status-of-the-telwythtaff-tribe-top-row/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/19/probably-the-most-together-ive-drawn.html": {
+	"/_site/notebook/d-doodles-aske-embodies-the-phrase-pride-before/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/19/probably-the-most-together-ive-drawn.html",
+		"oAP": "/_site/notebook/d-doodles-aske-embodies-the-phrase-pride-before/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/20/so-a-cute-thing-happened-on-the-way-to-london.html": {
+	"/_site/notebook/d-doodles-my-groups-tiefling-fighter-glory/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/20/so-a-cute-thing-happened-on-the-way-to-london.html",
+		"oAP": "/_site/notebook/d-doodles-my-groups-tiefling-fighter-glory/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/23/so-what-you-doin-yeah-i-still-love-these.html": {
+	"/_site/notebook/designing-askes-new-plate-armour-while-catching/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/23/so-what-you-doin-yeah-i-still-love-these.html",
+		"oAP": "/_site/notebook/designing-askes-new-plate-armour-while-catching/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/24/d-doodles-aske-embodies-the-phrase-pride-before.html": {
+	"/_site/notebook/despite-ely-being-based-on-a-golden-lion-tamarin/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/24/d-doodles-aske-embodies-the-phrase-pride-before.html",
+		"oAP": "/_site/notebook/despite-ely-being-based-on-a-golden-lion-tamarin/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/26/still-sketching-dasachts-nerdy-stone-gnome.html": {
+	"/_site/notebook/doodling-aske-and-eir-koruban-again-my-dwarven/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/26/still-sketching-dasachts-nerdy-stone-gnome.html",
+		"oAP": "/_site/notebook/doodling-aske-and-eir-koruban-again-my-dwarven/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/02/29/some-recent-ratta-scribbles-from-the-sketchbook.html": {
+	"/_site/notebook/doodling-on-the-train-i-do-believe-ive-met-my/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/02/29/some-recent-ratta-scribbles-from-the-sketchbook.html",
+		"oAP": "/_site/notebook/doodling-on-the-train-i-do-believe-ive-met-my/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/02/finally-finished-this-portrait-of-the-telwyth.html": {
+	"/_site/notebook/doodling-some-frog-in-a-jars-playing-around-with/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/02/finally-finished-this-portrait-of-the-telwyth.html",
+		"oAP": "/_site/notebook/doodling-some-frog-in-a-jars-playing-around-with/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/03/my-dwarven-paladin-aske-offers-blueskywolf09s.html": {
+	"/_site/notebook/dyn-dammit-im-a-telwyth-not-a-miracle-worker/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/03/my-dwarven-paladin-aske-offers-blueskywolf09s.html",
+		"oAP": "/_site/notebook/dyn-dammit-im-a-telwyth-not-a-miracle-worker/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/10/sometimes-the-best-partnerships-spring-out-of.html": {
+	"/_site/notebook/ely-wanted-to-wish-everyone-a-happy-st-dwynwens/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/10/sometimes-the-best-partnerships-spring-out-of.html",
+		"oAP": "/_site/notebook/ely-wanted-to-wish-everyone-a-happy-st-dwynwens/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/13/birthday-sketch-for-my-good-friend-dan-aka.html": {
+	"/_site/notebook/ely-was-moping-around-so-i-thought-id-sketch-im/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/13/birthday-sketch-for-my-good-friend-dan-aka.html",
+		"oAP": "/_site/notebook/ely-was-moping-around-so-i-thought-id-sketch-im/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/17/a-little-gnomish-comfort-sketch-from-a-few-days.html": {
+	"/_site/notebook/finally-completed-my-new-twitter-banner-starring/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/17/a-little-gnomish-comfort-sketch-from-a-few-days.html",
+		"oAP": "/_site/notebook/finally-completed-my-new-twitter-banner-starring/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/17/d-doodles-my-groups-tiefling-fighter-glory.html": {
+	"/_site/notebook/finally-completed-the-album-cover-art-for-ratta/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/17/d-doodles-my-groups-tiefling-fighter-glory.html",
+		"oAP": "/_site/notebook/finally-completed-the-album-cover-art-for-ratta/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/18/kinda-adorable-keyleth-warm-up-for-this-morning-i.html": {
+	"/_site/notebook/finally-completed-this-warm-up-drawing-of-ratta/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/18/kinda-adorable-keyleth-warm-up-for-this-morning-i.html",
+		"oAP": "/_site/notebook/finally-completed-this-warm-up-drawing-of-ratta/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/21/another-goofy-lou-scannnon-to-break-in-a-new.html": {
+	"/_site/notebook/finally-finished-my-portrait-of-the-latest-member/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/21/another-goofy-lou-scannnon-to-break-in-a-new.html",
+		"oAP": "/_site/notebook/finally-finished-my-portrait-of-the-latest-member/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/22/the-man-himself-baresarkartist-asked-me-for-my.html": {
+	"/_site/notebook/finally-finished-this-portrait-of-the-telwyth/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/22/the-man-himself-baresarkartist-asked-me-for-my.html",
+		"oAP": "/_site/notebook/finally-finished-this-portrait-of-the-telwyth/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/31/been-trying-to-push-frog-in-a-jars-design-away.html": {
+	"/_site/notebook/finally-got-this-beast-of-a-fan-sketch-done-for/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/31/been-trying-to-push-frog-in-a-jars-design-away.html",
+		"oAP": "/_site/notebook/finally-got-this-beast-of-a-fan-sketch-done-for/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/03/31/i-make-a-pretty-natty-druid-sketchbook.html": {
+	"/_site/notebook/finally-managed-to-get-a-sketch-done-of-ratta-and/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/03/31/i-make-a-pretty-natty-druid-sketchbook.html",
+		"oAP": "/_site/notebook/finally-managed-to-get-a-sketch-done-of-ratta-and/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/03/say-hi-to-temperance-my-newest-dd-character-and.html": {
+	"/_site/notebook/frog-in-a-jar-sketchdump-bought-myself-a-new/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/03/say-hi-to-temperance-my-newest-dd-character-and.html",
+		"oAP": "/_site/notebook/frog-in-a-jar-sketchdump-bought-myself-a-new/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/05/doodling-aske-and-eir-koruban-again-my-dwarven.html": {
+	"/_site/notebook/froginajar-merry-christmas-from-my-crazy-family/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/05/doodling-aske-and-eir-koruban-again-my-dwarven.html",
+		"oAP": "/_site/notebook/froginajar-merry-christmas-from-my-crazy-family/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/05/rumney-wanted-to-say-hi-this-morning.html": {
+	"/_site/notebook/going-through-some-bad-brain-time-so-doodled-some/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/05/rumney-wanted-to-say-hi-this-morning.html",
+		"oAP": "/_site/notebook/going-through-some-bad-brain-time-so-doodled-some/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/12/oh-ks-you-know-so-much-better-than-to-tempt.html": {
+	"/_site/notebook/guess-whos-playing-pokemon-go-im-not-sure-if/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/12/oh-ks-you-know-so-much-better-than-to-tempt.html",
+		"oAP": "/_site/notebook/guess-whos-playing-pokemon-go-im-not-sure-if/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/13/finally-managed-to-get-a-sketch-done-of-ratta-and.html": {
+	"/_site/notebook/happy-birthday-to-krauzer168-heres-his/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/13/finally-managed-to-get-a-sketch-done-of-ratta-and.html",
+		"oAP": "/_site/notebook/happy-birthday-to-krauzer168-heres-his/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/15/completed-the-crests-for-my-dd-group-the-6bs.html": {
+	"/_site/notebook/happy-birthday-to-my-good-friend-and-fellow-dd/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/15/completed-the-crests-for-my-dd-group-the-6bs.html",
+		"oAP": "/_site/notebook/happy-birthday-to-my-good-friend-and-fellow-dd/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/15/some-more-ks-design-sketches-from-the-train.html": {
+	"/_site/notebook/happy-birthday-to-the-almighty-dm-dasacht/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/15/some-more-ks-design-sketches-from-the-train.html",
+		"oAP": "/_site/notebook/happy-birthday-to-the-almighty-dm-dasacht/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/04/16/you-know-something-mother-youve-got-a-brutal.html": {
+	"/_site/notebook/hello-again-all-and-hello-to-instagram-again/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/04/16/you-know-something-mother-youve-got-a-brutal.html",
+		"oAP": "/_site/notebook/hello-again-all-and-hello-to-instagram-again/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/08/quick-design-sketch-concept-of-my-latest-water.html": {
+	"/_site/notebook/hello-khepri-much-much-happier-with-this/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/08/quick-design-sketch-concept-of-my-latest-water.html",
+		"oAP": "/_site/notebook/hello-khepri-much-much-happier-with-this/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/09/happy-birthday-to-my-good-friend-and-fellow-dd.html": {
+	"/_site/notebook/heres-my-2017bestnine-on-instagram-be-they/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/09/happy-birthday-to-my-good-friend-and-fellow-dd.html",
+		"oAP": "/_site/notebook/heres-my-2017bestnine-on-instagram-be-they/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/14/happy-birthday-to-krauzer168-heres-his.html": {
+	"/_site/notebook/heres-my-entry-for-the-scary-zine-squad-this-was/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/14/happy-birthday-to-krauzer168-heres-his.html",
+		"oAP": "/_site/notebook/heres-my-entry-for-the-scary-zine-squad-this-was/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/14/some-gnomish-looking-sketches-to-break-in-a-new.html": {
+	"/_site/notebook/heres-my-finished-piece-that-i-submitted-to-the/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/14/some-gnomish-looking-sketches-to-break-in-a-new.html",
+		"oAP": "/_site/notebook/heres-my-finished-piece-that-i-submitted-to-the/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/16/my-green-dwarf-paladin-aske-was-given-a-composite.html": {
+	"/_site/notebook/heres-the-completed-design-for-my-5e-dwarven/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/16/my-green-dwarf-paladin-aske-was-given-a-composite.html",
+		"oAP": "/_site/notebook/heres-the-completed-design-for-my-5e-dwarven/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/18/a-cute-little-punky-eel-mermie-for-mermay.html": {
+	"/_site/notebook/heres-the-third-of-the-soldiers-of-fate-crests/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/18/a-cute-little-punky-eel-mermie-for-mermay.html",
+		"oAP": "/_site/notebook/heres-the-third-of-the-soldiers-of-fate-crests/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/18/an-adorable-lil-ely-study-i-forgot-to-post-dont.html": {
+	"/_site/notebook/hi-ratta-still-getting-to-know-pipsqueek-but/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/18/an-adorable-lil-ely-study-i-forgot-to-post-dont.html",
+		"oAP": "/_site/notebook/hi-ratta-still-getting-to-know-pipsqueek-but/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/05/18/aske-had-a-major-character-moment-in-tonights.html": {
+	"/_site/notebook/hi-rumney-i-missed-ya-telwythtaff/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/05/18/aske-had-a-major-character-moment-in-tonights.html",
+		"oAP": "/_site/notebook/hi-rumney-i-missed-ya-telwythtaff/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/07/doodling-some-frog-in-a-jars-playing-around-with.html": {
+	"/_site/notebook/i-appear-to-have-inherited-a-golden-irish/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/07/doodling-some-frog-in-a-jars-playing-around-with.html",
+		"oAP": "/_site/notebook/i-appear-to-have-inherited-a-golden-irish/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/08/hi-rumney-i-missed-ya-telwythtaff.html": {
+	"/_site/notebook/i-bought-this-little-notebook-around-twothree/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/08/hi-rumney-i-missed-ya-telwythtaff.html",
+		"oAP": "/_site/notebook/i-bought-this-little-notebook-around-twothree/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/09/hi-ratta-still-getting-to-know-pipsqueek-but.html": {
+	"/_site/notebook/i-had-a-plan-for-coxcon-and-then-life-happened/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/09/hi-ratta-still-getting-to-know-pipsqueek-but.html",
+		"oAP": "/_site/notebook/i-had-a-plan-for-coxcon-and-then-life-happened/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/09/long-time-no-see-ely-hes-wearing-his-ears.html": {
+	"/_site/notebook/i-have-a-real-soft-spot-for-this-feisty-seagull/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/09/long-time-no-see-ely-hes-wearing-his-ears.html",
+		"oAP": "/_site/notebook/i-have-a-real-soft-spot-for-this-feisty-seagull/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/09/playing-around-with-a-new-ward-idea-so-far-he.html": {
+	"/_site/notebook/i-initially-started-this-painting-as-just-a/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/09/playing-around-with-a-new-ward-idea-so-far-he.html",
+		"oAP": "/_site/notebook/i-initially-started-this-painting-as-just-a/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/17/sorry-pinter-but-harry-potter-you-are-not.html": {
+	"/_site/notebook/i-love-garmili-that-little-con-artist/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/17/sorry-pinter-but-harry-potter-you-are-not.html",
+		"oAP": "/_site/notebook/i-love-garmili-that-little-con-artist/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/17/yes-ely-bay-can-be-kind-of-scary-when-she-wants.html": {
+	"/_site/notebook/i-make-a-pretty-natty-druid-sketchbook/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/17/yes-ely-bay-can-be-kind-of-scary-when-she-wants.html",
+		"oAP": "/_site/notebook/i-make-a-pretty-natty-druid-sketchbook/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/18/it-hasnt-been-very-summery-in-the-pad-recently.html": {
+	"/_site/notebook/i-recently-switched-to-firealpaca-for-inking/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/18/it-hasnt-been-very-summery-in-the-pad-recently.html",
+		"oAP": "/_site/notebook/i-recently-switched-to-firealpaca-for-inking/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/25/rattas-hair-is-actually-quite-long-she-ties-it.html": {
+	"/_site/notebook/illustration/as-you-enter-the-three-horseshoes-tavern-the/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/25/rattas-hair-is-actually-quite-long-she-ties-it.html",
+		"oAP": "/_site/notebook/illustration/as-you-enter-the-three-horseshoes-tavern-the/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/06/25/studying-misscurls101s-glory-on-the-train.html": {
+	"/_site/notebook/illustration/but-he-that-dares-not-grasp-the-thorn-should/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/06/25/studying-misscurls101s-glory-on-the-train.html",
+		"oAP": "/_site/notebook/illustration/but-he-that-dares-not-grasp-the-thorn-should/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/07/12/so-i-might-be-a-nerd-a-big-one-im-currently.html": {
+	"/_site/notebook/illustration/finished-test-painting-of-ely-i-drawpaint-this/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/12/so-i-might-be-a-nerd-a-big-one-im-currently.html",
+		"oAP": "/_site/notebook/illustration/finished-test-painting-of-ely-i-drawpaint-this/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/07/15/designing-askes-new-plate-armour-while-catching.html": {
+	"/_site/notebook/illustration/thane-dasachts-fighterpaladin-multi-class/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/15/designing-askes-new-plate-armour-while-catching.html",
+		"oAP": "/_site/notebook/illustration/thane-dasachts-fighterpaladin-multi-class/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/07/15/i-love-garmili-that-little-con-artist.html": {
+	"/_site/notebook/illustration/the-finished-token-for-alistair-dartwood-my/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/15/i-love-garmili-that-little-con-artist.html",
+		"oAP": "/_site/notebook/illustration/the-finished-token-for-alistair-dartwood-my/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/07/17/guess-whos-playing-pokemon-go-im-not-sure-if.html": {
+	"/_site/notebook/illustration/the-hanged-man-is-a-card-representing-calm-and/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/17/guess-whos-playing-pokemon-go-im-not-sure-if.html",
+		"oAP": "/_site/notebook/illustration/the-hanged-man-is-a-card-representing-calm-and/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/07/17/i-had-a-plan-for-coxcon-and-then-life-happened.html": {
+	"/_site/notebook/illustration/the-next-member-in-theoakheart-rebellion-tarot-is/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/17/i-had-a-plan-for-coxcon-and-then-life-happened.html",
+		"oAP": "/_site/notebook/illustration/the-next-member-in-theoakheart-rebellion-tarot-is/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/07/18/happy-birthday-to-the-almighty-dm-dasacht.html": {
+	"/_site/notebook/illustration/the-sun-is-an-incredibly-happy-positive-card/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/18/happy-birthday-to-the-almighty-dm-dasacht.html",
+		"oAP": "/_site/notebook/illustration/the-sun-is-an-incredibly-happy-positive-card/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/2016/07/25/one-of-two-sketches-on-the-train-during-a-very.html": {
+	"/_site/notebook/illustration/were-carnival-people-we-all-have-our-issues/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/25/one-of-two-sketches-on-the-train-during-a-very.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/07/30/i-bought-this-little-notebook-around-twothree.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/07/30/i-bought-this-little-notebook-around-twothree.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/08/13/warming-up-a-new-sketchbook-by-introducing-them-to.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/08/13/warming-up-a-new-sketchbook-by-introducing-them-to.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/08/15/meet-kelq-wen-shes-my-new-white-dragonborn.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/08/15/meet-kelq-wen-shes-my-new-white-dragonborn.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/08/30/lady-kelq-wen-tamaras-wing-devout-healer-but.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/08/30/lady-kelq-wen-tamaras-wing-devout-healer-but.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/09/03/the-frog-returns-and-a-rare-breed-at-that.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/09/03/the-frog-returns-and-a-rare-breed-at-that.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/09/08/some-train-sketches-of-some-old-friends-i-swear.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/09/08/some-train-sketches-of-some-old-friends-i-swear.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/10/07/stealing-paint-is-one-thing-but-making-worlds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/10/07/stealing-paint-is-one-thing-but-making-worlds.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/10/09/super-quick-doodles-from-the-oc-outfit-challenge.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/10/09/super-quick-doodles-from-the-oc-outfit-challenge.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/10/17/i-recently-switched-to-firealpaca-for-inking.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/10/17/i-recently-switched-to-firealpaca-for-inking.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/11/05/hello-again-all-and-hello-to-instagram-again.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/11/05/hello-again-all-and-hello-to-instagram-again.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/11/05/i-appear-to-have-inherited-a-golden-irish.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/11/05/i-appear-to-have-inherited-a-golden-irish.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/11/05/never-underestimate-things-that-come-in-small.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/11/05/never-underestimate-things-that-come-in-small.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/11/06/finally-got-this-beast-of-a-fan-sketch-done-for.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/11/06/finally-got-this-beast-of-a-fan-sketch-done-for.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/02/the-first-of-an-updated-set-of-crests-for-my-dd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/02/the-first-of-an-updated-set-of-crests-for-my-dd.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/03/look-at-this-little-dork-i-desperately-want-to.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/03/look-at-this-little-dork-i-desperately-want-to.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/03/say-hi-to-my-newest-dd-character-white.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/03/say-hi-to-my-newest-dd-character-white.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/07/so-a-thing-happened-a-little-thing-called-wild.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/07/so-a-thing-happened-a-little-thing-called-wild.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/13/heres-the-third-of-the-soldiers-of-fate-crests.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/13/heres-the-third-of-the-soldiers-of-fate-crests.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/16/merry-christmas-from-my-crazy-family-of-characters.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/16/merry-christmas-from-my-crazy-family-of-characters.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/17/and-heres-the-finished-portrait-of-titania-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/17/and-heres-the-finished-portrait-of-titania-the.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/19/going-through-some-bad-brain-time-so-doodled-some.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/19/going-through-some-bad-brain-time-so-doodled-some.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/20/wip-not-sure-if-this-guy-is-human-or-if-hes-just.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/20/wip-not-sure-if-this-guy-is-human-or-if-hes-just.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/24/froginajar-merry-christmas-from-my-crazy-family.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/24/froginajar-merry-christmas-from-my-crazy-family.html",
-		"oF": 0
-		},
-	"/_site/notebook/2016/12/28/the-fourth-crest-for-the-soldiers-of-fate-this.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2016/12/28/the-fourth-crest-for-the-soldiers-of-fate-this.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/01/14/although-i-properly-drew-this-back-in-2016-this.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/01/14/although-i-properly-drew-this-back-in-2016-this.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/01/26/finally-completed-the-album-cover-art-for-ratta.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/01/26/finally-completed-the-album-cover-art-for-ratta.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/02/01/my-little-2017-reboot-of-elys-design-is-done.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/02/01/my-little-2017-reboot-of-elys-design-is-done.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/02/15/breaking-in-a-new-sketchbook-with-scribbly-dd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/02/15/breaking-in-a-new-sketchbook-with-scribbly-dd.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/03/07/frog-in-a-jar-sketchdump-bought-myself-a-new.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/03/07/frog-in-a-jar-sketchdump-bought-myself-a-new.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/03/09/my-boyfriends-little-gnomish-tinkerer-pinter-has.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/03/09/my-boyfriends-little-gnomish-tinkerer-pinter-has.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/03/15/the-finished-set-of-tokens-for-my-lovable-band-of.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/03/15/the-finished-set-of-tokens-for-my-lovable-band-of.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/03/25/i-initially-started-this-painting-as-just-a.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/03/25/i-initially-started-this-painting-as-just-a.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/03/31/sketchbook-catch-ups-a-few-studies-of-my-bfs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/03/31/sketchbook-catch-ups-a-few-studies-of-my-bfs.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/03/31/sketchbook-catch-ups-some-scribbly-human-loyaltys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/03/31/sketchbook-catch-ups-some-scribbly-human-loyaltys.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/04/14/the-best-thing-about-living-in-the-rainforest-is.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/04/14/the-best-thing-about-living-in-the-rainforest-is.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/04/18/some-development-on-my-little-egyptian-fennec-fox.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/04/18/some-development-on-my-little-egyptian-fennec-fox.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/04/20/ive-had-a-mighty-need-to-develop-my-steampunk.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/04/20/ive-had-a-mighty-need-to-develop-my-steampunk.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/04/20/pinter-brunel-spazzlespork-my-bfs-little-gnome.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/04/20/pinter-brunel-spazzlespork-my-bfs-little-gnome.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/04/26/my-album-cover-for-loyalty-and-blueskywolf09s.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/04/26/my-album-cover-for-loyalty-and-blueskywolf09s.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/04/27/been-redrawing-my-buddy-krauzer168s-ronin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/04/27/been-redrawing-my-buddy-krauzer168s-ronin.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/05/12/hello-khepri-much-much-happier-with-this.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/05/12/hello-khepri-much-much-happier-with-this.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/05/24/sketchbook-dump-some-quick-little-frog-in-a-jar.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/05/24/sketchbook-dump-some-quick-little-frog-in-a-jar.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/05/24/sketchbook-dump-you-can-always-fallback-on.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/05/24/sketchbook-dump-you-can-always-fallback-on.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/05/24/well-that-escalated-quickly-pinter-belongs-to.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/05/24/well-that-escalated-quickly-pinter-belongs-to.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/05/24/well-whos-this-little-fluff-sketchbook.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/05/24/well-whos-this-little-fluff-sketchbook.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/05/29/heres-my-finished-piece-that-i-submitted-to-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/05/29/heres-my-finished-piece-that-i-submitted-to-the.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/06/13/more-gentle-giant-journey-sketches-done-while.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/06/13/more-gentle-giant-journey-sketches-done-while.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/06/14/now-i-can-reveal-what-ive-been-working-on-since.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/06/14/now-i-can-reveal-what-ive-been-working-on-since.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/06/14/theres-little-different-between-rats-in-a-sewer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/06/14/theres-little-different-between-rats-in-a-sewer.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/06/25/finally-finished-my-portrait-of-the-latest-member.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/06/25/finally-finished-my-portrait-of-the-latest-member.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/06/26/khoury-my-little-egyptian-fennec-fox-druid-made-a.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/06/26/khoury-my-little-egyptian-fennec-fox-druid-made-a.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/07/18/my-boyfriend-dasacht-and-i-are-celebrating-our.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/07/18/my-boyfriend-dasacht-and-i-are-celebrating-our.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/07/24/sketchbook-dump-design-sketches-for-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/07/24/sketchbook-dump-design-sketches-for-my.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/07/24/sketchbook-dump-practice-studies-for-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/07/24/sketchbook-dump-practice-studies-for-my.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/08/16/peace-peace-love-love-blueskywolf09-rightly.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/08/16/peace-peace-love-love-blueskywolf09-rightly.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/09/08/finally-completed-my-new-twitter-banner-starring.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/09/08/finally-completed-my-new-twitter-banner-starring.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/09/23/christening-the-new-sketchbook-sketchbook.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/09/23/christening-the-new-sketchbook-sketchbook.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/09/25/what-started-as-a-bit-of-a-exploration-of-how.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/09/25/what-started-as-a-bit-of-a-exploration-of-how.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/09/27/sketchbook-doodles-from-lunch-share-morlas.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/09/27/sketchbook-doodles-from-lunch-share-morlas.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/10/03/heres-my-entry-for-the-scary-zine-squad-this-was.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/10/03/heres-my-entry-for-the-scary-zine-squad-this-was.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/10/11/tfw-you-cant-get-a-joke-out-of-your-head-yep.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/10/11/tfw-you-cant-get-a-joke-out-of-your-head-yep.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/10/15/set-your-heart-at-rest-the-fairyland-buys-not.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/10/15/set-your-heart-at-rest-the-fairyland-buys-not.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/10/29/well-whos-this-handsome-devil-tiefling.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/10/29/well-whos-this-handsome-devil-tiefling.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/10/30/been-drawing-a-lot-of-modern-khoury-and-loyalty.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/10/30/been-drawing-a-lot-of-modern-khoury-and-loyalty.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/11/14/attempting-to-learn-blueskywolf09s-tala.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/11/14/attempting-to-learn-blueskywolf09s-tala.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/11/14/when-in-doubt-khoury.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/11/14/when-in-doubt-khoury.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/12/11/heres-my-2017bestnine-on-instagram-be-they.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/12/11/heres-my-2017bestnine-on-instagram-be-they.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/12/20/is-that-me-giggled-loyalty-looking-up-at-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/12/20/is-that-me-giggled-loyalty-looking-up-at-the.html",
-		"oF": 0
-		},
-	"/_site/notebook/2017/12/30/my-best-posts-of-2017.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/2017/12/30/my-best-posts-of-2017.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2016/01/06/finished-test-painting-of-ely-i-drawpaint-this.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2016/01/06/finished-test-painting-of-ely-i-drawpaint-this.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2016/01/15/as-you-enter-the-three-horseshoes-tavern-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2016/01/15/as-you-enter-the-three-horseshoes-tavern-the.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2018/01/23/the-finished-token-for-alistair-dartwood-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2018/01/23/the-finished-token-for-alistair-dartwood-my.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2018/02/10/were-carnival-people-we-all-have-our-issues.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2018/02/10/were-carnival-people-we-all-have-our-issues.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2018/03/20/the-sun-is-an-incredibly-happy-positive-card.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2018/03/20/the-sun-is-an-incredibly-happy-positive-card.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2018/03/27/but-he-that-dares-not-grasp-the-thorn-should.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2018/03/27/but-he-that-dares-not-grasp-the-thorn-should.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2018/03/27/the-hanged-man-is-a-card-representing-calm-and.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2018/03/27/the-hanged-man-is-a-card-representing-calm-and.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2018/04/18/the-next-member-in-theoakheart-rebellion-tarot-is.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2018/04/18/the-next-member-in-theoakheart-rebellion-tarot-is.html",
-		"oF": 0
-		},
-	"/_site/notebook/illustration/2018/04/19/thane-dasachts-fighterpaladin-multi-class.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/notebook/illustration/2018/04/19/thane-dasachts-fighterpaladin-multi-class.html",
+		"oAP": "/_site/notebook/illustration/were-carnival-people-we-all-have-our-issues/index.html",
 		"oF": 0
 		},
 	"/_site/notebook/index.html": {
@@ -4223,116 +3788,740 @@
 		"oAP": "/_site/notebook/index.html",
 		"oF": 1
 		},
-	"/_site/notebook/review/2018/03/01/ive-never-seen-snow-before-chirped-khoury.html": {
+	"/_site/notebook/is-that-me-giggled-loyalty-looking-up-at-the/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/review/2018/03/01/ive-never-seen-snow-before-chirped-khoury.html",
+		"oAP": "/_site/notebook/is-that-me-giggled-loyalty-looking-up-at-the/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/review/2018/12/03/and-thus-tumblr-hit-the-iceberg.html": {
+	"/_site/notebook/it-hasnt-been-very-summery-in-the-pad-recently/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/review/2018/12/03/and-thus-tumblr-hit-the-iceberg.html",
+		"oAP": "/_site/notebook/it-hasnt-been-very-summery-in-the-pad-recently/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2016/01/01/bays-a-nelly-furtado-fan-apparently.html": {
+	"/_site/notebook/ive-had-a-mighty-need-to-develop-my-steampunk/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2016/01/01/bays-a-nelly-furtado-fan-apparently.html",
+		"oAP": "/_site/notebook/ive-had-a-mighty-need-to-develop-my-steampunk/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2016/01/07/bringing-an-old-friend-back-from-the-dead-a.html": {
+	"/_site/notebook/khoury-my-little-egyptian-fennec-fox-druid-made-a/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2016/01/07/bringing-an-old-friend-back-from-the-dead-a.html",
+		"oAP": "/_site/notebook/khoury-my-little-egyptian-fennec-fox-druid-made-a/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2016/01/23/figuring-out-heath-the-lone-wolf-of-the.html": {
+	"/_site/notebook/kinda-adorable-keyleth-warm-up-for-this-morning-i/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2016/01/23/figuring-out-heath-the-lone-wolf-of-the.html",
+		"oAP": "/_site/notebook/kinda-adorable-keyleth-warm-up-for-this-morning-i/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2016/01/23/i-always-seem-to-draw-city-planning-or-scheming-in.html": {
+	"/_site/notebook/lady-kelq-wen-tamaras-wing-devout-healer-but/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2016/01/23/i-always-seem-to-draw-city-planning-or-scheming-in.html",
+		"oAP": "/_site/notebook/lady-kelq-wen-tamaras-wing-devout-healer-but/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2016/01/23/rumney-the-physical-embodiment-of-a-hug-ive-had.html": {
+	"/_site/notebook/long-time-no-see-ely-hes-wearing-his-ears/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2016/01/23/rumney-the-physical-embodiment-of-a-hug-ive-had.html",
+		"oAP": "/_site/notebook/long-time-no-see-ely-hes-wearing-his-ears/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2016/02/27/my-little-animation-experiment-with-rumney-now.html": {
+	"/_site/notebook/look-at-this-little-dork-i-desperately-want-to/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2016/02/27/my-little-animation-experiment-with-rumney-now.html",
+		"oAP": "/_site/notebook/look-at-this-little-dork-i-desperately-want-to/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2018/01/07/i-finally-caved-in-and-bought-an-ipad-pro-and.html": {
+	"/_site/notebook/meet-kelq-wen-shes-my-new-white-dragonborn/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2018/01/07/i-finally-caved-in-and-bought-an-ipad-pro-and.html",
+		"oAP": "/_site/notebook/meet-kelq-wen-shes-my-new-white-dragonborn/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2018/01/20/whos-that-chirped-loyalty-looking-over-the.html": {
+	"/_site/notebook/merry-christmas-from-my-crazy-family-of-characters/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2018/01/20/whos-that-chirped-loyalty-looking-over-the.html",
+		"oAP": "/_site/notebook/merry-christmas-from-my-crazy-family-of-characters/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2018/02/17/since-ive-learned-how-to-get-my-wips-from-my.html": {
+	"/_site/notebook/more-gentle-giant-journey-sketches-done-while/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2018/02/17/since-ive-learned-how-to-get-my-wips-from-my.html",
+		"oAP": "/_site/notebook/more-gentle-giant-journey-sketches-done-while/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2018/03/15/long-time-no-post-tadpoles-cant-say-ive-had.html": {
+	"/_site/notebook/my-album-cover-for-loyalty-and-blueskywolf09s/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2018/03/15/long-time-no-post-tadpoles-cant-say-ive-had.html",
+		"oAP": "/_site/notebook/my-album-cover-for-loyalty-and-blueskywolf09s/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2018/03/16/in-these-times-nothing-is-certain-my-child.html": {
+	"/_site/notebook/my-badass-shieldmaiden-inspired-dwarven-paladin/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2018/03/16/in-these-times-nothing-is-certain-my-child.html",
+		"oAP": "/_site/notebook/my-badass-shieldmaiden-inspired-dwarven-paladin/index.html",
 		"oF": 0
 		},
-	"/_site/notebook/sketchbook/2018/11/02/froginajar-look-at-this-little-dork-i.html": {
+	"/_site/notebook/my-best-posts-of-2017/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/notebook/sketchbook/2018/11/02/froginajar-look-at-this-little-dork-i.html",
+		"oAP": "/_site/notebook/my-best-posts-of-2017/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/my-boyfriend-dasacht-and-i-are-celebrating-our/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/my-boyfriend-dasacht-and-i-are-celebrating-our/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/my-boyfriends-little-gnomish-tinkerer-pinter-has/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/my-boyfriends-little-gnomish-tinkerer-pinter-has/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/my-dwarven-paladin-aske-offers-blueskywolf09s/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/my-dwarven-paladin-aske-offers-blueskywolf09s/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/my-green-dwarf-paladin-aske-was-given-a-composite/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/my-green-dwarf-paladin-aske-was-given-a-composite/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/my-little-2017-reboot-of-elys-design-is-done/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/my-little-2017-reboot-of-elys-design-is-done/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/my-movie-mashup-poster-for-critical-role-is-done/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/my-movie-mashup-poster-for-critical-role-is-done/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/never-underestimate-things-that-come-in-small/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/never-underestimate-things-that-come-in-small/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/now-i-can-reveal-what-ive-been-working-on-since/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/now-i-can-reveal-what-ive-been-working-on-since/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/of-all-the-creatures-to-wander-into-my-town-it/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/of-all-the-creatures-to-wander-into-my-town-it/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/oh-hello-roath-you-appear-to-have-discarded-your/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/oh-hello-roath-you-appear-to-have-discarded-your/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/oh-ks-you-know-so-much-better-than-to-tempt/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/oh-ks-you-know-so-much-better-than-to-tempt/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/one-of-two-sketches-on-the-train-during-a-very/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/one-of-two-sketches-on-the-train-during-a-very/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/peace-peace-love-love-blueskywolf09-rightly/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/peace-peace-love-love-blueskywolf09-rightly/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/pinter-brunel-spazzlespork-my-bfs-little-gnome/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/pinter-brunel-spazzlespork-my-bfs-little-gnome/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/playing-around-with-a-new-ward-idea-so-far-he/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/playing-around-with-a-new-ward-idea-so-far-he/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/probably-the-most-together-ive-drawn/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/probably-the-most-together-ive-drawn/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/quick-design-sketch-concept-of-my-latest-water/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/quick-design-sketch-concept-of-my-latest-water/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/rattas-hair-is-actually-quite-long-she-ties-it/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/rattas-hair-is-actually-quite-long-she-ties-it/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/review/and-thus-tumblr-hit-the-iceberg/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/review/and-thus-tumblr-hit-the-iceberg/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/review/ive-never-seen-snow-before-chirped-khoury/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/review/ive-never-seen-snow-before-chirped-khoury/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/rumney-wanted-to-say-hi-this-morning/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/rumney-wanted-to-say-hi-this-morning/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/say-hi-to-my-newest-dd-character-white/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/say-hi-to-my-newest-dd-character-white/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/say-hi-to-temperance-my-newest-dd-character-and/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/say-hi-to-temperance-my-newest-dd-character-and/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/set-your-heart-at-rest-the-fairyland-buys-not/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/set-your-heart-at-rest-the-fairyland-buys-not/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketch-of-my-two-paladin-sisters-aske-and-eir/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketch-of-my-two-paladin-sisters-aske-and-eir/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook-catch-ups-a-few-studies-of-my-bfs/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook-catch-ups-a-few-studies-of-my-bfs/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook-catch-ups-some-scribbly-human-loyaltys/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook-catch-ups-some-scribbly-human-loyaltys/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook-doodles-from-lunch-share-morlas/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook-doodles-from-lunch-share-morlas/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook-dump-design-sketches-for-my/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook-dump-design-sketches-for-my/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook-dump-practice-studies-for-my/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook-dump-practice-studies-for-my/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook-dump-some-quick-little-frog-in-a-jar/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook-dump-some-quick-little-frog-in-a-jar/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook-dump-you-can-always-fallback-on/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook-dump-you-can-always-fallback-on/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/bays-a-nelly-furtado-fan-apparently/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/bays-a-nelly-furtado-fan-apparently/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/bringing-an-old-friend-back-from-the-dead-a/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/bringing-an-old-friend-back-from-the-dead-a/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/figuring-out-heath-the-lone-wolf-of-the/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/figuring-out-heath-the-lone-wolf-of-the/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/froginajar-look-at-this-little-dork-i/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/froginajar-look-at-this-little-dork-i/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/i-always-seem-to-draw-city-planning-or-scheming-in/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/i-always-seem-to-draw-city-planning-or-scheming-in/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/i-finally-caved-in-and-bought-an-ipad-pro-and/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/i-finally-caved-in-and-bought-an-ipad-pro-and/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/in-these-times-nothing-is-certain-my-child/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/in-these-times-nothing-is-certain-my-child/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/long-time-no-post-tadpoles-cant-say-ive-had/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/long-time-no-post-tadpoles-cant-say-ive-had/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/my-little-animation-experiment-with-rumney-now/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/my-little-animation-experiment-with-rumney-now/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/rumney-the-physical-embodiment-of-a-hug-ive-had/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/rumney-the-physical-embodiment-of-a-hug-ive-had/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/since-ive-learned-how-to-get-my-wips-from-my/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/since-ive-learned-how-to-get-my-wips-from-my/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sketchbook/whos-that-chirped-loyalty-looking-over-the/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sketchbook/whos-that-chirped-loyalty-looking-over-the/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/so-a-cute-thing-happened-on-the-way-to-london/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/so-a-cute-thing-happened-on-the-way-to-london/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/so-a-thing-happened-a-little-thing-called-wild/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/so-a-thing-happened-a-little-thing-called-wild/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/so-i-might-be-a-nerd-a-big-one-im-currently/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/so-i-might-be-a-nerd-a-big-one-im-currently/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/so-what-you-doin-yeah-i-still-love-these/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/so-what-you-doin-yeah-i-still-love-these/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/so-youve-read-about-thievery-but-youre-too/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/so-youve-read-about-thievery-but-youre-too/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/some-development-on-my-little-egyptian-fennec-fox/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/some-development-on-my-little-egyptian-fennec-fox/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/some-gnomish-looking-sketches-to-break-in-a-new/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/some-gnomish-looking-sketches-to-break-in-a-new/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/some-more-ks-design-sketches-from-the-train/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/some-more-ks-design-sketches-from-the-train/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/some-recent-ratta-scribbles-from-the-sketchbook/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/some-recent-ratta-scribbles-from-the-sketchbook/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/some-train-sketches-of-some-old-friends-i-swear/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/some-train-sketches-of-some-old-friends-i-swear/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sometimes-the-best-partnerships-spring-out-of/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sometimes-the-best-partnerships-spring-out-of/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/sorry-pinter-but-harry-potter-you-are-not/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/sorry-pinter-but-harry-potter-you-are-not/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/stealing-paint-is-one-thing-but-making-worlds/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/stealing-paint-is-one-thing-but-making-worlds/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/still-sketching-dasachts-nerdy-stone-gnome/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/still-sketching-dasachts-nerdy-stone-gnome/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/studying-misscurls101s-glory-on-the-train/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/studying-misscurls101s-glory-on-the-train/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/super-quick-doodles-from-the-oc-outfit-challenge/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/super-quick-doodles-from-the-oc-outfit-challenge/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/tfw-you-cant-get-a-joke-out-of-your-head-yep/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/tfw-you-cant-get-a-joke-out-of-your-head-yep/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/the-best-thing-about-living-in-the-rainforest-is/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/the-best-thing-about-living-in-the-rainforest-is/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/the-finished-set-of-tokens-for-my-lovable-band-of/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/the-finished-set-of-tokens-for-my-lovable-band-of/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/the-first-of-an-updated-set-of-crests-for-my-dd/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/the-first-of-an-updated-set-of-crests-for-my-dd/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/the-fourth-crest-for-the-soldiers-of-fate-this/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/the-fourth-crest-for-the-soldiers-of-fate-this/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/the-frog-returns-and-a-rare-breed-at-that/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/the-frog-returns-and-a-rare-breed-at-that/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/the-man-himself-baresarkartist-asked-me-for-my/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/the-man-himself-baresarkartist-asked-me-for-my/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/theres-little-different-between-rats-in-a-sewer/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/theres-little-different-between-rats-in-a-sewer/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/warming-up-a-new-sketchbook-by-introducing-them-to/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/warming-up-a-new-sketchbook-by-introducing-them-to/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/well-that-escalated-quickly-pinter-belongs-to/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/well-that-escalated-quickly-pinter-belongs-to/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/well-whos-this-handsome-devil-tiefling/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/well-whos-this-handsome-devil-tiefling/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/well-whos-this-little-fluff-sketchbook/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/well-whos-this-little-fluff-sketchbook/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/what-started-as-a-bit-of-a-exploration-of-how/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/what-started-as-a-bit-of-a-exploration-of-how/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/when-frogs-feeling-very-tired-this-trio-are-too/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/when-frogs-feeling-very-tired-this-trio-are-too/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/when-in-doubt-khoury/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/when-in-doubt-khoury/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/wip-not-sure-if-this-guy-is-human-or-if-hes-just/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/wip-not-sure-if-this-guy-is-human-or-if-hes-just/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/yes-ely-bay-can-be-kind-of-scary-when-she-wants/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/yes-ely-bay-can-be-kind-of-scary-when-she-wants/index.html",
+		"oF": 0
+		},
+	"/_site/notebook/you-know-something-mother-youve-got-a-brutal/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/notebook/you-know-something-mother-youve-got-a-brutal/index.html",
 		"oF": 0
 		},
 	"/_site/projects/awaydays/index.html": {
@@ -4422,6 +4611,25 @@
 		"oA": 1,
 		"oAP": "/_site/projects/turtlepromotions/index.html",
 		"oF": 1
+		},
+	"/_site/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/_site/typographytest.html": {
 		"cB": 0,
@@ -4523,170 +4731,170 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/0-tools/_colours.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/0-tools/_gridsystem.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/0-tools/_gridsystem.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/0-tools/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/0-tools/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/0-tools/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/0-tools/_reset.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/0-tools/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/0-tools/_typography.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/0-tools/fonts.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/fonts.css",
 		"oF": 2,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/1-base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/1-base/_base.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/2-modules/_error.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/2-modules/_error.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/2-modules/_home.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/2-modules/_home.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/2-modules/_notebook.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/2-modules/_notebook.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/2-modules/_portfolio.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/2-modules/_portfolio.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/2-modules/_titles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/2-modules/_titles.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/2-modules/_workitem.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/2-modules/_workitem.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/css/fonts.css": {
 		"aP": 1,
@@ -4712,30 +4920,14 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/styles.css",
 		"oF": 2,
 		"oS": 3,
-		"uL": 1
-		},
-	"/assets/fonts/abrilfatface-regular-webfont.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/abrilfatface-regular-webfont.woff",
-		"oF": 0
-		},
-	"/assets/fonts/abrilfatface-regular-webfont.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/abrilfatface-regular-webfont.woff2",
-		"oF": 0
+		"sct": 1
 		},
 	"/assets/fonts/Aleo/aleo-bold-webfont.woff": {
 		"cB": 0,
@@ -4769,68 +4961,214 @@
 		"oAP": "/assets/fonts/Aleo/aleo-regular-webfont.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-bold-webfont.woff": {
+	"/assets/fonts/Fatface/abrilfatface-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-bold-webfont.woff",
+		"oAP": "/assets/fonts/Fatface/abrilfatface-regular-webfont.eot",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-bold-webfont.woff2": {
+	"/assets/fonts/Fatface/abrilfatface-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/Fatface/abrilfatface-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/fonts/Fatface/abrilfatface-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-bold-webfont.woff2",
+		"oAP": "/assets/fonts/Fatface/abrilfatface-regular-webfont.ttf",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-italic-webfont.woff": {
+	"/assets/fonts/Fatface/abrilfatface-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-italic-webfont.woff",
+		"oAP": "/assets/fonts/Fatface/abrilfatface-regular-webfont.woff",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-italic-webfont.woff2": {
+	"/assets/fonts/Fatface/abrilfatface-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-italic-webfont.woff2",
+		"oAP": "/assets/fonts/Fatface/abrilfatface-regular-webfont.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-regular-webfont.woff": {
+	"/assets/fonts/opensans/opensans-bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-regular-webfont.woff",
+		"oAP": "/assets/fonts/opensans/opensans-bold-webfont.eot",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-regular-webfont.woff2": {
+	"/assets/fonts/opensans/opensans-bold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/opensans/opensans-bold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/fonts/opensans/opensans-bold-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-regular-webfont.woff2",
+		"oAP": "/assets/fonts/opensans/opensans-bold-webfont.ttf",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-semibold-webfont.woff": {
+	"/assets/fonts/opensans/opensans-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-semibold-webfont.woff",
+		"oAP": "/assets/fonts/opensans/opensans-bold-webfont.woff",
 		"oF": 0
 		},
-	"/assets/fonts/opensans-semibold-webfont.woff2": {
+	"/assets/fonts/opensans/opensans-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/opensans-semibold-webfont.woff2",
+		"oAP": "/assets/fonts/opensans/opensans-bold-webfont.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-italic-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-italic-webfont.eot",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-italic-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/opensans/opensans-italic-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/fonts/opensans/opensans-italic-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-italic-webfont.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-italic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-italic-webfont.woff",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-italic-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-italic-webfont.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-regular-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-regular-webfont.eot",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/opensans/opensans-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/fonts/opensans/opensans-regular-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-regular-webfont.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-regular-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-regular-webfont.woff",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-regular-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-regular-webfont.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-semibold-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-semibold-webfont.eot",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-semibold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/opensans/opensans-semibold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/fonts/opensans/opensans-semibold-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-semibold-webfont.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-semibold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-semibold-webfont.woff",
+		"oF": 0
+		},
+	"/assets/fonts/opensans/opensans-semibold-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/opensans/opensans-semibold-webfont.woff2",
 		"oF": 0
 		},
 	"/assets/img/blog/tumblr_o0a984tyWD1v28ub8o1_1280.jpg": {
@@ -6777,60 +7115,102 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/Header/header_bot_characters.png": {
+	"/assets/img/header/header_bot_characters.png": {
 		"ft": 32768,
-		"iS": 57529,
+		"iS": 453511,
 		"oA": 0,
-		"oAP": "/assets/img/Header/header_bot_characters.png",
+		"oAP": "/assets/img/header/header_bot_characters.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/Header/header_bot_landscape.png": {
+	"/assets/img/header/header_bot_landscape.png": {
 		"ft": 32768,
-		"iS": 114957,
+		"iS": 474251,
 		"oA": 0,
-		"oAP": "/assets/img/Header/header_bot_landscape.png",
+		"oAP": "/assets/img/header/header_bot_landscape.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/Header/header_top_characters.png": {
+	"/assets/img/header/header_top_characters.png": {
 		"ft": 32768,
 		"iS": 3299129,
 		"oA": 0,
-		"oAP": "/assets/img/Header/header_top_characters.png",
+		"oAP": "/assets/img/header/header_top_characters.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/Header/header_top_landscape.png": {
+	"/assets/img/header/header_top_landscape.png": {
 		"ft": 32768,
 		"iS": 2553095,
 		"oA": 0,
-		"oAP": "/assets/img/Header/header_top_landscape.png",
+		"oAP": "/assets/img/header/header_top_landscape.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/Header/mask_scaled.png": {
+	"/assets/img/header/mask_scaled.png": {
 		"ft": 32768,
 		"iS": 73272,
 		"oA": 0,
-		"oAP": "/assets/img/Header/mask_scaled.png",
+		"oAP": "/assets/img/header/mask_scaled.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/assets/img/sections/section_bottom.png": {
+		"ft": 32768,
+		"iS": 32950,
+		"oA": 0,
+		"oAP": "/assets/img/sections/section_bottom.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/sections/section_bottom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/sections/section_bottom.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/assets/img/sections/section_top.png": {
+		"ft": 32768,
+		"iS": 46381,
+		"oA": 0,
+		"oAP": "/assets/img/sections/section_top.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/sections/section_top.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/sections/section_top.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/assets/img/seperator.png": {
 		"ft": 32768,
@@ -7502,6 +7882,17 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/assets/js/disqusloader.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/disqusloader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"/Gemfile": {
 		"cB": 0,
@@ -10583,6 +10974,25 @@
 		"oAP": "/projects.html",
 		"oF": 0
 		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/typographytest.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -10598,7 +11008,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 607282324.97299099,
-	"displayValue": "portfolio2021",
+	"displayValue": "portfolio2021_prototype",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
 	"iconImageWasSetByUser": 0
@@ -12621,13 +13031,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

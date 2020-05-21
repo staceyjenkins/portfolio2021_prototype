@@ -6,6 +6,23 @@
       height:50vw;  
     }
 
+@mixin sitelayout(){
+    flex-grow:1;    
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  position:relative;
+  
+     @include gridsupport(){
+     display:grid;
+     grid-template-columns: $halfcolumn repeat(8, 1fr) $halfcolumn;
+     grid-template-rows:80px auto;
+     }
+    
+   display:flex;
+   flex-flow:column nowrap;  
+}
+
 html {background:#fff url('../../assets/img/texture.png') repeat;}
 
 .site{
@@ -25,25 +42,21 @@ html {background:#fff url('../../assets/img/texture.png') repeat;}
               flex-flow:column nowrap;
               justify-content:flex-start;
               align-items:stretch;
+              position:relative;
+              overflow:hidden;
+              height:auto;
                
   @include for-size(tablet-portrait-up){padding-bottom:0;}
               }
 
 .sitelayout {
-flex-grow:1;    
+  flex-grow:1;    
   width:100%;
   height:auto;
   overflow:hidden;
   position:relative;
-  
-     @include gridsupport(){
-     display:grid;
-     grid-template-columns: $halfcolumn repeat(8, 1fr) $halfcolumn;
-     grid-template-rows:80px auto;
-     }
-    
    display:flex;
-   flex-flow:column nowrap;  
+    flex-flow:column nowrap;  
 }
 
   $gradientcolour: colour(blue,600);
@@ -72,7 +85,7 @@ height:80px;
 
   .heroarea {
     @include gridsupport(){
-      grid-column:1/12;
+      grid-column:1/-1;
     }
     display:block;
     width:100%;
@@ -167,28 +180,6 @@ $gradientcolour: colour(blue, 600);
     
 }
 
-.titlecontent {
-    @include gridsupport(){
-        display:grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-column-gap: 30px;               
-        grid-template-rows:auto;
-        margin:0;
-        align-items:center;
-        width:100%;
-    }
-    
-    display:inline-flex;
-    overflow:hidden;
-    position:relative;
-    flex-flow:row nowrap;
-    align-items:center;
-    justify-content:center;
-    margin:0 -15px;
-    width: calc(100% + 30px);
-    padding:0;
-}
-
 .title_overlay {@include gridsupport(){
         grid-column:1/-1;
         margin:0;
@@ -213,36 +204,101 @@ body.home {
     .title_overlay {
         background: #fff;
     box-shadow:0px 10px 20px  transparentize(colour(charcoal,900), 0.80);
-    }
-    
-    
+    }  
 }
 
 .mainarea {
-  @include gridsupport(){
-  grid-column:1/12;
-  grid-row:2;
-  }
-  margin:0px auto;
+  margin:80px auto 0 auto;
   position:relative;
-  padding:0 $margin;
   width:100%;
-    height:100%;
-    height:auto;
-   
-  
-  
-  @include for-size(tablet-portrait-up){
-  @include gridsupport(){
-  grid-column:2/10;
-  margin:0;
-    }
-    width:100%;
-    margin-top:80px;
-    max-width:$sitewidth;
+  display:flex;
+  flex-flow:column nowrap; 
+  }
 
-  }
-  }
+
+section {
+    position:relative;
+    width:100%;
+    max-width:3840px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    
+    .section_wrap {
+                   width:100%;
+                   max-width: $sitewidth;
+                   margin:0 auto;
+                   padding: 0 1.25rem;
+    
+        @include for-size(tablet-portrait-up){
+            max-width: 46.25rem;
+        }
+        
+        @include for-size(tablet-landscape-up){
+            max-width: $sitewidth;
+            padding: 0 $gutter/2;
+        }
+    }
+    
+    
+    .section_top, .section_bottom {flex-shrink:0;
+              display:block;
+              height:auto;
+              position:relative;
+              overflow:hidden;}
+  
+.section_top svg, .section_bottom svg {
+    max-width:100%;
+    height:100%;
+    vertical-align:top;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    left:0;
+    right:0;
+    border:0;}
+    
+        .section_top svg {bottom:-10px;}
+    .section_bottom svg {top:-10px;}
+    
+    
+    .section_content {flex: 1 0 auto;
+           display:block;
+           height:auto;
+           position:relative;
+           overflow:hidden;}
+    
+    
+    &.titlecontent {
+        .title_grid {
+    @include gridsupport(){
+        display:grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-column-gap: 30px;               
+        grid-template-rows:auto;
+        margin:0;
+        align-items:center;
+        width:100%;
+    }
+    
+    display:inline-flex;
+    overflow:hidden;
+    position:relative;
+    flex-flow:row nowrap;
+    align-items:center;
+    justify-content:center;
+    margin:0 -15px;
+    width: calc(100% + 30px);
+    padding:0;
+}
+        }
+    
+    &.portfolio {
+        .section_top svg, .section_bottom svg {fill:colour(teal, 300);}
+        .section_content {background: colour(teal, 300);}
+    }
+    
+}
 
 .seperator {
     margin:1.75rem 0;

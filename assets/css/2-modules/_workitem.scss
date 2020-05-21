@@ -59,8 +59,15 @@ body.workitem{
             width:100%;   
         }
         
-        @include for-size(header_breakpoint){
+        @include for-size(tablet-portrait-up){
             @include gridsupport(){
+                grid-column:1/-1;
+            width:100%;
+            }
+        }
+        
+        @include for-size(tablet-landscape-up){
+             @include gridsupport(){
                 grid-column:2/10;
             width:100%;
             }
