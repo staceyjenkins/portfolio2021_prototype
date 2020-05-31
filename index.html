@@ -16,10 +16,23 @@ pageclass: home
        </section>
     
     <section class="clients">
-    <div class="section_wrap">    
-    <p class="client_header">
-    As an in-house graphic designer, I've worked with the following clients:    
+    <div class="section_wrap">  
+      <p class="client_header">
+    As an in-house and freelance graphic designer, I've worked with the following clients:    
     </p>
+    <div class="client_row">
+                <ul class="client_list">
+                {% for item in site.data.clients.clientlist %}
+                    <li>
+                    <div class="client">
+                    <figure> 
+                    <img src="{{site.baseurl}}/assets/img/clients/{{item.logo}}" alt="{{item.name}}" title="{{item.name}}"> 
+                    </figure>   
+                    </div>  
+                    </li>
+                {% endfor %}
+            </ul>
+            </div>    
     </div>
     </section>
     
@@ -30,7 +43,7 @@ pageclass: home
         <h4 class="work_header">Here's what I do...</h4>
         <div class="work_row">
                 <ul class="work_list">
-                {% for work in site.workitems %}
+                {% for item in site.workitems %}
                 {% include /partials/workloop.html %}
                 {% endfor %}
             </ul>
@@ -40,6 +53,7 @@ pageclass: home
             {% include /partials/section_bottom.html %}
             </section>
     
+<!--
     <section class="blog">
         <div class="section_wrap">
         <h4 class="blog_header">Blog</h4>
@@ -52,4 +66,4 @@ pageclass: home
             <a class="button" href="/notebook/">Show more notes</a>
             </div>
         </div>
-    </section>
+    </section>-->

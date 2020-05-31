@@ -3,17 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> About - Stacey Jenkins - Design and Illustration
+    <title> About - Stacey 'froginajar' Jenkins - Design and Illustration
         </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preload" as="style" href="/assets/css/fonts.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     
     <!--  Essential META Tags -->
 
-    <meta property="og:title" content="About - Stacey Jenkins - Design and Illustration">
+    <meta property="og:title" content="About - Stacey 'froginajar' Jenkins - Design and Illustration">
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     <meta property="og:image" content="http://localhost:4000/assets/img/">
     <meta property="og:url" content="http://localhost:4000/about/">
@@ -22,7 +21,7 @@
 
 <!--  Non-Essential, But Recommended -->
 
-<meta property="og:site_name" content="Stacey Jenkins - Design and Illustration">
+<meta property="og:site_name" content="Stacey 'froginajar' Jenkins - Design and Illustration">
 <meta name="twitter:image:alt" content="">
 
 
@@ -63,6 +62,8 @@
       </div>
          <div class="sitemap">
          <nav class="sitenavigation" role="navigation" aria-label="Navigation">
+    
+        
             <ul class="menu">
                 
                 <li class=""><a href="/#portfolio">projects</a></li>
@@ -73,7 +74,7 @@
                 
     </ul>
 </nav>
-        <a class="contactme" href="">Contact Me</a>
+        <a class="contactme" href="#contact">Contact Me</a>
                  </div>
     </div>
   </header>
@@ -138,32 +139,67 @@
             <rect class="footerstroke" mask="url(#bottomstroke)" width="100%" height="100%">
         </svg>      
       </div>
-            <div class="footer_bottom">   
-                <div class="footer_content">
-                    <div class="footer_row">
-      <div class="contactform">
+            <div class="footer_bottom">
+                <div class="section_wrap">
+                    <div class="footer_grid">
+      
+      <div class="top_row">
+      <div class="contactform" id="contact">
       <h3>Let's get in touch</h3>
-      <p>Contact form</p>
-      <a class="button" href="#">Send</a>      
-      </div>
-      <div class="right_col">                 
-      <div class="notebook_cats">
-      <ul>
-          <li>Notebook category</li>
-          </ul>
-      </div>
-      <div class="footer_socials">
+      <form
+  action="https://formspree.io/mdowejbr"
+  method="POST"
+>
+    <div class="form_row">
+        <div class="name">
+    <label>
+        <p>Your name:</p>
+    <input type="text" name="_name">
+  </label>
+            </div>
+        <div class="email">
+    <label>
+      <p>Your email:</p>
+    <input type="text" name="_replyto">
+  </label>
+        </div>
+  </div>
+    <div class="message">    
+  <label>
+    <p>Your message:</p>
+    <textarea name="message"></textarea>
+  </label>
+    </div>  
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    <div class="footer_socials">
+        <h3>Let's get social</h3>  
        <ul class="socials">
-        <li><a href="#"><i class="fab fa-twitter"></i><span>Main Twitter</span></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i><span>Personal Twitter</span></a></li>
-        <li><a href="#"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a></li>
-        <li><a href="#"><i class="fab fa-tumblr"></i><span>Tumblr</span></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
-        <li><a href="#"><i class="fas fa-envelope"></i><span>Email</span></a></li>
+     
+    <li class="twitter">
+    <a href="http://www.twitter.com/froginajar" title="Twitter" target="_blank"><i class="fab fa-twitter fa-2x"></i><span>Twitter</span></a>
+    </li>            
+    
+    <li class="linkedin">
+    <a href="http://www.linkedin.com/in/stacey-jenkins-design" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i><span>LinkedIn</span></a>
+    </li>            
+    
+    <li class="instagram">
+    <a href="http://www.instagram.com/froginajar" title="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i><span>Instagram</span></a>
+    </li>            
+    
+    <li class="email"><a href="mailto:hello@staceyjenkins.co.uk" title="Email"><i class="fas fa-envelope fa-2x"></i><span>Email</span></a></li>
       </ul>
+      </div>      
       </div>
-      </div>   
-      </div>                    
+      <div class="right_col">
+      <h3>Instagram</h3>       
+      <div id="instagram_feed" class="instagram_feed">
+       <p>Loading instagram posts...</p>  
+      </div>
+      </div>
+        </div>
     
     <div class="bottomrow"> 
         <div class="copyright">
@@ -171,6 +207,8 @@
       </div>
       <div class="sitemap">
          <nav class="sitenavigation" role="navigation" aria-label="Navigation">
+    
+        
             <ul class="menu">
                 
                 <li class=""><a href="/#portfolio">projects</a></li>
@@ -184,18 +222,20 @@
       </div>
     </div>
                 </div>
-                </div>   
                 </div>
+                </div>
+                </div>   
     </footer>    
 
     <!--scripts-->
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script src="http://localhost:4000/assets/js/disqusloader.js"></script>
-    
-    <script>
-    
-    var $options = {
+      <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <!-- Fall back to a local copy of jQuery if the CDN fails-->
+<script>
+window.jQuery || document.write('<script src="http://localhost:4000/assets/js/jquery.min.js"><\/script>')
+window.jQuery || document.write('<script src="http://localhost:4000/assets/js/jquery.waypoints.min.js"><\/script>')
+
+ var $options = {
         
         scriptUrl: '//http-www-staceyjenkins-co-uk.disqus.com/embed.js',
         laziness: 1,
@@ -207,12 +247,12 @@
     this.page.identifier  = '/about/';
   }
     };
-
-    disqusLoader( '.disqus', $options );
-     
-      
-    </script>  
-
+</script>
+   
+<script src="http://localhost:4000/assets/js/instagramfeed.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="http://localhost:4000/assets/js/disqusloader.js"></script>
+    <script src="http://localhost:4000/assets/js/scripts.js"></script>
 
 
   

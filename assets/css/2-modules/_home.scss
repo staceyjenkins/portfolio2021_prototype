@@ -8,7 +8,7 @@ body.home {
         &.landscape {display:block;}
         &.characters {display:none;}
         
-        @include for-size(header_breakpoint){
+        @include for-size(tablet-landscape-up){
         &.landscape {display:none;}
         &.characters {display:block;}
         }
@@ -21,13 +21,14 @@ body.home {
         image.landscape {display:block;}
         image.characters {display:none;}
         
-        @include for-size(header_breakpoint){
+        @include for-size(tablet-landscape-up){
        image.landscape {display:none;}
         image.characters {display:block;}
         }
     }
     
     .titlecontent {
+        .title_grid {padding-bottom:1.75rem;}
      @include for-size(tablet-portrait-up){
             height: 30vw;
             min-height:600px;
@@ -36,7 +37,7 @@ body.home {
     .socials { 
     text-align:center;
         
-        @include for-size(header_breakpoint){
+        @include for-size(tablet-portrait-up){
             text-align:left;
         }
     li a {@include setTypeSize('s1');
@@ -59,16 +60,14 @@ body.home {
     
 .title_overlay {
     
-    @include for-size(tablet-portrait-up){
-     @include gridsupport(){
+       @include gridsupport(){
         grid-column:1/-1;
         width:100%;
         margin-left:0;
         margin-right:0;
     }
-    }
     
-     @include for-size(header_breakpoint){
+     @include for-size(tablet-landscape-up){
         @include gridsupport(){
         grid-column:1/6;
         width:100%;

@@ -288,22 +288,33 @@ p a:hover {color:colour(teal,900);
 }
 
 @mixin button(){
-    @include allCaps();
+    color: white;
+    font-weight: 700;
     @include setTypeFace('primary');
     text-decoration:none;
     display:inline-block;
     min-width:80px;
-    height:40px;
-    padding: 6px 20px;
-    width:auto;
-    cursor:pointer;
+    cursor: pointer;
+    min-height: 1em;
+    outline: 0;
     border: none;
+    vertical-align: baseline;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    user-select: none;
+    transition: all .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    will-change: '';
+-webkit-tap-highlight-color: transparent;
     background: colour(teal, 600);
-    position:relative;
-    border-radius: 4px;
-    box-shadow: 0px 5px 10px transparentize(colour(teal, 800), 0.60);
-    transition: all .2s ease-in-out;
-    &:focus {outline:2px solid colour(charcoal,500);}
+    box-shadow: 0px 5px 10px transparentize(colour(teal, 600), 0.60);
+    :focus {outline:2px solid colour(charcoal,500);}
     &:hover {
         background: colour(teal, 700);
         transform: scale(1.1);
@@ -367,17 +378,21 @@ figure.media, .single_post figure {figcaption, figcaption p {font-style: italic;
 }
 
 /* header module */
-.page_header{@include setTypeSize(s4);
+.page_header{@include setTypeSize(s3);
             font-weight:bold;
              @include setTypeFace(secondary);
-                color:colour(yellow,100);
-                text-align:center;}
+             color:colour(yellow,100);
+             text-align:center;
+    @include for-size(tablet-portrait-up){
+       @include setTypeSize(s4); 
+    }
+            }
 .work_header, .blog_header {@include mainhead();}
 
 body.home {
     .page_header {
         color: colour(teal, 600);
-        @include for-size(header_breakpoint){
+        @include for-size(tablet-landscape-up){
             text-align:left;
         }
     }
@@ -399,9 +414,15 @@ body.home {
          color:colour(yellow, 200);
     }
 }
+    .client_header{
+        font-weight:600;
+        text-align:center;
+        @include setTypeSize('s1');
+        color:colour(blue,500);
+    }
 }
 
-body.mywork, body.blog, body.error {
+body.mywork, body.blog, body.error, body.blogpost {
     .page_header {text-shadow: 0px 5px 10px transparentize(colour(teal, 800), 0.40);}
 }
 
@@ -471,6 +492,168 @@ li.post {
                     margin-top:0;
                     margin-right:auto;}
 }
+
+
+aside.sidebar {
+    .category li {margin-bottom: calc(#{$standardmeasure}/2);}
+    .category li:last-child {margin-bottom:0;}
+    .category li a, .category li a:visited {
+        @include setTypeFace('primary');
+        @include setTypeSize ('s1');
+        margin-top:0;
+        margin-bottom: calc(#{$standardmeasure}/2);
+        text-decoration: none;
+        color: colour(charcoal, 600);
+        font-weight: 300;
+        
+        .post_count {color:colour(teal,700);
+                 text-decoration: none !important;
+                 transition: border-color .15s ease-out;}
+        
+    }
+    
+        .category li a:hover {
+            color:colour(teal,900);
+    
+            .post_count{color:colour(teal,900)} 
+    }
+    
+}
+
+/* notebook posts */
+
+body.home .blog, body.blog, body.blogpost, .relatedposts {
+ul.tags, ul.share_links {
+    li.heading p {font-weight:700;
+                  margin-top:0;
+                  margin-bottom:0;
+                  margin-right:0.25rem;}
+    li.tag a, li.tag a:visited  {
+        background-color: colour(blue, 300);
+        font-size: .85714286rem;
+        display:inline-block;
+        line-height: 1;
+        vertical-align: baseline;
+        margin: 0 .14285714em;
+        margin-left: 0.142857em;;
+        background-image: none;
+        padding: .5833em .833em;
+    padding-right: 0.833em;
+    padding-left: 0.833em;
+     color: white;
+    text-transform: none;
+        font-weight: 700;
+border-radius: .28571429rem;
+transition: background .1s ease;
+text-decoration:none;
+}
+    
+    li.tag a:hover {
+           background-color: colour(blue, 400);
+    }
+    }
+} 
+
+body.blog, body.blogpost {
+    .pagination_links {
+        
+        .current, .page_nav {
+        border: 1px solid colour(blue, 300);
+        color: colour(blue, 300);
+        }
+        
+        li a, li a:visited {        
+            background-color: colour(blue, 300);
+                 color: white;}
+        
+    li a, li a:visited, .current, .page_nav  {
+        font-size: .85714286rem;
+        display:inline-block;
+        line-height: 1;
+        vertical-align: baseline;
+        margin: $standardmeasure .14285714em 0 .14285714em;
+        margin-left: 0.142857em;;
+        background-image: none;
+        padding: .5833em .833em;
+    padding-right: 0.833em;
+    padding-left: 0.833em;
+    text-transform: none;
+        font-weight: 700;
+border-radius: .28571429rem;
+transition: background .1s ease;
+text-decoration:none;
+}
+    
+    li a:hover {
+           background-color: colour(blue, 400);
+    }
+    
+    
+}
+}
+
+body.blogpost {
+    .page_navigation {
+        .navigation_heading {font-weight:700;
+                            margin-bottom:0 !important;
+                              color: colour(blue,600);}
+        .navigation_heading + p {margin-top: 0;}
+    }
+    .page_navigation {
+        
+        .next_page p {
+        @include for-size(tablet-portrait-up){
+        text-align:right !important;    
+        }
+            
+        }    
+    }
+    .post_title {
+                  text-align:center;
+                @include setTypeSize('s3');
+                 @include for-size(tablet-landscape-up){
+                 @include setTypeSize('s3');
+                               }
+    }
+}
+
+
+/* site footer */
+.site_footer {
+    h3 {text-align:left;
+        color: colour(yellow, 100);
+        }
+    label p {margin:0; color: colour(yellow, 200);
+            @include setTypeSize('s0');}
+    textarea, input {margin-top: calc(#{$standardmeasure}/2);
+    background-color: colour(blue, 800);
+    border:1px solid colour(blue, 700);
+    display:block;
+    width:100%;
+    padding: 0.5rem 1rem;
+  color: colour(blue, 300);
+        @include setTypeFace('primary');
+        @include setTypeSize('s1');
+        margin:0;
+        border-radius: $gutter/4;
+        transition: all .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    will-change: '';
+    
+        &:active, &:focus {border:1px solid colour(blue,400);
+        background-color: colour(blue, 700);}
+    
+    }
+    
+    .name, .email, .message {margin-bottom: $standardmeasure;}
+    
+    button {@include button;
+            font-size:1rem;}
+    
+    .copyright p {@include setTypeSize('s0');
+                 color: colour(blue, 200);
+                    }
+}
+
 
 // -------------------------------------------------- */
 

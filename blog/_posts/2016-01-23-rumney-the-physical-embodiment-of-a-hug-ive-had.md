@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 category: sketchbook
 excerpt: Rumney - the physical embodiment of a hug.
 thumb: /img/blog/tumblr_o1ehz5JqjS1v28ub8o1_1280.jpg

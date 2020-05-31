@@ -6,8 +6,6 @@ tags:
 - illustration
 - artists on tumblr
 tumblr_url: http://illustration.staceyjenkins.co.uk/post/169106718833/my-best-posts-of-2017
-layout: blogpost
-
 ---
 [ **December** _♥ 4_  
 ](http://illustration.staceyjenkins.co.uk/2019/03/09/2017-12-20-is-that-me-giggled-loyalty-looking-up-at-the.html)

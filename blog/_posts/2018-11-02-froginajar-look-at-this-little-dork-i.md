@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 date: '2018-11-02T14:03:53+00:00'
 tags:
 - video

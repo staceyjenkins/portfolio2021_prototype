@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Blog
 pageclass: blog
 thumb: header/header_top_characters.png
@@ -9,42 +9,44 @@ pagination:
   permalink: '/page:num/'
 ---
 
-   <div class="titlecontent">
-        <div class="title_overlay">
-        <h2 class="page_header">{{page.title}}</h2>
-            </div>
-       </div>
-            <section class="blog_content">
-                <div class="section_wrap">
-                <div class="blogcontent">  
-                <div class="blog_structure">
-                <div class="post_area">
-                    <ul class="list_of_posts">
-                     {% for post in site.posts %}
+ <ul class="list_of_posts">
+                    {% for post in paginator.posts %}
                     {% include /partials/postloop.html %}
                     {% endfor %}   
                     </ul>
-                    {% if paginator.total_pages > 1 %}
-<div class=”pagination”>
- <ul>
-{% if paginator.previous_page %}
- <li class=”prev”><a href=”/posts/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}”>Previous</a></li>
-{% endif %}
- <li><a {% if paginator.page == 1 %}class=”active” {% endif %}href=”/posts/”>1</a></li>
-{% for count in (2..paginator.total_pages) %}
- <li><a {% if paginator.page == count %}class=”active” {% endif %}href=”/posts/page{{ count }}”>{{ count }}</a></li>
-{% endfor %}
-{% if paginator.next_page %}
- <li class=”next”><a href=”/posts/page{{ paginator.next_page }}”>Next</a></li>
-{% endif %}
- </ul>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    <ul class="pagination_links">
+  {% if paginator.previous_page %}
+    <li>    
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  {% else %}
+    <div class="page_nav">&laquo; Prev</div>
+    </li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    <li>  
+    {% if page == paginator.page %}
+      <div class="current">{{ page }}</div>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+        </li>  
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li>   
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% else %}
+    <div class="page_nav">Next &raquo;</div>
+    </li>     
+  {% endif %}
+   </ul>    
 </div>
 {% endif %}
-                </div>
-                     
-                {% include /partials/sidebar.html %}
-          </div>
-                </div>
-                <
-    </section>
+
     

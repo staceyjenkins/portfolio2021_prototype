@@ -1,7 +1,7 @@
 ---
 layout: default
-pageclass: work
----           
+---     
+
 <section class="work_item">
     <div class="section_wrap">
     <div class="workcontent">
@@ -17,40 +17,8 @@ pageclass: work
              {{ content }}
                 </div>
             </div>
-
             </div>
-    <div class="relatedwork">
-    <h3>Related Work</h3>
-    <ul class="work_list">
-        {% assign maxRelated = 4 %}
-        {% assign minCommonCategories = 2 %}
-        {% assign maxRelatedCounter = 0 %}
         
-            <!--*--->{% for work in site.workitems %}
-                {% assign sameCategoryCount = 0 %}
-                {% assign commonCategories = 0 %}
-                   
-                    <!--**--->{% if work.url != page.url %}
-                    <!--***--->{% for category in work.categories %}
-                    <!--****--->{% if page.categories contains category %}
-                    {% assign sameCategoryCount = sameCategoryCount | plus: 1 %}
-                    {% capture categoryMarkup %}<p class="label label-default">{{category}}</p>{% endcapture %}
-                    {% assign commonCategories = commonCategories | append: categoryMarkup %}
-                    <!--****--->{% endif %}
-                    <!--***--->{% endfor %}
-                    <!--**--->{% endif %}
-        
-                <!--*****--->{% if sameCategoryCount >= minCommonCategories %}
-        
-                {% include /partials/workloop.html %}
-        
-                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-                <!--******--->{% if maxRelatedCounter >= maxRelated %}
-                {% break %}
-                <!--******--->{% endif %}
-                <!--*****--->{% endif %}
-            <!--*--->{% endfor %}
-            </ul>
-</div>
-    </div>
+        {% include /partials/relatedwork.html
+        %}
 </section>

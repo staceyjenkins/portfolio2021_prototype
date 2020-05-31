@@ -1,5 +1,4 @@
 ---
-layout: single_post
 title: breaking out a new sketchbook with some witchsona
 date: '2016-01-26T13:44:47+00:00'
 tags:

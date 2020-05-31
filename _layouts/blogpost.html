@@ -1,83 +1,68 @@
 ---
-layout: default
-comments: true
----
+layout: blog
+--- 
+<header class="post_header">
+    
+<h2 class="post_title">
+{{page.title}}
+</h2>
+<p class="post_time"><time datetime="{{page.date}}">{% assign day = page.date | date: "%-d"  %}
+{% case day %}
+  {% when '1' or '21' or '31' %}{{ day }}st
+  {% when '2' or '22' %}{{ day }}nd
+  {% when '3' or '23' %}{{ day }}rd
+  {% else %}{{ day }}th
+{% endcase %}
+{{ page.date | date: "%B, %Y" }}
+</time></p>   
+</header>
 
-<section class="notebookcontent">
-   <div class="titlecontent">
-        <div class="title_overlay">
-        <h2 class="page_header">Notebook</h2>
-            </div>
+{{content}}
+
+<div class="post_footer">
+    <div class="category_block">
+     <ul class="tags">
+         <li class="heading"><p>Categories:</p></li>
+    {% assign sortedCategories = page.categories | sort %}
+    {% for category in sortedCategories %}
+        <li class="tag">
+            <a href="{{site.url}}/blog/category/{{ category }}">{{ category }}</a>
+        </li>
+    {% endfor %}
+</ul>
     </div>
-            <div class="section_wrap">
-            <div class="blogcontent">
-                <div class="blog_structure">
-                <div class="post_area">
-                 <div class="single_post">    
-                 {{ content }}   
-                </div>
-          <div class="post_navigation">
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    <div class="share_block">
+    <ul class="share_links">
+         <li class="heading"><p>Share this post:</p></li>
+         <li>
+        <a title="Share on Twitter" href="https://twitter.com/intent/tweet?text={{page.title}} url='{{site.url}}{{site.baseurl}}{{page.url}}'" target="_blank"><i class="fab fa-twitter" aria-hidden="true"><span>Share on Twitter</span></i></a>
+        </li>
+         <li>
+        <a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{site.baseurl}}{{page.url}}" target="_blank"><i class="fab fa-facebook" aria-hidden="true"><span>Share on Facebook</span></i> </a>
+        </li>
+</ul>
+    </div>
+</div>
+
+<div class="page_navigation">
+{% if page.previous.url %}
+    <div class="previous_page">
+    <p class="navigation_heading">Previous Post</p>
+    <p><a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a></p>
+    </div>    
   {% endif %}
   {% if page.next.url %}
-    <a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-  {% endif %}
-</div>      
-    <div class="seperator">
-        <figure>
-        <img src="{{site.baseurl}}/assets/img/seperator.png"></figure>
-        </div>                
-    <div class="comments">
-     <h3>Comments</h3>
-    <div class="disqus">
-    <!-- disqus comments -->  
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>       
-    </div>    
-    </div> 
-    <div class="seperator">
-        <figure>
-        <img src="{{site.baseurl}}/assets/img/seperator.png"></figure>
-        </div>                
-    <div class="relatedposts">
-    <h3>Related Posts</h3>
-    <ul class="post_list">
-        {% assign maxRelated = 4 %}
-        {% assign minCommonTags = 2 %}
-        {% assign maxRelatedCounter = 0 %}
-        
-            <!--*--->{% for post in site.posts %}
-                {% assign sameTagCount = 0 %}
-                {% assign commonTags = 0 %}
-                   
-                    <!--**--->{% if post.url != page.url %}
-                    <!--***--->{% for tag in post.tags %}
-                    <!--****--->{% if page.tags contains tag %}
-                    {% assign sameTagCount = sameTagCount | plus: 1 %}
-                    {% capture tagMarkup %}<p class="label label-default">{{tag}}</p>{% endcapture %}
-                    {% assign commonTags = commonTags | append: tagMarkup %}
-                    <!--****--->{% endif %}
-                    <!--***--->{% endfor %}
-                    <!--**--->{% endif %}
-        
-                <!--*****--->{% if sameTagCount >= minCommonTags %}
-        
-                {% include /partials/postloop.html %}
-        
-                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-                <!--******--->{% if maxRelatedCounter >= maxRelated %}
-                {% break %}
-                <!--******--->{% endif %}
-                <!--*****--->{% endif %}
-            <!--*--->{% endfor %}
-            </ul>
-</div>
-    
-                </div>
-                
-                     
-                {% include /partials/sidebar.html %}
-          </div>
+    <div class="next_page">
+    <p class="navigation_heading">Next Post</p>
+    <p><a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a></p>    
     </div>
-            </div>
-</section>
+  {% endif %}
+</div>
+
+{% include partials/relatedposts.html %}
+
+<div class="comments">
+<h3>Comments</h3>
+<div class="disqus"></div>
+</div>
+

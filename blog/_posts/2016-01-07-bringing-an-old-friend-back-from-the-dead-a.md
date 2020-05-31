@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 thumb: /img/blog/tumblr_o0lmrm1e7s1v28ub8o1_1280.jpg
 category: sketchbook
 excerpt: Bringing an old friend back from the dead

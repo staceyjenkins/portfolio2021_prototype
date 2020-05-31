@@ -1,4 +1,5 @@
 ---
+layout: post
 title: been drawing a lot of modern khoury and loyalty
 date: '2017-10-30T08:33:03+00:00'
 tags:

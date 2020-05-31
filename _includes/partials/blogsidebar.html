@@ -1,0 +1,16 @@
+<aside class="sidebar">
+<h3>About Me</h3>
+<p>
+    Insert a short description here
+</p>
+    {% include /partials/socials.html %}
+   <h3>Categories</h3>
+                <ul class="category">
+                    {% for category in site.categories %}
+    <li>
+        <a href="/blog/category/{{category | first}}" title="{{category | first | capitalize }}"><strong>{{category| first | capitalize}}</strong>
+            <span class = post_count>{{category.size}}</span>
+        </a></li>
+{% endfor %}  
+    
+</aside>

@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 date: '2018-03-27T14:51:39+01:00'
 tags:
 - loyalty

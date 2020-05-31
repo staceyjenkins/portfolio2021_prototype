@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 excerpt: Figuring out Heath
 thumb: /img/blog/tumblr_o1ei4djB6W1v28ub8o1_1280.jpg
 category: sketchbook

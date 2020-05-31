@@ -1,6 +1,8 @@
 <ul class="socials">
-        <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i><span>Main Twitter</span></a></li>
-        <li><a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a></li>
-        <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
-        <li><a href="#" title="Email"><i class="fas fa-envelope"></i><span>Email</span></a></li>
+     {% for item in site.data.socials.socialsites %}
+    <li class="{{item.name | downcase}}">
+    <a href="{{item.url}}" title="{{item.name}}" target="_blank"><i class="{{item.icon}} fa-2x"></i><span>{{item.name}}</span></a>
+    </li>            
+    {% endfor %}
+    <li class="email"><a href="mailto:hello@staceyjenkins.co.uk" title="Email"><i class="fas fa-envelope fa-2x"></i><span>Email</span></a></li>
       </ul>

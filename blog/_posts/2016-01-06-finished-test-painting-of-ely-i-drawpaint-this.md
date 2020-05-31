@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 excerpt: Finished test painting of Ely.
 thumb: /img/blog/tumblr_o0jq0bRQPL1v28ub8o1_640.jpg
 category: illustration

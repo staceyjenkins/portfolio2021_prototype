@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 date: '2018-04-19T12:57:53+01:00'
 tags:
 - complete
@@ -12,7 +13,7 @@ tags:
 - artists on tumblr
 - clip studio paint
 category: illustration
-thumb: ../assets/img/blog/tumblr_p7ehk6ATcG1v28ub8o1_1280.png
+thumb: ../img/blog/tumblr_p7ehk6ATcG1v28ub8o1_1280.png
 excerpt: Thane, @dasacht’s fighter/Paladin multi-class character, is a man struggling with both the expectations of his nobility
 ---
 

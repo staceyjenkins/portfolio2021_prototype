@@ -1,5 +1,4 @@
 ---
-layout: post
 title: finally completed this warm up drawing of ratta
 date: '2016-02-17T22:31:23+00:00'
 tags:

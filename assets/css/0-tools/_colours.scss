@@ -59,3 +59,28 @@
 }
 $black: colour(charcoal,800);
 // -------------------------------------------------- */
+
+@mixin gradient(){ background: linear-gradient(
+    to bottom,
+    transparentize($gradientcolour, 0.2409) 0%,
+    transparentize($gradientcolour, 0.25086) 8.1%,
+    transparentize($gradientcolour, 0.2855) 15.5%,
+    transparentize($gradientcolour, 0.3271) 22.5%,
+    transparentize($gradientcolour, 0.3807) 29%,
+    transparentize($gradientcolour, 0.4437) 35.3%,
+    transparentize($gradientcolour, 0.5134) 41.2%,
+    transparentize($gradientcolour, 0.587) 47.1%,
+    transparentize($gradientcolour, 0.662) 52.9%,
+    transparentize($gradientcolour, 0.7357) 58.8%,
+    transparentize($gradientcolour, 0.8053) 64.7%,
+    transparentize($gradientcolour, 0.8683) 71%,
+    transparentize($gradientcolour, 0.9219) 77.5%,
+    transparentize($gradientcolour, 0.9635) 84.5%,
+    transparentize($gradientcolour, 0.9904) 91.9%,
+    transparentize($gradientcolour, 1) 100%
+  );  }
+
+$twitter: #1DA1F2;
+$linkedin: #0077b5;
+$instagram: #e1306c;
+$email: colour(teal, 500);

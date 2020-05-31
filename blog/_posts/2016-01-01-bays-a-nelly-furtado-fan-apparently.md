@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 category: sketchbook
 date: '2016-01-01T16:45:40+00:00'
 tags:

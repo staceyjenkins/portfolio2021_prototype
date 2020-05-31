@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 thumb: /img/blog/tumblr_o1eircg1KB1v28ub8o1_1280.jpg
 excerpt: City
 category: sketchbook

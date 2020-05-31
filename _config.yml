@@ -18,40 +18,51 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Stacey Jenkins - Design and Illustration
+title: Stacey 'froginajar' Jenkins - Design and Illustration
 email: hello@staceyjenkins.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/portfolio2021_prototype" # the subpath of your site, e.g. /blog
+baseurl: "portfolio2021_prototype" # the subpath of your site, e.g. /blog
 url: "http://www.staceyjenkins.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-collections:
-    workitems:
-        output: true
-        permalink: /projects/:path/
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "blogpost"
-      pageclass: "blogpost"
-      permalink: /:categories/:title/
-
-lsi: true
+twitter_username: froginajar
+github_username:  staceyjenkins
 
 # Build settings
 theme: minima
-
 plugins:
+  - jekyll-paginate
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-sitemap
+paginate: 10
+paginate_path: "/blog/page:num/"
   
+collections:
+    workitems:
+        output: true
+        permalink: /projects/:name
+    category:
+        output: true
+        permalink: /blog/category/:name
+        
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "blogpost"
+      pageclass: "blogpost"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "category" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "category"
+      pageclass: "blog"
 
+        
 
 # Exclude from processing.
 # The following items will not be processed, by default.

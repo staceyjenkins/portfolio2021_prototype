@@ -1,4 +1,4 @@
-$grid-gap: 30px;
+$grid-gap: $gutter;
 $grid-width: 100% + #{$grid-gap};
 
 body.home .blog{
@@ -93,10 +93,23 @@ body.blog, body.blogpost {
     .post_area .list_of_posts {margin:0;
                                position:relative;
                                overflow:hidden;}
+    
+    ul.pagination_links {
+        display:flex;
+        flex-flow:row wrap;
+    }
 }
 
+body.blogpost {
+    
+    .relatedposts ul.list_of_posts:empty {display:none;}
+}
 
-body.home .blog, body.blog, body.blogpost .relatedposts {
+body.home .blog, body.blog, body.blogpost, body.blogpost .relatedposts {
+    
+    ul.tags, ul.share_links {display:flex;
+    }
+    
     li.post {
         @include gridsupport(){
         display:grid;
@@ -188,7 +201,53 @@ body.home .blog, body.blog, body.blogpost .relatedposts {
 }
 }
 
+
 body.blogpost {
+    
+    .post_footer { border-top:1px solid colour(charcoal, 200);
+             }
+    
+    .page_navigation, .relatedposts, .post_footer {border-bottom:1px solid colour(charcoal, 200);}
+    
+    .post_footer, .page_navigation {
+          display:block;
+          padding: $standardmeasure 0;
+        
+        @include for-size(tablet-portrait-up){
+        display:flex;
+         width: calc(100% + #{$gutter});
+          margin-left: -$gutter/2;
+          margin-right: -$gutter/2;
+        }
+    }
+    
+    .category_block, .share_block, .previous_page, .next_page{
+     width:100%;
+     margin-left:0;
+    margin-right:0;
+        
+        @include for-size(tablet-portrait-up){
+        margin: 0 $gutter/2 0 $gutter/2;
+        width:50%;
+        }
+    }
+    
+    .previous_page, .next_page{
+    background-color: colour(charcoal, 100);
+    padding: calc(1.76rem/2);
+        .navigation_heading {width:100%;
+                             clear:both;}
+    }
+    
+    .previous_page {
+            margin-bottom:$standardmeasure;
+        
+        @include for-size(tablet-portrait-up){
+        
+            margin-bottom:0;
+        }
+    }
+    
     .single_post{margin-top: 1.75rem;}
     .relatedposts {
     .list_of_posts {
@@ -197,4 +256,23 @@ margin:0;
 overflow:hidden;
 }
 }
+}
+
+aside.sidebar {
+    ul.category li {
+        display:block;
+        border-bottom:1px solid colour(charcoal, 300);}
+    
+    ul.category li a {
+        display:inline-flex;
+        width:100%;
+    }
+    
+    ul.category li a .post_count {
+        align-self:flex-end;
+    }
+    
+     ul.category li a strong {
+        flex-grow: 1;
+    }
 }

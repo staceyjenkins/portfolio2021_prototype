@@ -1,5 +1,4 @@
 ---
-layout: single_post
 title: my badass shieldmaiden inspired dwarven paladin
 date: '2016-02-05T22:57:13+00:00'
 tags:

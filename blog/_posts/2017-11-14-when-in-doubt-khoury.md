@@ -1,4 +1,5 @@
 ---
+layout: post
 title: when in doubt khoury
 date: '2017-11-14T08:19:46+00:00'
 tags:

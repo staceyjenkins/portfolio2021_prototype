@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 date: '2018-12-03T22:47:25+00:00'
 tags:
 - artists on tumblr

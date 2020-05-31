@@ -1,4 +1,4 @@
-<li class="post">
+<li class="post {{tag}}">
                         <div class="post_image">
                         <figure class="image_container">
                         <a href="{{post.url}}">
@@ -8,9 +8,15 @@
                         </div>    
                         <div class="post_caption">
                         <header class="post_header">
-                        <p class="post_category">{{post.category}}</p>
                          <h3 class="post_title">{{post.title}}</h3>
-                        <p class="post_time"><time datetime="{{post.date}}">{{post.date | date_to_long_string}}</time></p> 
+                        <p class="post_time"><time datetime="{{post.date}}">{% assign day = post.date | date: "%-d"  %}
+{% case day %}
+  {% when '1' or '21' or '31' %}{{ day }}st
+  {% when '2' or '22' %}{{ day }}nd
+  {% when '3' or '23' %}{{ day }}rd
+  {% else %}{{ day }}th
+{% endcase %}
+{{ post.date | date: "%B, %Y" }}</time></p> 
                     </header>
                         <div class="post_excerpt">
                         <p>{{post.excerpt}}</p>

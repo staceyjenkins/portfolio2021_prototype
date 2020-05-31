@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 date: '2018-04-18T21:52:49+01:00'
 tags:
 - complete
@@ -14,7 +15,6 @@ tags:
 category: illustration
 thumb: ../img/blog/tumblr_p7efc1hFQw1v28ub8o1_1280.png 
 excerpt: The next member in the Oakheart Rebellion tarot is the artificer, Zal.
-layout: blogpost
 ---
 
  ![Zal is a halfling artificer](/img/blog/tumblr_p7efc1hFQw1v28ub8o1_1280.png) 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ely was moping around so i thought id sketch im
 date: '2016-01-30T23:33:25+00:00'
 tags:

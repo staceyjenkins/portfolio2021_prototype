@@ -1,5 +1,13 @@
-$grid-gap: 30px;
-$grid-width: 100% + #{$grid-gap};
+$grid-width: 100% + #{$gutter};
+
+body.home .portfolio{
+    .work_row {
+    @include for-size(tablet-portrait-up){
+    width:75%;
+    margin:0 auto;
+    }
+    }
+}
 
 .portfolio, .relatedwork { 
     .work_list {
@@ -14,8 +22,8 @@ $grid-width: 100% + #{$grid-gap};
         list-style:none;
         display:inline-flex;
         flex-flow:column wrap;
-        width:calc(100% + 30px);
-        margin:0 -15px;
+        width:calc(100% + #{$gutter});
+        margin:0 -$gutter/2;
         position:relative;
         
         @include for-size(tablet-portrait-up){
@@ -32,7 +40,7 @@ $grid-width: 100% + #{$grid-gap};
             padding-top:0;
             width:100%;
         }
-        padding: 0 $grid-gap/2;
+        padding: 0 $gutter/2;
         margin-bottom:1.75rem;
         width:100%;
         

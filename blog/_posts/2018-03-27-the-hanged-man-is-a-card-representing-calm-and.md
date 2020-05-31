@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 date: '2018-03-27T17:15:37+01:00'
 tags:
 - tala
