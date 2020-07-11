@@ -32,11 +32,17 @@ github_username:  staceyjenkins
 # Build settings
 theme: minima
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-sitemap
-paginate: 10
-paginate_path: "/blog/page:num/"
+pagination:
+    enabled: true
+    per_page: 5
+    permalink: '/page:num/'
+    title: ' - page:num'
+    limit: 0
+    sort_field: 'date'
+    sort_reverse: true
   
 collections:
     workitems:
@@ -45,7 +51,9 @@ collections:
     category:
         output: true
         permalink: /blog/category/:name
-        
+   
+permalink: /blog/:categories/:title   
+   
 defaults:
   -
     scope:

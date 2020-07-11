@@ -13,8 +13,6 @@ body.home {
         &.characters {display:block;}
         }
     }
-        
-    
     
          .hero_stroke {
         transition:all 0.2s ease-in;
@@ -28,9 +26,11 @@ body.home {
     }
     
     .titlecontent {
+        .section_wrap {height:100%}
         .title_grid {padding-bottom:1.75rem;}
+        
      @include for-size(tablet-portrait-up){
-            height: 30vw;
+            height: 25vw;
             min-height:600px;
     }
         

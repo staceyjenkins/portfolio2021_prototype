@@ -387,7 +387,7 @@ figure.media, .single_post figure {figcaption, figcaption p {font-style: italic;
        @include setTypeSize(s4); 
     }
             }
-.work_header, .blog_header {@include mainhead();}
+.work_header, .blog_header, .about_header {@include mainhead();}
 
 body.home {
     .page_header {
@@ -410,9 +410,6 @@ body.home {
     .work_header {
         margin-top:0;
         padding:0;
-    @include for-size(big-desktop-up){
-         color:colour(yellow, 200);
-    }
 }
     .client_header{
         font-weight:600;
@@ -428,23 +425,28 @@ body.mywork, body.blog, body.error, body.blogpost {
 
 
 /* portfolio module */
-.portfolio, .relatedwork{
-.work_article .card {
+.portfolio, .relatedwork, .relatedposts{
+.work_article .card, .list_of_related_posts .card {
     .card_caption {text-align:center;}
-    .work_title {@include setTypeSize('s2');
+    .work_title, .post_title {@include setTypeSize('s2');
                  @include setTypeFace('secondary');
                   text-align:left;
                 }
     .work_components {@include subhead();
                       line-height:1.3125rem;
                       margin-top:0;}
-    .work_title a {text-decoration:none;}
-    .work_title a, .work_title a:visited {color: colour(blue, 400);}
+    .work_title a, .post_title a {text-decoration:none;}
+    .work_title a, .work_title a:visited, .post_title a, .post_title a:visited{color: colour(blue, 400);}
     }
-    .work_article .card:hover {
+    .work_article .card:hover, .list_of_related_posts .card:hover {
         .work_title a {color: colour(blue, 600);}
         .work_components {color: colour(teal, 700);}
 }
+}
+
+
+.relatedposts li.post {
+    .post_time {margin-bottom: $standardmeasure;} 
 }
 
 /* work items */
@@ -615,6 +617,9 @@ body.blogpost {
                  @include setTypeSize('s3');
                                }
     }
+    .post_header .post_time {text-align:center;
+                @include setTypeSize('s1');
+                color:colour(teal,700);}
 }
 
 

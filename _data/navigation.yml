@@ -1,4 +1,6 @@
 masthead:
+    - title: "about"
+      url: /#about
     - title: "projects"
       url: /#portfolio
     - title: "Blog"

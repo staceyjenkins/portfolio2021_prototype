@@ -1,18 +1,18 @@
-{% unless page.categories == null %}
+{% unless page.category == null %}
 <div class="relatedposts">
 <h3>Related Posts</h3>
-<ul class="list_of_posts">
-   {% assign maxRelated = 4 %}
-   {% assign minCommonCategories = 2 %}
+<ul class="list_of_related_posts">
+   {% assign maxRelated = 3 %}
+   {% assign minCommonCategories = 1 %}
    {% assign maxRelatedCounter = 0 %}
    
         {% for post in site.posts %}
             {% assign sameCategories = 0 %}
-            {% assign commonCats = '' %}
+            {% assign commonCategories = '' %}
                 
-            {% for category in post.categories %}
+            {% for category in post.category %}
                     {% if post.url != page.url %}
-                        {% if page.categories contains category %}
+                        {% if page.category contains category %}
                             {% assign sameCategories = sameCategories | plus: 1 %}
                             
                             {% capture categorymarkup %}
@@ -23,7 +23,33 @@
             {% endfor %}
         
             {% if sameCategories >= minCommonCategories %}
-                {% include /partials/postloop.html %}
+                <li class="post">
+                        <div class="card">
+                    <div class="card_caption">
+                        <div class="card_text">
+                        <h5 class="post_title">
+                        <a href="{{site.baseurl}}{{item.url}}">
+                        {{post.title}}
+                        </a>    
+                        </h5>
+                        <p class="post_time"><time datetime="{{post.date}}">{% assign day = post.date | date: "%-d"  %}
+{% case day %}
+  {% when '1' or '21' or '31' %}{{ day }}st
+  {% when '2' or '22' %}{{ day }}nd
+  {% when '3' or '23' %}{{ day }}rd
+  {% else %}{{ day }}th
+{% endcase %}
+{{ post.date | date: "%B, %Y" }}</time></p> 
+                        <a class="post_permalink button" href="{{site.baseurl}}{{post.url}}">Read more</a>
+                        </div>
+                        </div>
+                    <div class="card_image">
+                            <figure>
+                            <a href="{{post.url}}">
+                        <img src="{{post.thumb}}" alt="{{post.title}}"/>
+                        </a></figure>
+                        </div> 
+                    </li>
                 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
                 {% if maxRelatedCounter >= maxRelated %}
                     {% break %}

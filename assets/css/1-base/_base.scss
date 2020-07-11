@@ -262,6 +262,7 @@ section {
     &.titlecontent {
         .title_grid {
     @include gridsupport(){
+        height:100%;
         display:grid;
         grid-template-columns: repeat(8, 1fr);
         grid-column-gap: 30px;               
@@ -288,7 +289,97 @@ section {
         .section_content { padding: 1.75rem 0;
             background: colour(teal, 300);}
     }
+    &.about {
+        .about_row {     
+            @include gridsupport(){
+            display:grid;
+            width: 100%;
+            grid-template-columns: repeat(8, 1fr);
+            grid-column-gap: 30px;
+margin: 0;
+            position:relative;
+            overflow:hidden;
+     }
+            
+        }
+        .profile-text {
+            @include gridsupport(){
+                grid-column: 1/-1;
+            }
+            
+            @include for-size(tablet-portrait-up){
+                grid-column: 2/8;
+            }
+        }
+        .services {
+            @include gridsupport(){
+                grid-column: 1/-1;
+            }
+            
+            @include for-size(tablet-portrait-up){
+                grid-column: 2/8;
+            }
+        }
     
+    
+    ul.service-items {width:100%;
+        
+        @include gridsupport(){
+            display:grid;
+            width: 100%;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 30px;
+            margin: 0;
+        
+        }}
+        
+    ul.service-items li {
+        @include gridsupport(){
+            grid-column: 1/-1;
+            display:grid;
+        width: 100%;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 30px;
+margin: 0;
+            position:relative;
+            overflow:hidden;    
+        }
+        
+        @include for-size(tablet-portrait-up){
+            grid-column: span 1;
+        }
+        
+        
+        .icon {
+            @include gridsupport()
+            {grid-column: 1/2;} 
+            
+            @include for-size(tablet-portrait-up){
+                @include gridsupport(){
+                    grid-column:1/-1;
+                }
+            }
+            
+            text-align:center;
+        }
+        
+        .icon figure {max-width:200px;
+                      max-height:200px;
+                      margin:0 auto;
+                     }
+        
+        .service_caption {
+          @include gridsupport()
+            {grid-column: 2/5;}
+            
+               @include for-size(tablet-portrait-up){
+                @include gridsupport(){
+                    grid-column:1/-1;
+                }
+            }
+    }
+}
+        }
 }
 
 .seperator {
@@ -653,7 +744,7 @@ margin:0;
         ul.menu {
             @include gridsupport(){
         display:grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
              grid-template-rows:auto;
   }
         }
@@ -662,7 +753,7 @@ margin:0;
             @include gridsupport(){
                 width:100%;
             }
-            width:33%;
+            width:25%;
         }
     }
 

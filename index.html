@@ -36,11 +36,55 @@ pageclass: home
     </div>
     </section>
     
+     <section class="about" id="about">
+         <div class="section_wrap">
+          <h4 class="about_header">About Me</h4>
+             <div class="about_row">
+        <div class="profile-text">
+          <p>I’m a Welsh full-stack designer and illustrator who loves helping people leap ahead. I love creating fantastic content for fantastic people, from pencil to pixel and pride myself on making great things that do great things for the people I work with.</p>
+          <p>I never sweat the small stuff - every element from image, type and even sound and music, is paramount. But if I’m not pushing pencils or pixels, I’m playing D&amp;D or writing adventures under the alias <strong>froginajar</strong>.</p>
+          <a href="#" class="button cv"><span>Download my CV</span></a>
+        </div>
+                 
+        <div class="services">         
+        <h5>My skillset</h5>
+        <ul class="service-items">
+          <li class="design"> 
+            <div class="icon">
+                <figure><img src="{{site.url}}{{site.baseurl}}/assets/img/design.png" alt="Design"></figure>
+                </div>
+            <div class="service_caption">
+            <h6> Design</h6>
+            <p>I can create and develop a full branding solution, including logo design, full brand guidelines and supporting marketing materials.</p>
+          </li>
+          <li class="digital"> 
+            <div class="icon">
+                 <figure><img src="{{site.url}}{{site.baseurl}}/assets/img/digital.png" alt="Digital"></figure>
+              </div>
+              <div class="service_caption">
+            <h6>Digital</h6>
+            <p>I can design and develop a full functioning, small-scale website from start to finish with responsive design and search engine friendly content as standard.</p>
+            </div>
+          </li>
+          <li class="illustration" style="opacity: 1;">
+            <div class="icon"> <figure><img src="{{site.url}}{{site.baseurl}}/assets/img/illustration.png" alt="Illustration"></figure></div>
+            <div class="service_caption">
+            <h6>Illustration</h6>
+            <p>When not designing or developing, I’m an experienced illustrator and cartoonist, both traditionally and digitally.</p>
+         </div>
+        </li>
+        </ul>
+      </div> 
+      </div>     
+      </div>
+    </section>   
+
+
     <section class="portfolio" id="portfolio">
             {% include /partials/section_top.html %}
             <div class="section_content">   
             <div class="section_wrap">   
-        <h4 class="work_header">Here's what I do...</h4>
+        <h4 class="work_header">Selected Projects</h4>
         <div class="work_row">
                 <ul class="work_list">
                 {% for item in site.workitems %}
@@ -53,7 +97,7 @@ pageclass: home
             {% include /partials/section_bottom.html %}
             </section>
     
-<!--
+
     <section class="blog">
         <div class="section_wrap">
         <h4 class="blog_header">Blog</h4>
@@ -63,7 +107,7 @@ pageclass: home
             {% endfor %}   
         </ul>
             <div class="notebook_link">
-            <a class="button" href="/notebook/">Show more notes</a>
+            <a class="button" href="/blog/">Read more blog entries</a>
             </div>
         </div>
-    </section>-->
+    </section>

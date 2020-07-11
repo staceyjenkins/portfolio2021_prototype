@@ -35,7 +35,7 @@ layout: blog
     <ul class="share_links">
          <li class="heading"><p>Share this post:</p></li>
          <li>
-        <a title="Share on Twitter" href="https://twitter.com/intent/tweet?text={{page.title}} url='{{site.url}}{{site.baseurl}}{{page.url}}'" target="_blank"><i class="fab fa-twitter" aria-hidden="true"><span>Share on Twitter</span></i></a>
+        <a title="Share on Twitter" href="https://twitter.com/intent/tweet?text={{page.title}} {{site.url}}{{site.baseurl}}{{page.url}}" target="_blank"><i class="fab fa-twitter" aria-hidden="true"><span>Share on Twitter</span></i></a>
         </li>
          <li>
         <a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{site.baseurl}}{{page.url}}" target="_blank"><i class="fab fa-facebook" aria-hidden="true"><span>Share on Facebook</span></i> </a>
@@ -59,7 +59,7 @@ layout: blog
   {% endif %}
 </div>
 
-{% include partials/relatedposts.html %}
+{% include /partials/relatedposts.html %}
 
 <div class="comments">
 <h3>Comments</h3>

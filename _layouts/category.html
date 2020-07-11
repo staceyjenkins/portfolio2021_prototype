@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Posts filed under {{page.tag}}
-pagination: 
-  enabled: true
-  category: {{page.tag}}
 ---  
 
 <div class="titlecontent">
@@ -22,6 +19,40 @@ pagination:
                     {% include /partials/postloop.html %}
                     {% endfor %}   
                     </ul>
+                    
+                    {% if paginator.total_pages > 1 %}
+<div class="pagination">
+    <ul class="pagination_links">
+  {% if paginator.previous_page %}
+    <li>    
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  {% else %}
+    <div class="page_nav">&laquo; Prev</div>
+    </li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    <li>  
+    {% if page == paginator.page %}
+      <div class="current">{{ page }}</div>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+        </li>  
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li>   
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% else %}
+    <div class="page_nav">Next &raquo;</div>
+    </li>     
+  {% endif %}
+   </ul>    
+</div>
+{% endif %}
                 </div>
                      
                 {% include /partials/blogsidebar.html %}
