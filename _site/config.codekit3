@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32147",
 "files": {
+	"/.forestry/settings.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.forestry/settings.yml",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -6940,6 +6948,46 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_site/blog/breaking-out-a-new-sketchbook-with-some-witchsona.html",
+		"oF": 0
+		},
+	"/_site/blog/category/illustration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/category/illustration.html",
+		"oF": 0
+		},
+	"/_site/blog/category/jekyll.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/category/jekyll.html",
+		"oF": 0
+		},
+	"/_site/blog/category/review.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/category/review.html",
+		"oF": 0
+		},
+	"/_site/blog/category/sketchbook.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/category/sketchbook.html",
+		"oF": 0
+		},
+	"/_site/blog/category/update.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/category/update.html",
 		"oF": 0
 		},
 	"/_site/blog/christening-the-new-sketchbook-sketchbook.html": {
