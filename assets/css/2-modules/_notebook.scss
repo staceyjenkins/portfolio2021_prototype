@@ -5,7 +5,7 @@ body.home .blog{
     .list_of_posts {margin: 0 $grid-gap/2;}
 }
 
-body.blog, body.blogpost {
+body.blog, body.blogpost, body.error {
     .blogcontent {
         background:#fff url('../../assets/img/texture.png') repeat;
         border-radius: $grid-gap/2;
@@ -105,7 +105,7 @@ body.blogpost {
     .relatedposts ul.list_of_posts:empty {display:none;}
 }
 
-body.home .blog, body.blog {
+body.home .blog, body.blog, body.error {
     
     ul.tags, ul.share_links {display:flex;
     }

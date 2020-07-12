@@ -233,7 +233,9 @@ code {
   margin-top: 0;
 }
 
-p + figure, figure + figure, figure + p {margin:4.5rem 0;}
+p + figure, figure + figure {margin:4.5rem 0;}
+
+figure + p {margin-top:4.5em;}
 
 figure + h3 {margin-top:2rem;}
 
@@ -378,7 +380,7 @@ figure.media, .single_post figure {figcaption, figcaption p {font-style: italic;
 }
 
 /* header module */
-.page_header{@include setTypeSize(s3);
+.page_header, .page_header a:link, .page_header a:visited, .page_header a:hover {@include setTypeSize(s3);
             font-weight:bold;
              @include setTypeFace(secondary);
              color:colour(yellow,100);
@@ -387,6 +389,8 @@ figure.media, .single_post figure {figcaption, figcaption p {font-style: italic;
        @include setTypeSize(s4); 
     }
             }
+
+.page_header a:link, .page_header a:visited, .page_header a:hover {text-decoration:none;}
 .work_header, .blog_header, .about_header {@include mainhead();}
 
 body.home {
@@ -473,12 +477,19 @@ li.post {
             text-align:left;
         }
     }
-    .post_title {@include setTypeSize('s2');
+    .post_title, .post_title a:link, .post_title a:visited {@include setTypeSize('s2');
                 margin:0;
+                 color:colour(blue, 700);
+                text-decoration:none;
         @include for-size(tablet-portrait-up){
             text-align:left;
         }
     
+    }
+    
+    .post_title a:hover {
+        text-decoration:underline;
+        color:colour(blue, 400);
     }
     .post_time {@include setTypeSize('s0');
                 margin:0;
@@ -613,12 +624,11 @@ body.blogpost {
     .post_title {
                   text-align:center;
                 @include setTypeSize('s3');
-                 @include for-size(tablet-landscape-up){
-                 @include setTypeSize('s3');
-                               }
+                margin-bottom:0 !important;
     }
     .post_header .post_time {text-align:center;
                 @include setTypeSize('s1');
+                margin-top:0;
                 color:colour(teal,700);}
 }
 

@@ -162,7 +162,8 @@ $gradientcolour: colour(blue, 600);
     left:0;
     right:0;
     border:0;
-    
+    mask-image: url(/assets/img/header/mask_scaled_alpha.png);
+    mask-mode: alpha;
 }
 
 .title_overlay {@include gridsupport(){
@@ -490,7 +491,18 @@ position:relative;
                 overflow:hidden;
     
         svg {position:relative;
-             bottom:-10px;}
+              max-width:100%;
+            height:100%;
+            vertical-align:top;
+            height:auto;
+            display:inline-block;
+    top:0;
+    left:0;
+    right:0;
+    border:0;
+    mask-image: url(/assets/img/footer/footer_mask_scaled_alpha.png);
+    mask-mode: alpha;
+    mask-position: 0 0;}
     
     }
     .footerstroke {fill:colour(blue,600);}

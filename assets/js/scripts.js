@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	  $.instagramFeed({
-	    'username': 'nicholaskole',
+	    'username': 'froginajar',
 	    'container': "#instagram_feed",
 	    'display_profile': false,
 	    'display_biography': false,
