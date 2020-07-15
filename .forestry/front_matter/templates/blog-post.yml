@@ -23,3 +23,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- _posts/a-forestry.io-test-post.md
