@@ -3,14 +3,15 @@ layout: blog
 title: Blog
 pageclass: blog
 thumb: header/header_top_characters.png
-description: Sketches, design discussions and all round creative stuff from the blog of digital designer and illustrator Stacey Jenkins
-permalink: /blog/
+description: Sketches, design discussions and all round creative stuff from the blog
+  of digital designer and illustrator Stacey Jenkins
+permalink: "/blog/"
 pagination:
   enabled: true
----
 
- <ul class="list_of_posts">
-                    {% for post in paginator.posts %}
+---
+<ul class="list_of_posts">
+                    {% for post in site.posts %}
                     {% include /partials/postloop.html %}
                     {% endfor %}   
                     </ul>
@@ -48,5 +49,3 @@ pagination:
    </ul>    
 </div>
 {% endif %}
-
-    
