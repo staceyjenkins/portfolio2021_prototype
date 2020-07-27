@@ -1,7 +1,7 @@
 <li class="post">
                         <div class="post_image">
                         <figure class="image_container">
-                        <a href="{{post.url}}">
+                        <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
                         <img src="{{post.thumb}}" alt="{{post.title}}"/>
                         </a>
                         </figure>
@@ -22,7 +22,7 @@
                         <p>{{post.excerpt}}</p>
                         </div>
                         <footer class="post_footer">
-                        <a class="post_permalink button" href="{{site.baseurl}}{{post.url}}">Read more</a>
+                        <a class="post_permalink button" href="{{site.url}}{{site.baseurl}}{{post.url}}">Read more</a>
                         </footer>
                         </div>
                     </li>
