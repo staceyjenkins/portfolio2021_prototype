@@ -21,7 +21,7 @@
 title: Stacey 'froginajar' Jenkins - Design and Illustration
 email: hello@staceyjenkins.co.uk
 description: # this means to ignore newlines until "baseurl:"
-Online portfolio for Stacey Jenkins,  a Welsh digital designer and illustrator based in Berkshire. I help people leap ahead and create fantastic content for fantastic people, from pencil to pixel.
+"Online portfolio for Stacey Jenkins, a Welsh digital designer and illustrator based in Berkshire. I help people leap ahead and create fantastic content for fantastic people, from pencil to pixel."
 baseurl: "portfolio2021_prototype" # the subpath of your site, e.g. /blog
 url: "http://www.staceyjenkins.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: froginajar
