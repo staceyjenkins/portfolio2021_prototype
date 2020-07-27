@@ -1,4 +1,5 @@
 ---
+layout: single_post
 title: oh hello roath you appear to have discarded your
 date: '2016-01-27T19:41:09+00:00'
 tags:

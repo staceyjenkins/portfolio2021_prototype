@@ -1,4 +1,5 @@
 ---
+layout: single_post
 title: ely wanted to wish everyone a happy st dwynwens
 date: '2016-01-25T20:16:40+00:00'
 tags:

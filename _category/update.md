@@ -2,7 +2,8 @@
 tag: update
 permalink: blog/category/update
 title: Posts filed under Update
-pagination:
-    enabled: true
+paginate: true
+paginate:
+    per_page: 10
     category: update
 ---

@@ -2,7 +2,8 @@
 tag: sketchbook
 permalink: blog/category/sketchbook
 title: Posts filed under Sketchbook
-pagination:
-    enabled: true
+paginate: true
+paginate:
+    per_page: 10
     category: sketchbook
 ---

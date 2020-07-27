@@ -1,4 +1,5 @@
 ---
+layout: post
 title: my movie mashup poster for critical role is done
 date: '2016-02-07T11:13:42+00:00'
 tags:

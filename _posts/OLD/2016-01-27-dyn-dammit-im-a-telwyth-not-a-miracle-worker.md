@@ -1,4 +1,5 @@
 ---
+layout: single_post
 title: dyn dammit im a telwyth not a miracle worker
 date: '2016-01-27T19:45:02+00:00'
 tags:

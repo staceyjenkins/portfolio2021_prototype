@@ -1,4 +1,5 @@
 ---
+layout: single_post
 title: current status of the telwythtaff tribe top row
 date: '2016-01-29T17:24:09+00:00'
 tags:

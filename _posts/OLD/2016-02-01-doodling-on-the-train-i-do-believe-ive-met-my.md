@@ -1,4 +1,5 @@
 ---
+layout: single_post
 title: doodling on the train i do believe ive met my
 date: '2016-02-01T22:29:06+00:00'
 tags:

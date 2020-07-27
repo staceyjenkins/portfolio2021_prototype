@@ -1,4 +1,5 @@
 ---
+layout: single_post
 title: curled up and scribbled a quick rumney before bed
 date: '2016-01-27T00:25:38+00:00'
 tags:

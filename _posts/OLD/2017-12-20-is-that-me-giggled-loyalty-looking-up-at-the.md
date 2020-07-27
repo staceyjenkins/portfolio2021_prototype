@@ -1,13 +1,15 @@
 ---
-title: Is that me giggled Loyalty
+layout: post
+title: is that me giggled loyalty looking up at the
 date: '2017-12-20T09:13:13+00:00'
 tags:
 - clipstudiopaint
 - tiefling
 - loyalty
 - sketchbook
+tumblr_url: http://illustration.staceyjenkins.co.uk/post/168746059528/is-that-me-giggled-loyalty-looking-up-at-the
 ---
- ![](/img/blog/tumblr_p195m1sMPM1v28ub8o1_1280.jpg)  
+ ![](/tumblr_files/tumblr_p195m1sMPM1v28ub8o1_1280.jpg)  
 
 “Is that me?” giggled Loyalty, looking up at the screen excitedly.
 

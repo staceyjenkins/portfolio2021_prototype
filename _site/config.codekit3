@@ -238,14 +238,6 @@
 		"oAP": "/_includes/_heroarea.html",
 		"oF": 0
 		},
-	"/_includes/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/about.html",
-		"oF": 0
-		},
 	"/_includes/partials/blogsidebar.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -372,6 +364,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_layouts/default.html",
+		"oF": 0
+		},
+	"/_layouts/textpage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_layouts/textpage.html",
 		"oF": 0
 		},
 	"/_layouts/workitem.html": {
@@ -542,14 +542,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_posts/OLD/2016-01-25-ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-01-25-ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html",
-		"oF": 0
-		},
 	"/_posts/OLD/2016-01-25-ely-wanted-to-wish-everyone-a-happy-st-dwynwens.md": {
 		"cB": 0,
 		"cS": 0,
@@ -568,14 +560,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2016-01-26-breaking-out-a-new-sketchbook-with-some-witchsona.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-01-26-breaking-out-a-new-sketchbook-with-some-witchsona.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2016-01-26-breaking-out-a-new-sketchbook-with-some-witchsona.md": {
 		"cB": 0,
@@ -596,14 +580,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_posts/OLD/2016-01-27-curled-up-and-scribbled-a-quick-rumney-before-bed.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-01-27-curled-up-and-scribbled-a-quick-rumney-before-bed.html",
-		"oF": 0
-		},
 	"/_posts/OLD/2016-01-27-curled-up-and-scribbled-a-quick-rumney-before-bed.md": {
 		"cB": 0,
 		"cS": 0,
@@ -622,14 +598,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2016-01-27-dyn-dammit-im-a-telwyth-not-a-miracle-worker.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-01-27-dyn-dammit-im-a-telwyth-not-a-miracle-worker.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2016-01-27-dyn-dammit-im-a-telwyth-not-a-miracle-worker.md": {
 		"cB": 0,
@@ -650,14 +618,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_posts/OLD/2016-01-27-oh-hello-roath-you-appear-to-have-discarded-your.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-01-27-oh-hello-roath-you-appear-to-have-discarded-your.html",
-		"oF": 0
-		},
 	"/_posts/OLD/2016-01-27-oh-hello-roath-you-appear-to-have-discarded-your.md": {
 		"cB": 0,
 		"cS": 0,
@@ -676,14 +636,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2016-01-29-current-status-of-the-telwythtaff-tribe-top-row.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-01-29-current-status-of-the-telwythtaff-tribe-top-row.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2016-01-29-current-status-of-the-telwythtaff-tribe-top-row.md": {
 		"cB": 0,
@@ -704,14 +656,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_posts/OLD/2016-01-30-ely-was-moping-around-so-i-thought-id-sketch-im.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-01-30-ely-was-moping-around-so-i-thought-id-sketch-im.html",
-		"oF": 0
-		},
 	"/_posts/OLD/2016-01-30-ely-was-moping-around-so-i-thought-id-sketch-im.md": {
 		"cB": 0,
 		"cS": 0,
@@ -730,14 +674,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2016-02-01-doodling-on-the-train-i-do-believe-ive-met-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-02-01-doodling-on-the-train-i-do-believe-ive-met-my.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2016-02-01-doodling-on-the-train-i-do-believe-ive-met-my.md": {
 		"cB": 0,
@@ -758,14 +694,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_posts/OLD/2016-02-05-my-badass-shieldmaiden-inspired-dwarven-paladin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-02-05-my-badass-shieldmaiden-inspired-dwarven-paladin.html",
-		"oF": 0
-		},
 	"/_posts/OLD/2016-02-05-my-badass-shieldmaiden-inspired-dwarven-paladin.md": {
 		"cB": 0,
 		"cS": 0,
@@ -784,14 +712,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2016-02-07-heres-the-completed-design-for-my-5e-dwarven.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-02-07-heres-the-completed-design-for-my-5e-dwarven.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2016-02-07-heres-the-completed-design-for-my-5e-dwarven.md": {
 		"cB": 0,
@@ -812,14 +732,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_posts/OLD/2016-02-07-my-movie-mashup-poster-for-critical-role-is-done.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-02-07-my-movie-mashup-poster-for-critical-role-is-done.html",
-		"oF": 0
-		},
 	"/_posts/OLD/2016-02-07-my-movie-mashup-poster-for-critical-role-is-done.md": {
 		"cB": 0,
 		"cS": 0,
@@ -838,14 +750,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2016-02-09-of-all-the-creatures-to-wander-into-my-town-it.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-02-09-of-all-the-creatures-to-wander-into-my-town-it.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2016-02-09-of-all-the-creatures-to-wander-into-my-town-it.md": {
 		"cB": 0,
@@ -922,14 +826,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2016-02-17-finally-completed-this-warm-up-drawing-of-ratta.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2016-02-17-finally-completed-this-warm-up-drawing-of-ratta.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2016-02-17-finally-completed-this-warm-up-drawing-of-ratta.md": {
 		"cB": 0,
@@ -3230,14 +3126,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/_posts/OLD/2017-12-20-is-that-me-giggled-loyalty-looking-up-at-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2017-12-20-is-that-me-giggled-loyalty-looking-up-at-the.html",
-		"oF": 0
-		},
 	"/_posts/OLD/2017-12-20-is-that-me-giggled-loyalty-looking-up-at-the.md": {
 		"cB": 0,
 		"cS": 0,
@@ -3256,14 +3144,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/OLD/2017-12-30-my-best-posts-of-2017.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/OLD/2017-12-30-my-best-posts-of-2017.html",
-		"oF": 0
 		},
 	"/_posts/OLD/2017-12-30-my-best-posts-of-2017.md": {
 		"cB": 0,
@@ -3577,6 +3457,22 @@
 		"oAP": "/_site/404.html",
 		"oF": 1
 		},
+	"/_site/a-cute-little-punky-eel-mermie-for-mermay.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/a-cute-little-punky-eel-mermie-for-mermay.html",
+		"oF": 0
+		},
+	"/_site/a-little-gnomish-comfort-sketch-from-a-few-days.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/a-little-gnomish-comfort-sketch-from-a-few-days.html",
+		"oF": 0
+		},
 	"/_site/about/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3585,6 +3481,46 @@
 		"oAP": "/_site/about/index.html",
 		"oF": 1
 		},
+	"/_site/although-i-properly-drew-this-back-in-2016-this.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/although-i-properly-drew-this-back-in-2016-this.html",
+		"oF": 0
+		},
+	"/_site/an-adorable-lil-ely-study-i-forgot-to-post-dont.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/an-adorable-lil-ely-study-i-forgot-to-post-dont.html",
+		"oF": 0
+		},
+	"/_site/and-heres-the-finished-portrait-of-titania-the.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/and-heres-the-finished-portrait-of-titania-the.html",
+		"oF": 0
+		},
+	"/_site/another-goofy-lou-scannnon-to-break-in-a-new.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/another-goofy-lou-scannnon-to-break-in-a-new.html",
+		"oF": 0
+		},
+	"/_site/aske-had-a-major-character-moment-in-tonights.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/aske-had-a-major-character-moment-in-tonights.html",
+		"oF": 0
+		},
 	"/_site/assets/css/0-tools/fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3592,9 +3528,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/css/0-tools/fonts.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
@@ -3603,18 +3539,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "/_site/assets/css/fonts-min.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"/_site/assets/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
 		"oA": 0,
-		"oAP": "/_site/assets/css/styles-min.css",
+		"oAP": "/_site/assets/css/fonts-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -3625,9 +3551,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/css/styles.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
@@ -3635,48 +3561,48 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Aleo/aleo-bold-webfont.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/Aleo/aleo-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Aleo/aleo-bold-webfont.woff2",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/Aleo/aleo-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Aleo/aleo-regular-webfont.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/Aleo/aleo-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Aleo/aleo-regular-webfont.woff2",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.eot",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -3685,40 +3611,40 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.ttf",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/Fatface/abrilfatface-regular-webfont.woff2",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.eot",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-bold-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -3727,40 +3653,40 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.ttf",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-bold-webfont.woff2",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-italic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.eot",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-italic-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -3769,40 +3695,40 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.ttf",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-italic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-italic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-italic-webfont.woff2",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.eot",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -3811,40 +3737,40 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.ttf",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-regular-webfont.woff2",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-semibold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.eot",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-semibold-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -3853,33 +3779,33 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.ttf",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-semibold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.woff",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/fonts/opensans/opensans-semibold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/fonts/opensans/opensans-semibold-webfont.woff2",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/img/blog/tumblr_o0a984tyWD1v28ub8o1_1280.jpg": {
 		"ft": 16384,
 		"iS": 147648,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o0a984tyWD1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3888,9 +3814,9 @@
 		"ft": 16384,
 		"iS": 35319,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o0jq0bRQPL1v28ub8o1_640.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3899,9 +3825,9 @@
 		"ft": 16384,
 		"iS": 151351,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o0lmrm1e7s1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3909,9 +3835,9 @@
 	"/_site/assets/img/blog/tumblr_o10pdncGXs1v28ub8o1_640.png": {
 		"ft": 32768,
 		"iS": 211645,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o10pdncGXs1v28ub8o1_640.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -3921,9 +3847,9 @@
 		"ft": 16384,
 		"iS": 109218,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1ehz5JqjS1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3932,9 +3858,9 @@
 		"ft": 16384,
 		"iS": 132258,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1ei4djB6W1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3943,9 +3869,9 @@
 		"ft": 16384,
 		"iS": 151622,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1eircg1KB1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3954,9 +3880,9 @@
 		"ft": 16384,
 		"iS": 168655,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1iyzszVPS1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3965,9 +3891,9 @@
 		"ft": 16384,
 		"iS": 137722,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1kbini4n41v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3976,9 +3902,9 @@
 		"ft": 16384,
 		"iS": 140262,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1l56qLOmO1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3987,9 +3913,9 @@
 		"ft": 16384,
 		"iS": 160074,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1mmolYV7a1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -3998,9 +3924,9 @@
 		"ft": 16384,
 		"iS": 82606,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o1mmv23k1P1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4117,7 +4043,7 @@
 		},
 	"/_site/assets/img/blog/tumblr_o2pqkbwgjV1v28ub8o1_1280.png": {
 		"ft": 32768,
-		"iS": 252806,
+		"iS": 146179,
 		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o2pqkbwgjV1v28ub8o1_1280.png",
 		"oF": 0,
@@ -4405,9 +4331,9 @@
 		"ft": 16384,
 		"iS": 116837,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o5p3ydSNUo1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4416,9 +4342,9 @@
 		"ft": 16384,
 		"iS": 142221,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o5qkyiqodG1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4427,9 +4353,9 @@
 		"ft": 16384,
 		"iS": 176579,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o6vl5pd9r71v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4438,9 +4364,9 @@
 		"ft": 16384,
 		"iS": 106421,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o6vlljeIwj1v28ub8o1_640.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4449,9 +4375,9 @@
 		"ft": 16384,
 		"iS": 75209,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o76f6yIKwB1v28ub8o1_640.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4460,9 +4386,9 @@
 		"ft": 16384,
 		"iS": 216488,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o76oskTh6x1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4471,9 +4397,9 @@
 		"ft": 16384,
 		"iS": 204733,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o76oskTh6x1v28ub8o2_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4482,9 +4408,9 @@
 		"ft": 16384,
 		"iS": 208853,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o76oskTh6x1v28ub8o3_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4493,9 +4419,9 @@
 		"ft": 16384,
 		"iS": 205319,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o76oskTh6x1v28ub8o4_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4504,9 +4430,9 @@
 		"ft": 16384,
 		"iS": 233013,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o76oskTh6x1v28ub8o5_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4515,9 +4441,9 @@
 		"ft": 16384,
 		"iS": 318452,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o79qeueSLt1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4526,9 +4452,9 @@
 		"ft": 16384,
 		"iS": 274708,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o7dhrteHO31v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4537,9 +4463,9 @@
 		"ft": 16384,
 		"iS": 203965,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o7dwhcmfnM1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4548,9 +4474,9 @@
 		"ft": 16384,
 		"iS": 216641,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o7e5ceP8NR1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -4559,9 +4485,9 @@
 		"ft": 16384,
 		"iS": 105568,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_o8ejc1tKKF1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5060,7 +4986,7 @@
 		},
 	"/_site/assets/img/blog/tumblr_ojsmmoHafc1v28ub8o1_1280.png": {
 		"ft": 32768,
-		"iS": 559365,
+		"iS": 163071,
 		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ojsmmoHafc1v28ub8o1_1280.png",
 		"oF": 0,
@@ -5084,9 +5010,9 @@
 		"ft": 16384,
 		"iS": 182633,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oko20qWYgS1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5095,9 +5021,9 @@
 		"ft": 16384,
 		"iS": 117446,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_olf0bdkLbI1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5106,9 +5032,9 @@
 		"ft": 16384,
 		"iS": 89255,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_omg8opi4mt1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5117,9 +5043,9 @@
 		"ft": 16384,
 		"iS": 70231,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_omg8opi4mt1v28ub8o2_r1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5128,9 +5054,9 @@
 		"ft": 16384,
 		"iS": 58884,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_omippekLGk1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5139,9 +5065,9 @@
 		"ft": 16384,
 		"iS": 58248,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_omippekLGk1v28ub8o2_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5149,9 +5075,9 @@
 	"/_site/assets/img/blog/tumblr_omtwfyfUJ81v28ub8o1_r1_1280.png": {
 		"ft": 32768,
 		"iS": 368691,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_omtwfyfUJ81v28ub8o1_r1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5160,9 +5086,9 @@
 	"/_site/assets/img/blog/tumblr_one8knmN5Y1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 344438,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_one8knmN5Y1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5172,9 +5098,9 @@
 		"ft": 16384,
 		"iS": 49133,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ono75gIxbB1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5183,9 +5109,9 @@
 		"ft": 16384,
 		"iS": 48619,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ono75gIxbB1v28ub8o2_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5194,9 +5120,9 @@
 		"ft": 16384,
 		"iS": 206464,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ono796t9Ge1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5204,9 +5130,9 @@
 	"/_site/assets/img/blog/tumblr_ooerx3rUQM1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 239308,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ooerx3rUQM1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5216,9 +5142,9 @@
 		"ft": 16384,
 		"iS": 69433,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oolv43gFAx1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5227,9 +5153,9 @@
 		"ft": 16384,
 		"iS": 106534,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ooq5xzOUhy1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5238,9 +5164,9 @@
 		"ft": 16384,
 		"iS": 105248,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ooq7pcmNJg1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5249,9 +5175,9 @@
 		"ft": 16384,
 		"iS": 82018,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_op0c27Vf9P1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5260,9 +5186,9 @@
 		"ft": 16384,
 		"iS": 59927,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_op2v24YwVI1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5270,9 +5196,9 @@
 	"/_site/assets/img/blog/tumblr_opuax60HGl1v28ub8o1_640.png": {
 		"ft": 32768,
 		"iS": 134147,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_opuax60HGl1v28ub8o1_640.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5282,9 +5208,9 @@
 		"ft": 16384,
 		"iS": 51778,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oqg42blbT01v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5293,9 +5219,9 @@
 		"ft": 16384,
 		"iS": 54228,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oqg493p6T61v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5304,9 +5230,9 @@
 		"ft": 16384,
 		"iS": 60652,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oqg4bwg6Hu1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5315,9 +5241,9 @@
 		"ft": 16384,
 		"iS": 80455,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oqg4eyQH4D1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5325,9 +5251,9 @@
 	"/_site/assets/img/blog/tumblr_oqpvgbiFjg1v28ub8o1_540.png": {
 		"ft": 32768,
 		"iS": 183327,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oqpvgbiFjg1v28ub8o1_540.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5337,9 +5263,9 @@
 		"ft": 16384,
 		"iS": 59851,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ori96lczH91v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5347,9 +5273,9 @@
 	"/_site/assets/img/blog/tumblr_orjywk9TK51v28ub8o1_500.png": {
 		"ft": 32768,
 		"iS": 330045,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_orjywk9TK51v28ub8o1_500.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5357,10 +5283,10 @@
 		},
 	"/_site/assets/img/blog/tumblr_orjz7lIBQg1v28ub8o1_1280.png": {
 		"ft": 32768,
-		"iS": 267029,
-		"oA": 1,
+		"iS": 265874,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_orjz7lIBQg1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5370,9 +5296,9 @@
 		"ft": 16384,
 		"iS": 201613,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_os3pgkoyGL1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5381,9 +5307,9 @@
 		"ft": 16384,
 		"iS": 134398,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_os58byiIUd1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5392,9 +5318,9 @@
 		"ft": 16384,
 		"iS": 152290,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ot9yws5KBt1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5403,9 +5329,9 @@
 		"ft": 16384,
 		"iS": 71723,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_otl3050BeZ1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5414,9 +5340,9 @@
 		"ft": 16384,
 		"iS": 44481,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_otl325r7p71v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5425,9 +5351,9 @@
 		"ft": 16384,
 		"iS": 167032,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ousm95QCqm1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5435,9 +5361,9 @@
 	"/_site/assets/img/blog/tumblr_ovzf9xLAkr1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 137501,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ovzf9xLAkr1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5447,9 +5373,9 @@
 		"ft": 16384,
 		"iS": 57548,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_owqw76Km5U1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5458,9 +5384,9 @@
 		"ft": 16384,
 		"iS": 60091,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_owurrgR5yw1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5469,9 +5395,9 @@
 		"ft": 16384,
 		"iS": 55279,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_owy5zwJElP1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5480,9 +5406,9 @@
 		"ft": 16384,
 		"iS": 400548,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_ox9gw3SNJe1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5491,9 +5417,9 @@
 		"ft": 16384,
 		"iS": 83712,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oxns00DCHH1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5502,9 +5428,9 @@
 		"ft": 16384,
 		"iS": 211971,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oxvsfy2r0L1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5513,9 +5439,9 @@
 		"ft": 16384,
 		"iS": 303353,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oylnhhORdw1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5524,9 +5450,9 @@
 		"ft": 16384,
 		"iS": 85404,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oymnr5091N1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5535,9 +5461,9 @@
 		"ft": 16384,
 		"iS": 82366,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_oymnr5091N1v28ub8o2_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5645,9 +5571,9 @@
 		"ft": 16384,
 		"iS": 84871,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p303zwspZ71v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5656,9 +5582,9 @@
 		"ft": 16384,
 		"iS": 112161,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p33yyuNMz51v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5667,9 +5593,9 @@
 		"ft": 16384,
 		"iS": 463929,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p3yhraRuPT1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5678,9 +5604,9 @@
 		"ft": 16384,
 		"iS": 107011,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p4176dMYJ61v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5689,9 +5615,9 @@
 		"ft": 16384,
 		"iS": 76256,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p41eifXuB11v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5700,9 +5626,9 @@
 		"ft": 16384,
 		"iS": 415548,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p4am4yHpxY1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5711,9 +5637,9 @@
 		"ft": 16384,
 		"iS": 346908,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p4amgf6pWI1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5722,9 +5648,9 @@
 		"ft": 16384,
 		"iS": 311199,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p50p6fsy971v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5733,9 +5659,9 @@
 		"ft": 16384,
 		"iS": 280545,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p5mjbvC1uV1v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5744,9 +5670,9 @@
 		"ft": 16384,
 		"iS": 368787,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p5nqtseU981v28ub8o1_1280.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -5754,9 +5680,9 @@
 	"/_site/assets/img/blog/tumblr_p5v02pvPIg1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 167240,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p5v02pvPIg1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5765,9 +5691,9 @@
 	"/_site/assets/img/blog/tumblr_p68p7jzh1X1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 139555,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p68p7jzh1X1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5776,9 +5702,9 @@
 	"/_site/assets/img/blog/tumblr_p68p7kDoPk1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 145540,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p68p7kDoPk1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5787,9 +5713,9 @@
 	"/_site/assets/img/blog/tumblr_p7efc1hFQw1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 138864,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p7efc1hFQw1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5798,9 +5724,9 @@
 	"/_site/assets/img/blog/tumblr_p7ehk6ATcG1v28ub8o1_1280.png": {
 		"ft": 32768,
 		"iS": 385670,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog/tumblr_p7ehk6ATcG1v28ub8o1_1280.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5809,9 +5735,9 @@
 	"/_site/assets/img/clients/bupa.png": {
 		"ft": 32768,
 		"iS": 11668,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/bupa.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5820,9 +5746,9 @@
 	"/_site/assets/img/clients/diageo.png": {
 		"ft": 32768,
 		"iS": 32909,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/diageo.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5831,9 +5757,9 @@
 	"/_site/assets/img/clients/hsbc.png": {
 		"ft": 32768,
 		"iS": 11674,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/hsbc.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5842,9 +5768,9 @@
 	"/_site/assets/img/clients/mands.png": {
 		"ft": 32768,
 		"iS": 12266,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/mands.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5853,9 +5779,9 @@
 	"/_site/assets/img/clients/moo.png": {
 		"ft": 32768,
 		"iS": 7244,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/moo.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5864,9 +5790,9 @@
 	"/_site/assets/img/clients/rmeducation.png": {
 		"ft": 32768,
 		"iS": 14252,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/rmeducation.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5875,9 +5801,9 @@
 	"/_site/assets/img/clients/ssy.png": {
 		"ft": 32768,
 		"iS": 18890,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/ssy.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5886,9 +5812,9 @@
 	"/_site/assets/img/clients/tesco.png": {
 		"ft": 32768,
 		"iS": 9770,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/tesco.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5897,9 +5823,9 @@
 	"/_site/assets/img/clients/waves.png": {
 		"ft": 32768,
 		"iS": 12021,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/waves.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5908,9 +5834,9 @@
 	"/_site/assets/img/clients/webhostingbuzz.png": {
 		"ft": 32768,
 		"iS": 37150,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/webhostingbuzz.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5919,9 +5845,9 @@
 	"/_site/assets/img/clients/which.png": {
 		"ft": 32768,
 		"iS": 12080,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/clients/which.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5929,10 +5855,10 @@
 		},
 	"/_site/assets/img/design.png": {
 		"ft": 32768,
-		"iS": 9847,
-		"oA": 1,
+		"iS": 6403,
+		"oA": 0,
 		"oAP": "/_site/assets/img/design.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5940,10 +5866,10 @@
 		},
 	"/_site/assets/img/digital.png": {
 		"ft": 32768,
-		"iS": 8607,
-		"oA": 1,
+		"iS": 5290,
+		"oA": 0,
 		"oAP": "/_site/assets/img/digital.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5952,9 +5878,9 @@
 	"/_site/assets/img/footer/footer_mask_scaled.png": {
 		"ft": 32768,
 		"iS": 27996,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/footer/footer_mask_scaled.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5962,7 +5888,7 @@
 		},
 	"/_site/assets/img/footer/footer_mask_scaled_alpha.png": {
 		"ft": 32768,
-		"iS": 52793,
+		"iS": 32803,
 		"oA": 0,
 		"oAP": "/_site/assets/img/footer/footer_mask_scaled_alpha.png",
 		"oF": 0,
@@ -5974,9 +5900,9 @@
 	"/_site/assets/img/header/header_bot_characters.png": {
 		"ft": 32768,
 		"iS": 398410,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/header/header_bot_characters.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5985,9 +5911,9 @@
 	"/_site/assets/img/header/header_bot_landscape.png": {
 		"ft": 32768,
 		"iS": 416590,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/header/header_bot_landscape.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -5996,9 +5922,9 @@
 	"/_site/assets/img/header/header_top_characters.png": {
 		"ft": 32768,
 		"iS": 2621017,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/header/header_top_characters.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6007,9 +5933,9 @@
 	"/_site/assets/img/header/header_top_landscape.png": {
 		"ft": 32768,
 		"iS": 2083731,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/header/header_top_landscape.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6017,7 +5943,7 @@
 		},
 	"/_site/assets/img/header/mask_scaled copy.png": {
 		"ft": 32768,
-		"iS": 34134,
+		"iS": 27979,
 		"oA": 0,
 		"oAP": "/_site/assets/img/header/mask_scaled copy.png",
 		"oF": 0,
@@ -6028,7 +5954,7 @@
 		},
 	"/_site/assets/img/header/mask_scaled.png": {
 		"ft": 32768,
-		"iS": 73272,
+		"iS": 27979,
 		"oA": 0,
 		"oAP": "/_site/assets/img/header/mask_scaled.png",
 		"oF": 0,
@@ -6039,7 +5965,7 @@
 		},
 	"/_site/assets/img/header/mask_scaled_alpha.png": {
 		"ft": 32768,
-		"iS": 52625,
+		"iS": 32787,
 		"oA": 0,
 		"oAP": "/_site/assets/img/header/mask_scaled_alpha.png",
 		"oF": 0,
@@ -6050,7 +5976,7 @@
 		},
 	"/_site/assets/img/illustration.png": {
 		"ft": 32768,
-		"iS": 9884,
+		"iS": 6510,
 		"oA": 0,
 		"oAP": "/_site/assets/img/illustration.png",
 		"oF": 0,
@@ -6072,7 +5998,7 @@
 		},
 	"/_site/assets/img/texture.png": {
 		"ft": 32768,
-		"iS": 157996,
+		"iS": 70769,
 		"oA": 0,
 		"oAP": "/_site/assets/img/texture.png",
 		"oF": 0,
@@ -6116,7 +6042,7 @@
 		},
 	"/_site/assets/img/work/awayday_4.png": {
 		"ft": 32768,
-		"iS": 101030,
+		"iS": 28602,
 		"oA": 0,
 		"oAP": "/_site/assets/img/work/awayday_4.png",
 		"oF": 0,
@@ -6171,7 +6097,7 @@
 		},
 	"/_site/assets/img/work/censorship_1.png": {
 		"ft": 32768,
-		"iS": 184168,
+		"iS": 60357,
 		"oA": 0,
 		"oAP": "/_site/assets/img/work/censorship_1.png",
 		"oF": 0,
@@ -6182,7 +6108,7 @@
 		},
 	"/_site/assets/img/work/censorship_2.png": {
 		"ft": 32768,
-		"iS": 146550,
+		"iS": 42681,
 		"oA": 0,
 		"oAP": "/_site/assets/img/work/censorship_2.png",
 		"oF": 0,
@@ -6193,7 +6119,7 @@
 		},
 	"/_site/assets/img/work/censorship_3.png": {
 		"ft": 32768,
-		"iS": 107583,
+		"iS": 31616,
 		"oA": 0,
 		"oAP": "/_site/assets/img/work/censorship_3.png",
 		"oF": 0,
@@ -6413,7 +6339,7 @@
 		},
 	"/_site/assets/img/work/infographic_8.png": {
 		"ft": 32768,
-		"iS": 1171349,
+		"iS": 823069,
 		"oA": 0,
 		"oAP": "/_site/assets/img/work/infographic_8.png",
 		"oF": 0,
@@ -6424,7 +6350,7 @@
 		},
 	"/_site/assets/img/work/infographic_9.png": {
 		"ft": 32768,
-		"iS": 292613,
+		"iS": 198060,
 		"oA": 0,
 		"oAP": "/_site/assets/img/work/infographic_9.png",
 		"oF": 0,
@@ -6457,7 +6383,7 @@
 		},
 	"/_site/assets/img/work/jackpots_2.png": {
 		"ft": 32768,
-		"iS": 227594,
+		"iS": 85317,
 		"oA": 0,
 		"oAP": "/_site/assets/img/work/jackpots_2.png",
 		"oF": 0,
@@ -6536,9 +6462,9 @@
 		"ft": 16384,
 		"iS": 322024,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/rm_4.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6547,19 +6473,19 @@
 		"ft": 16384,
 		"iS": 320033,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/rm_5.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"/_site/assets/img/work/season6_1.png": {
 		"ft": 32768,
-		"iS": 502605,
-		"oA": 1,
+		"iS": 369438,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/season6_1.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6567,10 +6493,10 @@
 		},
 	"/_site/assets/img/work/season6_2.png": {
 		"ft": 32768,
-		"iS": 545196,
-		"oA": 1,
+		"iS": 445069,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/season6_2.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6578,10 +6504,10 @@
 		},
 	"/_site/assets/img/work/season6_3.png": {
 		"ft": 32768,
-		"iS": 434210,
-		"oA": 1,
+		"iS": 413172,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/season6_3.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6591,9 +6517,9 @@
 		"ft": 16384,
 		"iS": 50498,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/turtle_1.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6602,9 +6528,9 @@
 		"ft": 16384,
 		"iS": 231365,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/turtle_2.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6613,9 +6539,9 @@
 		"ft": 16384,
 		"iS": 150706,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/turtle_3.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6624,9 +6550,9 @@
 		"ft": 16384,
 		"iS": 138766,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/turtle_4.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6635,9 +6561,9 @@
 		"ft": 16384,
 		"iS": 323513,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/turtle_5.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6646,9 +6572,9 @@
 		"ft": 16384,
 		"iS": 292162,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/turtle_6.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6657,9 +6583,9 @@
 		"ft": 16384,
 		"iS": 246631,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/turtle_7.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -6667,9 +6593,9 @@
 	"/_site/assets/img/work/which_1.png": {
 		"ft": 32768,
 		"iS": 62187,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/which_1.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6678,9 +6604,9 @@
 	"/_site/assets/img/work/which_2.png": {
 		"ft": 32768,
 		"iS": 19145,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/which_2.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6689,9 +6615,9 @@
 	"/_site/assets/img/work/which_3.png": {
 		"ft": 32768,
 		"iS": 34125,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/which_3.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6699,10 +6625,10 @@
 		},
 	"/_site/assets/img/work/which_a.png": {
 		"ft": 32768,
-		"iS": 100443,
-		"oA": 1,
+		"iS": 26899,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/which_a.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6711,9 +6637,9 @@
 	"/_site/assets/img/work/which_b.png": {
 		"ft": 32768,
 		"iS": 53227,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/which_b.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6721,10 +6647,10 @@
 		},
 	"/_site/assets/img/work/which_c.png": {
 		"ft": 32768,
-		"iS": 103302,
-		"oA": 1,
+		"iS": 25785,
+		"oA": 0,
 		"oAP": "/_site/assets/img/work/which_c.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6746,9 +6672,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/js/disqusloader-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -6879,116 +6805,44 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/_site/blog/a-cute-little-punky-eel-mermie-for-mermay.html": {
+	"/_site/attempting-to-learn-blueskywolf09s-tala.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/a-cute-little-punky-eel-mermie-for-mermay.html",
+		"oAP": "/_site/attempting-to-learn-blueskywolf09s-tala.html",
 		"oF": 0
 		},
-	"/_site/blog/a-little-gnomish-comfort-sketch-from-a-few-days.html": {
+	"/_site/been-drawing-a-lot-of-modern-khoury-and-loyalty.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/a-little-gnomish-comfort-sketch-from-a-few-days.html",
+		"oAP": "/_site/been-drawing-a-lot-of-modern-khoury-and-loyalty.html",
 		"oF": 0
 		},
-	"/_site/blog/although-i-properly-drew-this-back-in-2016-this.html": {
+	"/_site/been-redrawing-my-buddy-krauzer168s-ronin.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/although-i-properly-drew-this-back-in-2016-this.html",
+		"oAP": "/_site/been-redrawing-my-buddy-krauzer168s-ronin.html",
 		"oF": 0
 		},
-	"/_site/blog/an-adorable-lil-ely-study-i-forgot-to-post-dont.html": {
+	"/_site/been-trying-to-push-frog-in-a-jars-design-away.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/an-adorable-lil-ely-study-i-forgot-to-post-dont.html",
+		"oAP": "/_site/been-trying-to-push-frog-in-a-jars-design-away.html",
 		"oF": 0
 		},
-	"/_site/blog/and-heres-the-finished-portrait-of-titania-the.html": {
+	"/_site/birthday-sketch-for-my-good-friend-dan-aka.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/and-heres-the-finished-portrait-of-titania-the.html",
-		"oF": 0
-		},
-	"/_site/blog/another-goofy-lou-scannnon-to-break-in-a-new.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/another-goofy-lou-scannnon-to-break-in-a-new.html",
-		"oF": 0
-		},
-	"/_site/blog/aske-had-a-major-character-moment-in-tonights.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/aske-had-a-major-character-moment-in-tonights.html",
-		"oF": 0
-		},
-	"/_site/blog/attempting-to-learn-blueskywolf09s-tala.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/attempting-to-learn-blueskywolf09s-tala.html",
-		"oF": 0
-		},
-	"/_site/blog/been-drawing-a-lot-of-modern-khoury-and-loyalty.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/been-drawing-a-lot-of-modern-khoury-and-loyalty.html",
-		"oF": 0
-		},
-	"/_site/blog/been-redrawing-my-buddy-krauzer168s-ronin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/been-redrawing-my-buddy-krauzer168s-ronin.html",
-		"oF": 0
-		},
-	"/_site/blog/been-trying-to-push-frog-in-a-jars-design-away.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/been-trying-to-push-frog-in-a-jars-design-away.html",
-		"oF": 0
-		},
-	"/_site/blog/birthday-sketch-for-my-good-friend-dan-aka.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/birthday-sketch-for-my-good-friend-dan-aka.html",
-		"oF": 0
-		},
-	"/_site/blog/breaking-in-a-new-sketchbook-with-scribbly-dd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/breaking-in-a-new-sketchbook-with-scribbly-dd.html",
-		"oF": 0
-		},
-	"/_site/blog/breaking-out-a-new-sketchbook-with-some-witchsona.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/breaking-out-a-new-sketchbook-with-some-witchsona.html",
+		"oAP": "/_site/birthday-sketch-for-my-good-friend-dan-aka.html",
 		"oF": 0
 		},
 	"/_site/blog/category/illustration.html": {
@@ -7031,438 +6885,6 @@
 		"oAP": "/_site/blog/category/update.html",
 		"oF": 0
 		},
-	"/_site/blog/christening-the-new-sketchbook-sketchbook.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/christening-the-new-sketchbook-sketchbook.html",
-		"oF": 0
-		},
-	"/_site/blog/completed-the-crests-for-my-dd-group-the-6bs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/completed-the-crests-for-my-dd-group-the-6bs.html",
-		"oF": 0
-		},
-	"/_site/blog/curled-up-and-scribbled-a-quick-rumney-before-bed.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/curled-up-and-scribbled-a-quick-rumney-before-bed.html",
-		"oF": 0
-		},
-	"/_site/blog/current-status-of-the-telwythtaff-tribe-top-row.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/current-status-of-the-telwythtaff-tribe-top-row.html",
-		"oF": 0
-		},
-	"/_site/blog/d-doodles-aske-embodies-the-phrase-pride-before.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/d-doodles-aske-embodies-the-phrase-pride-before.html",
-		"oF": 0
-		},
-	"/_site/blog/d-doodles-my-groups-tiefling-fighter-glory.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/d-doodles-my-groups-tiefling-fighter-glory.html",
-		"oF": 0
-		},
-	"/_site/blog/designing-askes-new-plate-armour-while-catching.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/designing-askes-new-plate-armour-while-catching.html",
-		"oF": 0
-		},
-	"/_site/blog/despite-ely-being-based-on-a-golden-lion-tamarin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/despite-ely-being-based-on-a-golden-lion-tamarin.html",
-		"oF": 0
-		},
-	"/_site/blog/doodling-aske-and-eir-koruban-again-my-dwarven.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/doodling-aske-and-eir-koruban-again-my-dwarven.html",
-		"oF": 0
-		},
-	"/_site/blog/doodling-on-the-train-i-do-believe-ive-met-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/doodling-on-the-train-i-do-believe-ive-met-my.html",
-		"oF": 0
-		},
-	"/_site/blog/doodling-some-frog-in-a-jars-playing-around-with.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/doodling-some-frog-in-a-jars-playing-around-with.html",
-		"oF": 0
-		},
-	"/_site/blog/dyn-dammit-im-a-telwyth-not-a-miracle-worker.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/dyn-dammit-im-a-telwyth-not-a-miracle-worker.html",
-		"oF": 0
-		},
-	"/_site/blog/ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html",
-		"oF": 0
-		},
-	"/_site/blog/ely-was-moping-around-so-i-thought-id-sketch-im.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/ely-was-moping-around-so-i-thought-id-sketch-im.html",
-		"oF": 0
-		},
-	"/_site/blog/finally-completed-my-new-twitter-banner-starring.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/finally-completed-my-new-twitter-banner-starring.html",
-		"oF": 0
-		},
-	"/_site/blog/finally-completed-the-album-cover-art-for-ratta.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/finally-completed-the-album-cover-art-for-ratta.html",
-		"oF": 0
-		},
-	"/_site/blog/finally-completed-this-warm-up-drawing-of-ratta.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/finally-completed-this-warm-up-drawing-of-ratta.html",
-		"oF": 0
-		},
-	"/_site/blog/finally-finished-my-portrait-of-the-latest-member.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/finally-finished-my-portrait-of-the-latest-member.html",
-		"oF": 0
-		},
-	"/_site/blog/finally-finished-this-portrait-of-the-telwyth.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/finally-finished-this-portrait-of-the-telwyth.html",
-		"oF": 0
-		},
-	"/_site/blog/finally-got-this-beast-of-a-fan-sketch-done-for.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/finally-got-this-beast-of-a-fan-sketch-done-for.html",
-		"oF": 0
-		},
-	"/_site/blog/finally-managed-to-get-a-sketch-done-of-ratta-and.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/finally-managed-to-get-a-sketch-done-of-ratta-and.html",
-		"oF": 0
-		},
-	"/_site/blog/frog-in-a-jar-sketchdump-bought-myself-a-new.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/frog-in-a-jar-sketchdump-bought-myself-a-new.html",
-		"oF": 0
-		},
-	"/_site/blog/froginajar-merry-christmas-from-my-crazy-family.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/froginajar-merry-christmas-from-my-crazy-family.html",
-		"oF": 0
-		},
-	"/_site/blog/going-through-some-bad-brain-time-so-doodled-some.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/going-through-some-bad-brain-time-so-doodled-some.html",
-		"oF": 0
-		},
-	"/_site/blog/guess-whos-playing-pokemon-go-im-not-sure-if.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/guess-whos-playing-pokemon-go-im-not-sure-if.html",
-		"oF": 0
-		},
-	"/_site/blog/happy-birthday-to-krauzer168-heres-his.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/happy-birthday-to-krauzer168-heres-his.html",
-		"oF": 0
-		},
-	"/_site/blog/happy-birthday-to-my-good-friend-and-fellow-dd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/happy-birthday-to-my-good-friend-and-fellow-dd.html",
-		"oF": 0
-		},
-	"/_site/blog/happy-birthday-to-the-almighty-dm-dasacht.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/happy-birthday-to-the-almighty-dm-dasacht.html",
-		"oF": 0
-		},
-	"/_site/blog/hello-again-all-and-hello-to-instagram-again.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/hello-again-all-and-hello-to-instagram-again.html",
-		"oF": 0
-		},
-	"/_site/blog/hello-khepri-much-much-happier-with-this.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/hello-khepri-much-much-happier-with-this.html",
-		"oF": 0
-		},
-	"/_site/blog/heres-my-2017bestnine-on-instagram-be-they.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/heres-my-2017bestnine-on-instagram-be-they.html",
-		"oF": 0
-		},
-	"/_site/blog/heres-my-entry-for-the-scary-zine-squad-this-was.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/heres-my-entry-for-the-scary-zine-squad-this-was.html",
-		"oF": 0
-		},
-	"/_site/blog/heres-my-finished-piece-that-i-submitted-to-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/heres-my-finished-piece-that-i-submitted-to-the.html",
-		"oF": 0
-		},
-	"/_site/blog/heres-the-completed-design-for-my-5e-dwarven.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/heres-the-completed-design-for-my-5e-dwarven.html",
-		"oF": 0
-		},
-	"/_site/blog/heres-the-third-of-the-soldiers-of-fate-crests.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/heres-the-third-of-the-soldiers-of-fate-crests.html",
-		"oF": 0
-		},
-	"/_site/blog/hi-ratta-still-getting-to-know-pipsqueek-but.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/hi-ratta-still-getting-to-know-pipsqueek-but.html",
-		"oF": 0
-		},
-	"/_site/blog/hi-rumney-i-missed-ya-telwythtaff.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/hi-rumney-i-missed-ya-telwythtaff.html",
-		"oF": 0
-		},
-	"/_site/blog/i-appear-to-have-inherited-a-golden-irish.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-appear-to-have-inherited-a-golden-irish.html",
-		"oF": 0
-		},
-	"/_site/blog/i-bought-this-little-notebook-around-twothree.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-bought-this-little-notebook-around-twothree.html",
-		"oF": 0
-		},
-	"/_site/blog/i-had-a-plan-for-coxcon-and-then-life-happened.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-had-a-plan-for-coxcon-and-then-life-happened.html",
-		"oF": 0
-		},
-	"/_site/blog/i-have-a-real-soft-spot-for-this-feisty-seagull.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-have-a-real-soft-spot-for-this-feisty-seagull.html",
-		"oF": 0
-		},
-	"/_site/blog/i-initially-started-this-painting-as-just-a.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-initially-started-this-painting-as-just-a.html",
-		"oF": 0
-		},
-	"/_site/blog/i-love-garmili-that-little-con-artist.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-love-garmili-that-little-con-artist.html",
-		"oF": 0
-		},
-	"/_site/blog/i-make-a-pretty-natty-druid-sketchbook.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-make-a-pretty-natty-druid-sketchbook.html",
-		"oF": 0
-		},
-	"/_site/blog/i-recently-switched-to-firealpaca-for-inking.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/i-recently-switched-to-firealpaca-for-inking.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/as-you-enter-the-three-horseshoes-tavern-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/as-you-enter-the-three-horseshoes-tavern-the.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/but-he-that-dares-not-grasp-the-thorn-should.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/but-he-that-dares-not-grasp-the-thorn-should.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/finished-test-painting-of-ely-i-drawpaint-this.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/finished-test-painting-of-ely-i-drawpaint-this.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/thane-dasachts-fighterpaladin-multi-class.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/thane-dasachts-fighterpaladin-multi-class.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/the-finished-token-for-alistair-dartwood-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/the-finished-token-for-alistair-dartwood-my.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/the-hanged-man-is-a-card-representing-calm-and.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/the-hanged-man-is-a-card-representing-calm-and.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/the-next-member-in-theoakheart-rebellion-tarot-is.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/the-next-member-in-theoakheart-rebellion-tarot-is.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/the-sun-is-an-incredibly-happy-positive-card.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/the-sun-is-an-incredibly-happy-positive-card.html",
-		"oF": 0
-		},
-	"/_site/blog/illustration/were-carnival-people-we-all-have-our-issues.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/illustration/were-carnival-people-we-all-have-our-issues.html",
-		"oF": 0
-		},
 	"/_site/blog/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -7471,1028 +6893,204 @@
 		"oAP": "/_site/blog/index.html",
 		"oF": 1
 		},
-	"/_site/blog/is-that-me-giggled-loyalty-looking-up-at-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/is-that-me-giggled-loyalty-looking-up-at-the.html",
-		"oF": 0
-		},
-	"/_site/blog/it-hasnt-been-very-summery-in-the-pad-recently.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/it-hasnt-been-very-summery-in-the-pad-recently.html",
-		"oF": 0
-		},
-	"/_site/blog/ive-had-a-mighty-need-to-develop-my-steampunk.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/ive-had-a-mighty-need-to-develop-my-steampunk.html",
-		"oF": 0
-		},
-	"/_site/blog/jekyll/update/welcome-to-jekyll.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/jekyll/update/welcome-to-jekyll.html",
-		"oF": 0
-		},
-	"/_site/blog/khoury-my-little-egyptian-fennec-fox-druid-made-a.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/khoury-my-little-egyptian-fennec-fox-druid-made-a.html",
-		"oF": 0
-		},
-	"/_site/blog/kinda-adorable-keyleth-warm-up-for-this-morning-i.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/kinda-adorable-keyleth-warm-up-for-this-morning-i.html",
-		"oF": 0
-		},
-	"/_site/blog/lady-kelq-wen-tamaras-wing-devout-healer-but.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/lady-kelq-wen-tamaras-wing-devout-healer-but.html",
-		"oF": 0
-		},
-	"/_site/blog/long-time-no-see-ely-hes-wearing-his-ears.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/long-time-no-see-ely-hes-wearing-his-ears.html",
-		"oF": 0
-		},
-	"/_site/blog/look-at-this-little-dork-i-desperately-want-to.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/look-at-this-little-dork-i-desperately-want-to.html",
-		"oF": 0
-		},
-	"/_site/blog/meet-kelq-wen-shes-my-new-white-dragonborn.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/meet-kelq-wen-shes-my-new-white-dragonborn.html",
-		"oF": 0
-		},
-	"/_site/blog/merry-christmas-from-my-crazy-family-of-characters.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/merry-christmas-from-my-crazy-family-of-characters.html",
-		"oF": 0
-		},
-	"/_site/blog/more-gentle-giant-journey-sketches-done-while.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/more-gentle-giant-journey-sketches-done-while.html",
-		"oF": 0
-		},
-	"/_site/blog/my-album-cover-for-loyalty-and-blueskywolf09s.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-album-cover-for-loyalty-and-blueskywolf09s.html",
-		"oF": 0
-		},
-	"/_site/blog/my-badass-shieldmaiden-inspired-dwarven-paladin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-badass-shieldmaiden-inspired-dwarven-paladin.html",
-		"oF": 0
-		},
-	"/_site/blog/my-best-posts-of-2017.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-best-posts-of-2017.html",
-		"oF": 0
-		},
-	"/_site/blog/my-boyfriend-dasacht-and-i-are-celebrating-our.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-boyfriend-dasacht-and-i-are-celebrating-our.html",
-		"oF": 0
-		},
-	"/_site/blog/my-boyfriends-little-gnomish-tinkerer-pinter-has.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-boyfriends-little-gnomish-tinkerer-pinter-has.html",
-		"oF": 0
-		},
-	"/_site/blog/my-dwarven-paladin-aske-offers-blueskywolf09s.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-dwarven-paladin-aske-offers-blueskywolf09s.html",
-		"oF": 0
-		},
-	"/_site/blog/my-green-dwarf-paladin-aske-was-given-a-composite.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-green-dwarf-paladin-aske-was-given-a-composite.html",
-		"oF": 0
-		},
-	"/_site/blog/my-little-2017-reboot-of-elys-design-is-done.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-little-2017-reboot-of-elys-design-is-done.html",
-		"oF": 0
-		},
-	"/_site/blog/my-movie-mashup-poster-for-critical-role-is-done.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/my-movie-mashup-poster-for-critical-role-is-done.html",
-		"oF": 0
-		},
-	"/_site/blog/never-underestimate-things-that-come-in-small.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/never-underestimate-things-that-come-in-small.html",
-		"oF": 0
-		},
-	"/_site/blog/now-i-can-reveal-what-ive-been-working-on-since.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/now-i-can-reveal-what-ive-been-working-on-since.html",
-		"oF": 0
-		},
-	"/_site/blog/of-all-the-creatures-to-wander-into-my-town-it.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/of-all-the-creatures-to-wander-into-my-town-it.html",
-		"oF": 0
-		},
-	"/_site/blog/oh-hello-roath-you-appear-to-have-discarded-your.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/oh-hello-roath-you-appear-to-have-discarded-your.html",
-		"oF": 0
-		},
-	"/_site/blog/oh-ks-you-know-so-much-better-than-to-tempt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/oh-ks-you-know-so-much-better-than-to-tempt.html",
-		"oF": 0
-		},
-	"/_site/blog/one-of-two-sketches-on-the-train-during-a-very.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/one-of-two-sketches-on-the-train-during-a-very.html",
-		"oF": 0
-		},
-	"/_site/blog/page10/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page10/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page11/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page11/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page12/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page12/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page13/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page13/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page14/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page14/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page15/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page15/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page16/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page16/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page17/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page17/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page18/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page18/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page19/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page19/index.html",
-		"oF": 1
-		},
 	"/_site/blog/page2/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page2/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page20/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page20/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page21/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page21/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page22/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page22/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page23/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page23/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page24/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page24/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page25/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page25/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page26/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page26/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page27/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page27/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page28/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page28/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page29/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page29/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/page3/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page3/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page30/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page30/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page31/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page31/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page32/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page32/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page33/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page33/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page34/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page34/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page35/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page35/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page36/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page36/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/page4/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page4/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/page5/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page5/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page6/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page6/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page7/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page7/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page8/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page8/index.html",
-		"oF": 1
-		},
-	"/_site/blog/page9/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/blog/page9/index.html",
-		"oF": 1
-		},
-	"/_site/blog/peace-peace-love-love-blueskywolf09-rightly.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/peace-peace-love-love-blueskywolf09-rightly.html",
-		"oF": 0
-		},
-	"/_site/blog/pinter-brunel-spazzlespork-my-bfs-little-gnome.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/pinter-brunel-spazzlespork-my-bfs-little-gnome.html",
-		"oF": 0
-		},
-	"/_site/blog/playing-around-with-a-new-ward-idea-so-far-he.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/playing-around-with-a-new-ward-idea-so-far-he.html",
-		"oF": 0
-		},
-	"/_site/blog/probably-the-most-together-ive-drawn.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/probably-the-most-together-ive-drawn.html",
-		"oF": 0
-		},
-	"/_site/blog/quick-design-sketch-concept-of-my-latest-water.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/quick-design-sketch-concept-of-my-latest-water.html",
-		"oF": 0
-		},
-	"/_site/blog/rattas-hair-is-actually-quite-long-she-ties-it.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/rattas-hair-is-actually-quite-long-she-ties-it.html",
-		"oF": 0
-		},
-	"/_site/blog/review/and-thus-tumblr-hit-the-iceberg.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/review/and-thus-tumblr-hit-the-iceberg.html",
-		"oF": 0
-		},
-	"/_site/blog/review/ive-never-seen-snow-before-chirped-khoury.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/review/ive-never-seen-snow-before-chirped-khoury.html",
-		"oF": 0
-		},
-	"/_site/blog/rumney-wanted-to-say-hi-this-morning.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/rumney-wanted-to-say-hi-this-morning.html",
-		"oF": 0
-		},
-	"/_site/blog/say-hi-to-my-newest-dd-character-white.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/say-hi-to-my-newest-dd-character-white.html",
-		"oF": 0
-		},
-	"/_site/blog/say-hi-to-temperance-my-newest-dd-character-and.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/say-hi-to-temperance-my-newest-dd-character-and.html",
-		"oF": 0
-		},
-	"/_site/blog/set-your-heart-at-rest-the-fairyland-buys-not.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/set-your-heart-at-rest-the-fairyland-buys-not.html",
-		"oF": 0
-		},
-	"/_site/blog/sketch-of-my-two-paladin-sisters-aske-and-eir.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketch-of-my-two-paladin-sisters-aske-and-eir.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook-catch-ups-a-few-studies-of-my-bfs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook-catch-ups-a-few-studies-of-my-bfs.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook-catch-ups-some-scribbly-human-loyaltys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook-catch-ups-some-scribbly-human-loyaltys.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook-doodles-from-lunch-share-morlas.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook-doodles-from-lunch-share-morlas.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook-dump-design-sketches-for-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook-dump-design-sketches-for-my.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook-dump-practice-studies-for-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook-dump-practice-studies-for-my.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook-dump-some-quick-little-frog-in-a-jar.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook-dump-some-quick-little-frog-in-a-jar.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook-dump-you-can-always-fallback-on.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook-dump-you-can-always-fallback-on.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/bays-a-nelly-furtado-fan-apparently.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/bays-a-nelly-furtado-fan-apparently.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/bringing-an-old-friend-back-from-the-dead-a.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/bringing-an-old-friend-back-from-the-dead-a.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/figuring-out-heath-the-lone-wolf-of-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/figuring-out-heath-the-lone-wolf-of-the.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/froginajar-look-at-this-little-dork-i.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/froginajar-look-at-this-little-dork-i.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/i-always-seem-to-draw-city-planning-or-scheming-in.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/i-always-seem-to-draw-city-planning-or-scheming-in.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/i-finally-caved-in-and-bought-an-ipad-pro-and.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/i-finally-caved-in-and-bought-an-ipad-pro-and.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/in-these-times-nothing-is-certain-my-child.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/in-these-times-nothing-is-certain-my-child.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/long-time-no-post-tadpoles-cant-say-ive-had.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/long-time-no-post-tadpoles-cant-say-ive-had.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/my-little-animation-experiment-with-rumney-now.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/my-little-animation-experiment-with-rumney-now.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/rumney-the-physical-embodiment-of-a-hug-ive-had.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/rumney-the-physical-embodiment-of-a-hug-ive-had.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/since-ive-learned-how-to-get-my-wips-from-my.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/since-ive-learned-how-to-get-my-wips-from-my.html",
-		"oF": 0
-		},
-	"/_site/blog/sketchbook/whos-that-chirped-loyalty-looking-over-the.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sketchbook/whos-that-chirped-loyalty-looking-over-the.html",
-		"oF": 0
-		},
-	"/_site/blog/so-a-cute-thing-happened-on-the-way-to-london.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/so-a-cute-thing-happened-on-the-way-to-london.html",
-		"oF": 0
-		},
-	"/_site/blog/so-a-thing-happened-a-little-thing-called-wild.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/so-a-thing-happened-a-little-thing-called-wild.html",
-		"oF": 0
-		},
-	"/_site/blog/so-i-might-be-a-nerd-a-big-one-im-currently.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/so-i-might-be-a-nerd-a-big-one-im-currently.html",
-		"oF": 0
-		},
-	"/_site/blog/so-what-you-doin-yeah-i-still-love-these.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/so-what-you-doin-yeah-i-still-love-these.html",
-		"oF": 0
-		},
-	"/_site/blog/so-youve-read-about-thievery-but-youre-too.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/so-youve-read-about-thievery-but-youre-too.html",
-		"oF": 0
-		},
-	"/_site/blog/some-development-on-my-little-egyptian-fennec-fox.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/some-development-on-my-little-egyptian-fennec-fox.html",
-		"oF": 0
-		},
-	"/_site/blog/some-gnomish-looking-sketches-to-break-in-a-new.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/some-gnomish-looking-sketches-to-break-in-a-new.html",
-		"oF": 0
-		},
-	"/_site/blog/some-more-ks-design-sketches-from-the-train.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/some-more-ks-design-sketches-from-the-train.html",
-		"oF": 0
-		},
-	"/_site/blog/some-recent-ratta-scribbles-from-the-sketchbook.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/some-recent-ratta-scribbles-from-the-sketchbook.html",
-		"oF": 0
-		},
-	"/_site/blog/some-train-sketches-of-some-old-friends-i-swear.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/some-train-sketches-of-some-old-friends-i-swear.html",
-		"oF": 0
-		},
-	"/_site/blog/sometimes-the-best-partnerships-spring-out-of.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sometimes-the-best-partnerships-spring-out-of.html",
-		"oF": 0
-		},
-	"/_site/blog/sorry-pinter-but-harry-potter-you-are-not.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/sorry-pinter-but-harry-potter-you-are-not.html",
-		"oF": 0
-		},
-	"/_site/blog/stealing-paint-is-one-thing-but-making-worlds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_site/blog/stealing-paint-is-one-thing-but-making-worlds.html",
 		"oF": 0
 		},
-	"/_site/blog/still-sketching-dasachts-nerdy-stone-gnome.html": {
+	"/_site/breaking-in-a-new-sketchbook-with-scribbly-dd.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/still-sketching-dasachts-nerdy-stone-gnome.html",
+		"oAP": "/_site/breaking-in-a-new-sketchbook-with-scribbly-dd.html",
 		"oF": 0
 		},
-	"/_site/blog/studying-misscurls101s-glory-on-the-train.html": {
+	"/_site/breaking-out-a-new-sketchbook-with-some-witchsona.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/studying-misscurls101s-glory-on-the-train.html",
+		"oAP": "/_site/breaking-out-a-new-sketchbook-with-some-witchsona.html",
 		"oF": 0
 		},
-	"/_site/blog/super-quick-doodles-from-the-oc-outfit-challenge.html": {
+	"/_site/category/illustration.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/super-quick-doodles-from-the-oc-outfit-challenge.html",
+		"oAP": "/_site/category/illustration.html",
 		"oF": 0
 		},
-	"/_site/blog/tfw-you-cant-get-a-joke-out-of-your-head-yep.html": {
+	"/_site/category/jekyll.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/tfw-you-cant-get-a-joke-out-of-your-head-yep.html",
+		"oAP": "/_site/category/jekyll.html",
 		"oF": 0
 		},
-	"/_site/blog/the-best-thing-about-living-in-the-rainforest-is.html": {
+	"/_site/category/review.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/the-best-thing-about-living-in-the-rainforest-is.html",
+		"oAP": "/_site/category/review.html",
 		"oF": 0
 		},
-	"/_site/blog/the-finished-set-of-tokens-for-my-lovable-band-of.html": {
+	"/_site/category/sketchbook.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/the-finished-set-of-tokens-for-my-lovable-band-of.html",
+		"oAP": "/_site/category/sketchbook.html",
 		"oF": 0
 		},
-	"/_site/blog/the-first-of-an-updated-set-of-crests-for-my-dd.html": {
+	"/_site/category/update.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/the-first-of-an-updated-set-of-crests-for-my-dd.html",
+		"oAP": "/_site/category/update.html",
 		"oF": 0
 		},
-	"/_site/blog/the-fourth-crest-for-the-soldiers-of-fate-this.html": {
+	"/_site/christening-the-new-sketchbook-sketchbook.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/the-fourth-crest-for-the-soldiers-of-fate-this.html",
+		"oAP": "/_site/christening-the-new-sketchbook-sketchbook.html",
 		"oF": 0
 		},
-	"/_site/blog/the-frog-returns-and-a-rare-breed-at-that.html": {
+	"/_site/completed-the-crests-for-my-dd-group-the-6bs.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/the-frog-returns-and-a-rare-breed-at-that.html",
+		"oAP": "/_site/completed-the-crests-for-my-dd-group-the-6bs.html",
 		"oF": 0
 		},
-	"/_site/blog/the-man-himself-baresarkartist-asked-me-for-my.html": {
+	"/_site/curled-up-and-scribbled-a-quick-rumney-before-bed.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/the-man-himself-baresarkartist-asked-me-for-my.html",
+		"oAP": "/_site/curled-up-and-scribbled-a-quick-rumney-before-bed.html",
 		"oF": 0
 		},
-	"/_site/blog/theres-little-different-between-rats-in-a-sewer.html": {
+	"/_site/current-status-of-the-telwythtaff-tribe-top-row.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/theres-little-different-between-rats-in-a-sewer.html",
+		"oAP": "/_site/current-status-of-the-telwythtaff-tribe-top-row.html",
 		"oF": 0
 		},
-	"/_site/blog/warming-up-a-new-sketchbook-by-introducing-them-to.html": {
+	"/_site/d-doodles-aske-embodies-the-phrase-pride-before.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/warming-up-a-new-sketchbook-by-introducing-them-to.html",
+		"oAP": "/_site/d-doodles-aske-embodies-the-phrase-pride-before.html",
 		"oF": 0
 		},
-	"/_site/blog/well-that-escalated-quickly-pinter-belongs-to.html": {
+	"/_site/d-doodles-my-groups-tiefling-fighter-glory.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/well-that-escalated-quickly-pinter-belongs-to.html",
+		"oAP": "/_site/d-doodles-my-groups-tiefling-fighter-glory.html",
 		"oF": 0
 		},
-	"/_site/blog/well-whos-this-handsome-devil-tiefling.html": {
+	"/_site/designing-askes-new-plate-armour-while-catching.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/well-whos-this-handsome-devil-tiefling.html",
+		"oAP": "/_site/designing-askes-new-plate-armour-while-catching.html",
 		"oF": 0
 		},
-	"/_site/blog/well-whos-this-little-fluff-sketchbook.html": {
+	"/_site/despite-ely-being-based-on-a-golden-lion-tamarin.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/well-whos-this-little-fluff-sketchbook.html",
+		"oAP": "/_site/despite-ely-being-based-on-a-golden-lion-tamarin.html",
 		"oF": 0
 		},
-	"/_site/blog/what-started-as-a-bit-of-a-exploration-of-how.html": {
+	"/_site/doodling-aske-and-eir-koruban-again-my-dwarven.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/what-started-as-a-bit-of-a-exploration-of-how.html",
+		"oAP": "/_site/doodling-aske-and-eir-koruban-again-my-dwarven.html",
 		"oF": 0
 		},
-	"/_site/blog/when-frogs-feeling-very-tired-this-trio-are-too.html": {
+	"/_site/doodling-on-the-train-i-do-believe-ive-met-my.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/when-frogs-feeling-very-tired-this-trio-are-too.html",
+		"oAP": "/_site/doodling-on-the-train-i-do-believe-ive-met-my.html",
 		"oF": 0
 		},
-	"/_site/blog/when-in-doubt-khoury.html": {
+	"/_site/doodling-some-frog-in-a-jars-playing-around-with.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/when-in-doubt-khoury.html",
+		"oAP": "/_site/doodling-some-frog-in-a-jars-playing-around-with.html",
 		"oF": 0
 		},
-	"/_site/blog/wip-not-sure-if-this-guy-is-human-or-if-hes-just.html": {
+	"/_site/dyn-dammit-im-a-telwyth-not-a-miracle-worker.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/wip-not-sure-if-this-guy-is-human-or-if-hes-just.html",
+		"oAP": "/_site/dyn-dammit-im-a-telwyth-not-a-miracle-worker.html",
 		"oF": 0
 		},
-	"/_site/blog/yes-ely-bay-can-be-kind-of-scary-when-she-wants.html": {
+	"/_site/ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/yes-ely-bay-can-be-kind-of-scary-when-she-wants.html",
+		"oAP": "/_site/ely-wanted-to-wish-everyone-a-happy-st-dwynwens.html",
 		"oF": 0
 		},
-	"/_site/blog/you-know-something-mother-youve-got-a-brutal.html": {
+	"/_site/ely-was-moping-around-so-i-thought-id-sketch-im.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_site/blog/you-know-something-mother-youve-got-a-brutal.html",
+		"oAP": "/_site/ely-was-moping-around-so-i-thought-id-sketch-im.html",
 		"oF": 0
 		},
 	"/_site/feed.xml": {
@@ -8503,6 +7101,326 @@
 		"oAP": "/_site/feed.xml",
 		"oF": 1
 		},
+	"/_site/finally-completed-my-new-twitter-banner-starring.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/finally-completed-my-new-twitter-banner-starring.html",
+		"oF": 0
+		},
+	"/_site/finally-completed-the-album-cover-art-for-ratta.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/finally-completed-the-album-cover-art-for-ratta.html",
+		"oF": 0
+		},
+	"/_site/finally-completed-this-warm-up-drawing-of-ratta.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/finally-completed-this-warm-up-drawing-of-ratta.html",
+		"oF": 0
+		},
+	"/_site/finally-finished-my-portrait-of-the-latest-member.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/finally-finished-my-portrait-of-the-latest-member.html",
+		"oF": 0
+		},
+	"/_site/finally-finished-this-portrait-of-the-telwyth.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/finally-finished-this-portrait-of-the-telwyth.html",
+		"oF": 0
+		},
+	"/_site/finally-got-this-beast-of-a-fan-sketch-done-for.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/finally-got-this-beast-of-a-fan-sketch-done-for.html",
+		"oF": 0
+		},
+	"/_site/finally-managed-to-get-a-sketch-done-of-ratta-and.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/finally-managed-to-get-a-sketch-done-of-ratta-and.html",
+		"oF": 0
+		},
+	"/_site/frog-in-a-jar-sketchdump-bought-myself-a-new.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/frog-in-a-jar-sketchdump-bought-myself-a-new.html",
+		"oF": 0
+		},
+	"/_site/froginajar-merry-christmas-from-my-crazy-family.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/froginajar-merry-christmas-from-my-crazy-family.html",
+		"oF": 0
+		},
+	"/_site/going-through-some-bad-brain-time-so-doodled-some.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/going-through-some-bad-brain-time-so-doodled-some.html",
+		"oF": 0
+		},
+	"/_site/guess-whos-playing-pokemon-go-im-not-sure-if.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/guess-whos-playing-pokemon-go-im-not-sure-if.html",
+		"oF": 0
+		},
+	"/_site/happy-birthday-to-krauzer168-heres-his.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/happy-birthday-to-krauzer168-heres-his.html",
+		"oF": 0
+		},
+	"/_site/happy-birthday-to-my-good-friend-and-fellow-dd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/happy-birthday-to-my-good-friend-and-fellow-dd.html",
+		"oF": 0
+		},
+	"/_site/happy-birthday-to-the-almighty-dm-dasacht.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/happy-birthday-to-the-almighty-dm-dasacht.html",
+		"oF": 0
+		},
+	"/_site/hello-again-all-and-hello-to-instagram-again.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/hello-again-all-and-hello-to-instagram-again.html",
+		"oF": 0
+		},
+	"/_site/hello-khepri-much-much-happier-with-this.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/hello-khepri-much-much-happier-with-this.html",
+		"oF": 0
+		},
+	"/_site/heres-my-2017bestnine-on-instagram-be-they.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/heres-my-2017bestnine-on-instagram-be-they.html",
+		"oF": 0
+		},
+	"/_site/heres-my-entry-for-the-scary-zine-squad-this-was.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/heres-my-entry-for-the-scary-zine-squad-this-was.html",
+		"oF": 0
+		},
+	"/_site/heres-my-finished-piece-that-i-submitted-to-the.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/heres-my-finished-piece-that-i-submitted-to-the.html",
+		"oF": 0
+		},
+	"/_site/heres-the-completed-design-for-my-5e-dwarven.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/heres-the-completed-design-for-my-5e-dwarven.html",
+		"oF": 0
+		},
+	"/_site/heres-the-third-of-the-soldiers-of-fate-crests.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/heres-the-third-of-the-soldiers-of-fate-crests.html",
+		"oF": 0
+		},
+	"/_site/hi-ratta-still-getting-to-know-pipsqueek-but.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/hi-ratta-still-getting-to-know-pipsqueek-but.html",
+		"oF": 0
+		},
+	"/_site/hi-rumney-i-missed-ya-telwythtaff.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/hi-rumney-i-missed-ya-telwythtaff.html",
+		"oF": 0
+		},
+	"/_site/i-appear-to-have-inherited-a-golden-irish.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-appear-to-have-inherited-a-golden-irish.html",
+		"oF": 0
+		},
+	"/_site/i-bought-this-little-notebook-around-twothree.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-bought-this-little-notebook-around-twothree.html",
+		"oF": 0
+		},
+	"/_site/i-had-a-plan-for-coxcon-and-then-life-happened.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-had-a-plan-for-coxcon-and-then-life-happened.html",
+		"oF": 0
+		},
+	"/_site/i-have-a-real-soft-spot-for-this-feisty-seagull.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-have-a-real-soft-spot-for-this-feisty-seagull.html",
+		"oF": 0
+		},
+	"/_site/i-initially-started-this-painting-as-just-a.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-initially-started-this-painting-as-just-a.html",
+		"oF": 0
+		},
+	"/_site/i-love-garmili-that-little-con-artist.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-love-garmili-that-little-con-artist.html",
+		"oF": 0
+		},
+	"/_site/i-make-a-pretty-natty-druid-sketchbook.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-make-a-pretty-natty-druid-sketchbook.html",
+		"oF": 0
+		},
+	"/_site/i-recently-switched-to-firealpaca-for-inking.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/i-recently-switched-to-firealpaca-for-inking.html",
+		"oF": 0
+		},
+	"/_site/illustration/as-you-enter-the-three-horseshoes-tavern-the.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/as-you-enter-the-three-horseshoes-tavern-the.html",
+		"oF": 0
+		},
+	"/_site/illustration/but-he-that-dares-not-grasp-the-thorn-should.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/but-he-that-dares-not-grasp-the-thorn-should.html",
+		"oF": 0
+		},
+	"/_site/illustration/finished-test-painting-of-ely-i-drawpaint-this.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/finished-test-painting-of-ely-i-drawpaint-this.html",
+		"oF": 0
+		},
+	"/_site/illustration/thane-dasachts-fighterpaladin-multi-class.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/thane-dasachts-fighterpaladin-multi-class.html",
+		"oF": 0
+		},
+	"/_site/illustration/the-finished-token-for-alistair-dartwood-my.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/the-finished-token-for-alistair-dartwood-my.html",
+		"oF": 0
+		},
+	"/_site/illustration/the-hanged-man-is-a-card-representing-calm-and.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/the-hanged-man-is-a-card-representing-calm-and.html",
+		"oF": 0
+		},
+	"/_site/illustration/the-next-member-in-theoakheart-rebellion-tarot-is.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/the-next-member-in-theoakheart-rebellion-tarot-is.html",
+		"oF": 0
+		},
+	"/_site/illustration/the-sun-is-an-incredibly-happy-positive-card.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/the-sun-is-an-incredibly-happy-positive-card.html",
+		"oF": 0
+		},
+	"/_site/illustration/were-carnival-people-we-all-have-our-issues.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/illustration/were-carnival-people-we-all-have-our-issues.html",
+		"oF": 0
+		},
 	"/_site/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -8510,6 +7428,262 @@
 		"oA": 1,
 		"oAP": "/_site/index.html",
 		"oF": 1
+		},
+	"/_site/is-that-me-giggled-loyalty-looking-up-at-the.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/is-that-me-giggled-loyalty-looking-up-at-the.html",
+		"oF": 0
+		},
+	"/_site/it-hasnt-been-very-summery-in-the-pad-recently.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/it-hasnt-been-very-summery-in-the-pad-recently.html",
+		"oF": 0
+		},
+	"/_site/ive-had-a-mighty-need-to-develop-my-steampunk.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/ive-had-a-mighty-need-to-develop-my-steampunk.html",
+		"oF": 0
+		},
+	"/_site/jekyll/update/welcome-to-jekyll.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/jekyll/update/welcome-to-jekyll.html",
+		"oF": 0
+		},
+	"/_site/khoury-my-little-egyptian-fennec-fox-druid-made-a.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/khoury-my-little-egyptian-fennec-fox-druid-made-a.html",
+		"oF": 0
+		},
+	"/_site/kinda-adorable-keyleth-warm-up-for-this-morning-i.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/kinda-adorable-keyleth-warm-up-for-this-morning-i.html",
+		"oF": 0
+		},
+	"/_site/lady-kelq-wen-tamaras-wing-devout-healer-but.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/lady-kelq-wen-tamaras-wing-devout-healer-but.html",
+		"oF": 0
+		},
+	"/_site/long-time-no-see-ely-hes-wearing-his-ears.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/long-time-no-see-ely-hes-wearing-his-ears.html",
+		"oF": 0
+		},
+	"/_site/look-at-this-little-dork-i-desperately-want-to.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/look-at-this-little-dork-i-desperately-want-to.html",
+		"oF": 0
+		},
+	"/_site/meet-kelq-wen-shes-my-new-white-dragonborn.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/meet-kelq-wen-shes-my-new-white-dragonborn.html",
+		"oF": 0
+		},
+	"/_site/merry-christmas-from-my-crazy-family-of-characters.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/merry-christmas-from-my-crazy-family-of-characters.html",
+		"oF": 0
+		},
+	"/_site/more-gentle-giant-journey-sketches-done-while.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/more-gentle-giant-journey-sketches-done-while.html",
+		"oF": 0
+		},
+	"/_site/my-album-cover-for-loyalty-and-blueskywolf09s.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-album-cover-for-loyalty-and-blueskywolf09s.html",
+		"oF": 0
+		},
+	"/_site/my-badass-shieldmaiden-inspired-dwarven-paladin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-badass-shieldmaiden-inspired-dwarven-paladin.html",
+		"oF": 0
+		},
+	"/_site/my-best-posts-of-2017.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-best-posts-of-2017.html",
+		"oF": 0
+		},
+	"/_site/my-boyfriend-dasacht-and-i-are-celebrating-our.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-boyfriend-dasacht-and-i-are-celebrating-our.html",
+		"oF": 0
+		},
+	"/_site/my-boyfriends-little-gnomish-tinkerer-pinter-has.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-boyfriends-little-gnomish-tinkerer-pinter-has.html",
+		"oF": 0
+		},
+	"/_site/my-dwarven-paladin-aske-offers-blueskywolf09s.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-dwarven-paladin-aske-offers-blueskywolf09s.html",
+		"oF": 0
+		},
+	"/_site/my-green-dwarf-paladin-aske-was-given-a-composite.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-green-dwarf-paladin-aske-was-given-a-composite.html",
+		"oF": 0
+		},
+	"/_site/my-little-2017-reboot-of-elys-design-is-done.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-little-2017-reboot-of-elys-design-is-done.html",
+		"oF": 0
+		},
+	"/_site/my-movie-mashup-poster-for-critical-role-is-done.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/my-movie-mashup-poster-for-critical-role-is-done.html",
+		"oF": 0
+		},
+	"/_site/never-underestimate-things-that-come-in-small.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/never-underestimate-things-that-come-in-small.html",
+		"oF": 0
+		},
+	"/_site/now-i-can-reveal-what-ive-been-working-on-since.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/now-i-can-reveal-what-ive-been-working-on-since.html",
+		"oF": 0
+		},
+	"/_site/of-all-the-creatures-to-wander-into-my-town-it.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/of-all-the-creatures-to-wander-into-my-town-it.html",
+		"oF": 0
+		},
+	"/_site/oh-hello-roath-you-appear-to-have-discarded-your.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/oh-hello-roath-you-appear-to-have-discarded-your.html",
+		"oF": 0
+		},
+	"/_site/oh-ks-you-know-so-much-better-than-to-tempt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/oh-ks-you-know-so-much-better-than-to-tempt.html",
+		"oF": 0
+		},
+	"/_site/one-of-two-sketches-on-the-train-during-a-very.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/one-of-two-sketches-on-the-train-during-a-very.html",
+		"oF": 0
+		},
+	"/_site/peace-peace-love-love-blueskywolf09-rightly.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/peace-peace-love-love-blueskywolf09-rightly.html",
+		"oF": 0
+		},
+	"/_site/pinter-brunel-spazzlespork-my-bfs-little-gnome.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/pinter-brunel-spazzlespork-my-bfs-little-gnome.html",
+		"oF": 0
+		},
+	"/_site/playing-around-with-a-new-ward-idea-so-far-he.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/playing-around-with-a-new-ward-idea-so-far-he.html",
+		"oF": 0
+		},
+	"/_site/privacypolicy/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/privacypolicy/index.html",
+		"oF": 0
+		},
+	"/_site/probably-the-most-together-ive-drawn.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/probably-the-most-together-ive-drawn.html",
+		"oF": 0
 		},
 	"/_site/projects/awaydays.html": {
 		"cB": 0,
@@ -8583,6 +7757,22 @@
 		"oAP": "/_site/projects/turtlepromotions.html",
 		"oF": 1
 		},
+	"/_site/quick-design-sketch-concept-of-my-latest-water.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/quick-design-sketch-concept-of-my-latest-water.html",
+		"oF": 0
+		},
+	"/_site/rattas-hair-is-actually-quite-long-she-ties-it.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/rattas-hair-is-actually-quite-long-she-ties-it.html",
+		"oF": 0
+		},
 	"/_site/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -8592,15 +7782,31 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/README.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/_site/review/and-thus-tumblr-hit-the-iceberg.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/review/and-thus-tumblr-hit-the-iceberg.html",
+		"oF": 0
+		},
+	"/_site/review/ive-never-seen-snow-before-chirped-khoury.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/review/ive-never-seen-snow-before-chirped-khoury.html",
+		"oF": 0
 		},
 	"/_site/robots.txt": {
 		"cB": 0,
@@ -8610,6 +7816,38 @@
 		"oAP": "/_site/robots.txt",
 		"oF": 1
 		},
+	"/_site/rumney-wanted-to-say-hi-this-morning.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/rumney-wanted-to-say-hi-this-morning.html",
+		"oF": 0
+		},
+	"/_site/say-hi-to-my-newest-dd-character-white.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/say-hi-to-my-newest-dd-character-white.html",
+		"oF": 0
+		},
+	"/_site/say-hi-to-temperance-my-newest-dd-character-and.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/say-hi-to-temperance-my-newest-dd-character-and.html",
+		"oF": 0
+		},
+	"/_site/set-your-heart-at-rest-the-fairyland-buys-not.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/set-your-heart-at-rest-the-fairyland-buys-not.html",
+		"oF": 0
+		},
 	"/_site/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -8618,13 +7856,437 @@
 		"oAP": "/_site/sitemap.xml",
 		"oF": 1
 		},
-	"/_site/typographytest.html": {
+	"/_site/sketch-of-my-two-paladin-sisters-aske-and-eir.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/typographytest.html",
-		"oF": 1
+		"oA": 0,
+		"oAP": "/_site/sketch-of-my-two-paladin-sisters-aske-and-eir.html",
+		"oF": 0
+		},
+	"/_site/sketchbook-catch-ups-a-few-studies-of-my-bfs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook-catch-ups-a-few-studies-of-my-bfs.html",
+		"oF": 0
+		},
+	"/_site/sketchbook-catch-ups-some-scribbly-human-loyaltys.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook-catch-ups-some-scribbly-human-loyaltys.html",
+		"oF": 0
+		},
+	"/_site/sketchbook-doodles-from-lunch-share-morlas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook-doodles-from-lunch-share-morlas.html",
+		"oF": 0
+		},
+	"/_site/sketchbook-dump-design-sketches-for-my.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook-dump-design-sketches-for-my.html",
+		"oF": 0
+		},
+	"/_site/sketchbook-dump-practice-studies-for-my.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook-dump-practice-studies-for-my.html",
+		"oF": 0
+		},
+	"/_site/sketchbook-dump-some-quick-little-frog-in-a-jar.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook-dump-some-quick-little-frog-in-a-jar.html",
+		"oF": 0
+		},
+	"/_site/sketchbook-dump-you-can-always-fallback-on.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook-dump-you-can-always-fallback-on.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/bays-a-nelly-furtado-fan-apparently.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/bays-a-nelly-furtado-fan-apparently.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/bringing-an-old-friend-back-from-the-dead-a.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/bringing-an-old-friend-back-from-the-dead-a.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/figuring-out-heath-the-lone-wolf-of-the.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/figuring-out-heath-the-lone-wolf-of-the.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/froginajar-look-at-this-little-dork-i.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/froginajar-look-at-this-little-dork-i.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/i-always-seem-to-draw-city-planning-or-scheming-in.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/i-always-seem-to-draw-city-planning-or-scheming-in.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/i-finally-caved-in-and-bought-an-ipad-pro-and.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/i-finally-caved-in-and-bought-an-ipad-pro-and.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/in-these-times-nothing-is-certain-my-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/in-these-times-nothing-is-certain-my-child.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/long-time-no-post-tadpoles-cant-say-ive-had.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/long-time-no-post-tadpoles-cant-say-ive-had.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/my-little-animation-experiment-with-rumney-now.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/my-little-animation-experiment-with-rumney-now.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/rumney-the-physical-embodiment-of-a-hug-ive-had.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/rumney-the-physical-embodiment-of-a-hug-ive-had.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/since-ive-learned-how-to-get-my-wips-from-my.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/since-ive-learned-how-to-get-my-wips-from-my.html",
+		"oF": 0
+		},
+	"/_site/sketchbook/whos-that-chirped-loyalty-looking-over-the.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sketchbook/whos-that-chirped-loyalty-looking-over-the.html",
+		"oF": 0
+		},
+	"/_site/so-a-cute-thing-happened-on-the-way-to-london.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/so-a-cute-thing-happened-on-the-way-to-london.html",
+		"oF": 0
+		},
+	"/_site/so-a-thing-happened-a-little-thing-called-wild.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/so-a-thing-happened-a-little-thing-called-wild.html",
+		"oF": 0
+		},
+	"/_site/so-i-might-be-a-nerd-a-big-one-im-currently.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/so-i-might-be-a-nerd-a-big-one-im-currently.html",
+		"oF": 0
+		},
+	"/_site/so-what-you-doin-yeah-i-still-love-these.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/so-what-you-doin-yeah-i-still-love-these.html",
+		"oF": 0
+		},
+	"/_site/so-youve-read-about-thievery-but-youre-too.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/so-youve-read-about-thievery-but-youre-too.html",
+		"oF": 0
+		},
+	"/_site/some-development-on-my-little-egyptian-fennec-fox.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/some-development-on-my-little-egyptian-fennec-fox.html",
+		"oF": 0
+		},
+	"/_site/some-gnomish-looking-sketches-to-break-in-a-new.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/some-gnomish-looking-sketches-to-break-in-a-new.html",
+		"oF": 0
+		},
+	"/_site/some-more-ks-design-sketches-from-the-train.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/some-more-ks-design-sketches-from-the-train.html",
+		"oF": 0
+		},
+	"/_site/some-recent-ratta-scribbles-from-the-sketchbook.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/some-recent-ratta-scribbles-from-the-sketchbook.html",
+		"oF": 0
+		},
+	"/_site/some-train-sketches-of-some-old-friends-i-swear.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/some-train-sketches-of-some-old-friends-i-swear.html",
+		"oF": 0
+		},
+	"/_site/sometimes-the-best-partnerships-spring-out-of.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sometimes-the-best-partnerships-spring-out-of.html",
+		"oF": 0
+		},
+	"/_site/sorry-pinter-but-harry-potter-you-are-not.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/sorry-pinter-but-harry-potter-you-are-not.html",
+		"oF": 0
+		},
+	"/_site/stealing-paint-is-one-thing-but-making-worlds.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/stealing-paint-is-one-thing-but-making-worlds.html",
+		"oF": 0
+		},
+	"/_site/still-sketching-dasachts-nerdy-stone-gnome.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/still-sketching-dasachts-nerdy-stone-gnome.html",
+		"oF": 0
+		},
+	"/_site/studying-misscurls101s-glory-on-the-train.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/studying-misscurls101s-glory-on-the-train.html",
+		"oF": 0
+		},
+	"/_site/super-quick-doodles-from-the-oc-outfit-challenge.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/super-quick-doodles-from-the-oc-outfit-challenge.html",
+		"oF": 0
+		},
+	"/_site/tfw-you-cant-get-a-joke-out-of-your-head-yep.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/tfw-you-cant-get-a-joke-out-of-your-head-yep.html",
+		"oF": 0
+		},
+	"/_site/the-best-thing-about-living-in-the-rainforest-is.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/the-best-thing-about-living-in-the-rainforest-is.html",
+		"oF": 0
+		},
+	"/_site/the-finished-set-of-tokens-for-my-lovable-band-of.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/the-finished-set-of-tokens-for-my-lovable-band-of.html",
+		"oF": 0
+		},
+	"/_site/the-first-of-an-updated-set-of-crests-for-my-dd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/the-first-of-an-updated-set-of-crests-for-my-dd.html",
+		"oF": 0
+		},
+	"/_site/the-fourth-crest-for-the-soldiers-of-fate-this.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/the-fourth-crest-for-the-soldiers-of-fate-this.html",
+		"oF": 0
+		},
+	"/_site/the-frog-returns-and-a-rare-breed-at-that.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/the-frog-returns-and-a-rare-breed-at-that.html",
+		"oF": 0
+		},
+	"/_site/the-man-himself-baresarkartist-asked-me-for-my.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/the-man-himself-baresarkartist-asked-me-for-my.html",
+		"oF": 0
+		},
+	"/_site/theres-little-different-between-rats-in-a-sewer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/theres-little-different-between-rats-in-a-sewer.html",
+		"oF": 0
+		},
+	"/_site/warming-up-a-new-sketchbook-by-introducing-them-to.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/warming-up-a-new-sketchbook-by-introducing-them-to.html",
+		"oF": 0
+		},
+	"/_site/well-that-escalated-quickly-pinter-belongs-to.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/well-that-escalated-quickly-pinter-belongs-to.html",
+		"oF": 0
+		},
+	"/_site/well-whos-this-handsome-devil-tiefling.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/well-whos-this-handsome-devil-tiefling.html",
+		"oF": 0
+		},
+	"/_site/well-whos-this-little-fluff-sketchbook.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/well-whos-this-little-fluff-sketchbook.html",
+		"oF": 0
+		},
+	"/_site/what-started-as-a-bit-of-a-exploration-of-how.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/what-started-as-a-bit-of-a-exploration-of-how.html",
+		"oF": 0
+		},
+	"/_site/when-frogs-feeling-very-tired-this-trio-are-too.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/when-frogs-feeling-very-tired-this-trio-are-too.html",
+		"oF": 0
+		},
+	"/_site/when-in-doubt-khoury.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/when-in-doubt-khoury.html",
+		"oF": 0
+		},
+	"/_site/wip-not-sure-if-this-guy-is-human-or-if-hes-just.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/wip-not-sure-if-this-guy-is-human-or-if-hes-just.html",
+		"oF": 0
+		},
+	"/_site/yes-ely-bay-can-be-kind-of-scary-when-she-wants.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/yes-ely-bay-can-be-kind-of-scary-when-she-wants.html",
+		"oF": 0
+		},
+	"/_site/you-know-something-mother-youve-got-a-brutal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/you-know-something-mother-youve-got-a-brutal.html",
+		"oF": 0
 		},
 	"/_workitems/awaydays.html": {
 		"cB": 0,
@@ -9411,8 +9073,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/blog/tumblr_o2pqkbwgjV1v28ub8o1_1280.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -10354,8 +10016,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/blog/tumblr_ojsmmoHafc1v28ub8o1_1280.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -10651,8 +10313,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/blog/tumblr_orjz7lIBQg1v28ub8o1_1280.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11223,8 +10885,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/design.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11234,8 +10896,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/digital.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11256,8 +10918,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/footer/footer_mask_scaled_alpha.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11322,8 +10984,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/header/mask_scaled.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11333,8 +10995,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/header/mask_scaled_alpha.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11344,8 +11006,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/illustration.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11366,8 +11028,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/texture.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11410,8 +11072,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/awayday_4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11465,8 +11127,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/censorship_1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11476,8 +11138,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/censorship_2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11487,8 +11149,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/censorship_3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11707,8 +11369,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/infographic_8.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11718,8 +11380,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/infographic_9.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11727,7 +11389,7 @@
 		"ft": 32768,
 		"iS": 220701,
 		"oA": 0,
-		"oAP": "/assets/img/work/jackpots_1.png",
+		"oAP": "/assets/img/work/.jackpots_1~imageoptim.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -11751,8 +11413,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/jackpots_2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11762,8 +11424,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/jackpots_3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11850,8 +11512,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/season6_1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11861,8 +11523,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/season6_2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -11993,8 +11655,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/which_a.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12015,8 +11677,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/work/which_c.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12141,12 +11803,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/blog.html": {
+	"/blog/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/blog.html",
+		"oAP": "/blog/index.html",
 		"oF": 0
 		},
 	"/Gemfile": {
@@ -12173,6 +11835,14 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/privacypolicy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/privacypolicy.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -12191,14 +11861,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/typographytest.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/typographytest.html",
-		"oF": 0
 		}
 	},
 "hooks": [

@@ -1,4 +1,5 @@
 ---
+layout: single_post
 title: heres the completed design for my 5e dwarven
 date: '2016-02-07T19:32:43+00:00'
 tags:

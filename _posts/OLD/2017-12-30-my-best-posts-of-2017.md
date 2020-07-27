@@ -1,4 +1,5 @@
 ---
+layout: post
 title: My BEST posts of 2017
 date: '2017-12-30T10:02:44+00:00'
 tags:

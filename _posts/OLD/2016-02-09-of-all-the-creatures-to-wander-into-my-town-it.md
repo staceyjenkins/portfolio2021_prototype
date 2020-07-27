@@ -1,4 +1,5 @@
 ---
+layout: post
 title: of all the creatures to wander into my town it
 date: '2016-02-09T19:50:04+00:00'
 tags:
