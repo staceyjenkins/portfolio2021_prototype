@@ -1,5 +1,4 @@
-$(document).ready(function(){
-	  $.instagramFeed({
+$.instagramFeed({
 	    'username': 'froginajar',
 	    'container': "#instagram_feed",
 	    'display_profile': false,
@@ -8,13 +7,6 @@ $(document).ready(function(){
         'items': 9,
         'styling': false,
 	  });
-	
-
-if ($('.relatedposts .list_of_posts').is(':empty')){
-  console.log('hiderelatedposts');
-}
-
-});
 
 $('.mainarea').waypoint(function(direction){
      setTimeout(function(){
