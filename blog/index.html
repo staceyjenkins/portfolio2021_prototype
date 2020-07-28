@@ -4,8 +4,6 @@ title: Blog
 pageclass: blog
 thumb: header/header_top_characters.png
 description: Sketches, design discussions and all round creative stuff from the blog of digital designer and illustrator Stacey Jenkins
-paginate:
-    collection:posts
 ---
 
  <ul class="list_of_posts">
@@ -59,7 +57,7 @@ paginate:
     {% elsif page == 1 %}
       <a href="/blog/">{{ page }}</a>
     {% else %}
-      <a href="{{site.url}}{{site.baseurl}}/blog/{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+      <a href="{{site.url}}{{site.baseurl}}{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
         </li>  
   {% endfor %}

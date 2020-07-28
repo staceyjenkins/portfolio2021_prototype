@@ -6800,6 +6800,28 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/_site/assets/scripts/config-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_site/assets/scripts/config-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/_site/assets/scripts/config.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_site/assets/scripts/config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/_site/assets/scripts/lib/disqusloader-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -7009,37 +7031,261 @@
 		"oAP": "/_site/blog/index.html",
 		"oF": 1
 		},
+	"/_site/blog/page10/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page10/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page11/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page11/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page12/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page12/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page13/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page13/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page14/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page14/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page15/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page15/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page16/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page16/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page17/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page17/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page18/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page18/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page19/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page19/index.html",
+		"oF": 0
+		},
 	"/_site/blog/page2/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page2/index.html",
-		"oF": 1
+		"oF": 0
+		},
+	"/_site/blog/page20/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page20/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page21/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page21/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page22/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page22/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page23/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page23/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page24/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page24/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page25/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page25/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page26/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page26/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page27/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page27/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page28/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page28/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page29/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page29/index.html",
+		"oF": 0
 		},
 	"/_site/blog/page3/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page3/index.html",
-		"oF": 1
+		"oF": 0
+		},
+	"/_site/blog/page30/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page30/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page31/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page31/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page32/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page32/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page33/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page33/index.html",
+		"oF": 0
 		},
 	"/_site/blog/page4/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page4/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/blog/page5/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/blog/page5/index.html",
-		"oF": 1
+		"oF": 0
+		},
+	"/_site/blog/page6/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page6/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page7/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page7/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page8/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page8/index.html",
+		"oF": 0
+		},
+	"/_site/blog/page9/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/page9/index.html",
+		"oF": 0
 		},
 	"/_site/breaking-in-a-new-sketchbook-with-scribbly-dd.html": {
 		"cB": 0,
@@ -12011,14 +12257,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"/blog.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/blog.html",
-		"oF": 0
 		},
 	"/blog/index.html": {
 		"cB": 0,
