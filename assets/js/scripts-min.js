@@ -1,1 +1,0 @@
-$.instagramFeed({username:"froginajar",container:"#instagram_feed",display_profile:!1,display_biography:!1,display_igtv:!1,items:9,styling:!1}),$(".mainarea").waypoint((function(i){setTimeout((function(){$(".siteheader").toggleClass("is_sticky","down"==i)}),100)})),disqusLoader(".disqus",$options);

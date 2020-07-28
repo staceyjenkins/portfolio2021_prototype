@@ -14,7 +14,7 @@
     {% endfor %}
   {% else %}
     {% for tag in tags_list %} 
-      <li><a href="{{site.url}}/{{site.baseurl}}blog/category/{{tag[0]}}"  title="{{tag[0] | capitalize }}"><strong>{{ tag[0] | capitalize }}</strong> <span class="post_count">{{ tag[1].size }}</span></a></li>
+      <li><a href="{{site.url}}/{{site.baseurl}}/blog/category/{{tag[0]}}"  title="{{tag[0] | capitalize }}"><strong>{{ tag[0] | capitalize }}</strong> <span class="post_count">{{ tag[1].size }}</span></a></li>
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
