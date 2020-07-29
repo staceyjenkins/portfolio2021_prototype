@@ -489,6 +489,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/_posts/2020-07-15-a-forestry.io-test-post.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_posts/2020-07-15-a-forestry.io-test-post.html",
+		"oF": 0
+		},
 	"/_posts/2020-07-15-a-forestry.io-test-post.md": {
 		"cB": 0,
 		"cS": 0,
@@ -3954,6 +3962,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/_site/blog/a-forestry.io-test-post.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_site/blog/a-forestry.io-test-post.html",
+		"oF": 0
 		},
 	"/_site/blog/category/illustration.html": {
 		"cB": 0,
