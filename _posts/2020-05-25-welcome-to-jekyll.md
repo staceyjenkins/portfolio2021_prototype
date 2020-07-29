@@ -1,7 +1,13 @@
 ---
-title:  "Welcome to Jekyll!"
-date:   2020-05-25 13:29:29 +0100
+title: Welcome to Jekyll!
+date: 2020-05-25T13:29:29.000+01:00
 categories: jekyll update
+thumb: assets/img/uploads/eipsi4rx0au4oh0.jpg
+layout: ''
+tags: []
+category: ''
+excerpt: ''
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
