@@ -3,7 +3,7 @@ title: Welcome to Jekyll!
 date: 2020-05-25T13:29:29.000+01:00
 categories: jekyll update
 thumb: assets/img/uploads/eipsi4rx0au4oh0.jpg
-layout: 'blogpost'
+layout: blogpost
 tags: []
 category: ''
 excerpt: ''
@@ -16,6 +16,12 @@ Jekyll requires blog post files to be named according to the following format:
 `YEAR-MONTH-DAY-title.MARKUP`
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+<figure class="media">
+  <img src="" alt="A test">
+  <figcaption><p>Adding images</p></figcaption>
+  </figure>
+  
 
 Jekyll also offers powerful support for code snippets:
 
