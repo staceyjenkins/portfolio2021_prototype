@@ -3,7 +3,7 @@ title: Welcome to Jekyll!
 date: 2020-05-25T13:29:29.000+01:00
 categories: jekyll update
 thumb: assets/img/uploads/eipsi4rx0au4oh0.jpg
-layout: ''
+layout: 'blogpost'
 tags: []
 category: ''
 excerpt: ''
