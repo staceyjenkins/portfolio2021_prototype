@@ -4,7 +4,7 @@ date: 2020-07-15 08:00:00 +0000
 tags: []
 category: Test Update
 excerpt: This is a test of posts from forestry.io
-thumb: {{site.url}}{{site.baseurl}}/assets/img/uploads/eeigsiku0aeglcf.jpg
+thumb: ""
 title: A forestry.io test post
 
 ---
