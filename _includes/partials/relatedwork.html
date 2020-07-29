@@ -1,7 +1,7 @@
 {% unless page.categories == null %}
 <div class="relatedwork">
 <h3>Related Work</h3>
-    <ul class="work_list">
+    <ul class="card_list">
    {% assign maxRelated = 4 %}
    {% assign minCommonCategories = 2 %}
    {% assign maxRelatedCounter = 0 %}
@@ -32,7 +32,7 @@
         {% endfor %}
         
     </ul>
-</div>
+    </div>   
 {% endunless %}
 
 

@@ -1,7 +1,7 @@
 {% unless page.category == null %}
 <div class="relatedposts">
 <h3>Related Posts</h3>
-<ul class="list_of_related_posts">
+<ul class="card_list">
    {% assign maxRelated = 3 %}
    {% assign minCommonCategories = 1 %}
    {% assign maxRelatedCounter = 0 %}
@@ -23,11 +23,11 @@
             {% endfor %}
         
             {% if sameCategories >= minCommonCategories %}
-                <li class="post">
-                        <div class="card">
+                <li class="card_article">
+                    <div class="card">
                     <div class="card_caption">
                         <div class="card_text">
-                        <h5 class="post_title">
+                        <h5 class="card_title">
                         <a href="{{site.url}}/{{site.baseurl}}/{{post.url}}">
                         {{post.title}}
                         </a>    
@@ -40,16 +40,22 @@
   {% else %}{{ day }}th
 {% endcase %}
 {{ post.date | date: "%B, %Y" }}</time></p> 
-                        <a class="post_permalink button" href="{{site.baseurl}}{{post.url}}">Read more</a>
                         </div>
                         </div>
-                    <div class="card_image">
-                            <figure>
-                            <a href="{{post.url}}">
+                                            <div class="card_image">
+                        {% include /partials/card_border.html %}
+                        <figure class="image_container">
+                        <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
+                        {% if post.thumb %}
                         <img src="{{post.thumb}}" alt="{{post.title}}"/>
-                        </a></figure>
-                        </div> 
-                    </li>
+                        {% else %}    
+                        <img src="{{site.url}}{{site.baseurl}}/assets/img/blog_default.png" alt="{{post.title}}"/> 
+                        {% endif %}
+                        </a>
+                        </figure>
+                        </div>  
+                    </div>
+                </li>
                 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
                 {% if maxRelatedCounter >= maxRelated %}
                     {% break %}

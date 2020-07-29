@@ -5,7 +5,7 @@ title: Posts filed under {{page.tag}}
 
 <div class="titlecontent">
         <div class="title_overlay">
-        <h2 class="page_header">Blog</h2>
+            <h2 class="page_header"><a href="{{site.url}}{{site.baseurl}}/blog">Blog</a></h2>
             </div>
        </div>
             <section class="blog_content">
@@ -13,12 +13,14 @@ title: Posts filed under {{page.tag}}
                 <div class="blogcontent">  
                 <div class="blog_structure">
                 <div class="post_area">
-                <h3>Filed Under {{page.tag | capitalize}}</h3>
-                    <ul class="list_of_posts">
+                <h3 class="category_title">Filed Under {{page.tag | capitalize}}</h3>
+                    <div class="card_row">
+                    <ul class="card_list">
                    {% for post in site.categories[page.tag] %}
                     {% include /partials/postloop.html %}
                     {% endfor %}   
                     </ul>
+                    </div>
                     
                     {% if paginator.total_pages > 1 %}
 <div class="pagination">

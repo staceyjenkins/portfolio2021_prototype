@@ -3,8 +3,16 @@
 
 //https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/
 // Variables
-$base-font-size: 106; // Gets used as %
-$bl: 1.76;
+$base-font-size: 18px; // Gets used as %
+$base-line-height: 30px;
+$rhythm-unit: 'rem';
+$rem-with-px-fallback: true;
+$round-to-nearest-half-line: true;
+@include establish-baseline();
+
+$bl: 1.5;
+
+
 
 $base: 16 * ($base-font-size / 100);
 $leading: $base * $bl;
@@ -43,33 +51,38 @@ $leading: $base * $bl;
   $sizes:(
     s4:(
     fontsize:120,
-    lineheight:4,
-    margintop:1,
-    marginbottom:0,
+    lines:4,
     ),
+    s35:(
+    fontsize:48,
+    ),  
     s3:(
     fontsize:45,
-    lineheight:2,
-    margintop:1,
-    marginbottom:1,
+    lines:2,
           ),
     s2:(
     fontsize:28,
-    lineheight:1,
-    margintop:1,
-    marginbottom:1,
+    lines:1,
           ),
-    s1:(
+    s15:(
      fontsize:17,
-    lineheight:1,
-    margintop:1,
-      marginbottom:1,
+    lines:1,
+      ),
+    s1:(
+     fontsize:16,
+    lines:1,
       ),
     s0:(
      fontsize:14,
-     lineheight:1,
-     margintop:1,
-     marginbottom:0,
+     lines:1,
+      ),
+    s12:(
+     fontsize:12,
+     lines:1,
+      ),
+          s10:(
+     fontsize:10,
+     lines:1,
       ),
   );
   
@@ -77,22 +90,17 @@ $leading: $base * $bl;
   //2. Grab colour and its tone value from map
   @if ($size != null) {
     $fontsize: setSize($sizes, $size, fontsize) * 1px;
-   $topmargin: setSize($sizes, $size, margintop);
-   $bottommargin: setSize($sizes, $size, marginbottom);
-   $lineheight: setSize($sizes, $size, lineheight);
-    @include emSize($fontsize);
-    @include line-height($lineheight);
-    @include margin-bottom($bottommargin);
-    @include margin-top($topmargin);
+    $lines: lines-for-font-size($fontsize);
+   //$bottommargin: setSize($sizes, $size, marginbottom);
+   //$lineheight: setSize($sizes, $size, lineheight);
+    @include adjust-font-size-to($fontsize);
+    @include adjust-leading-to($lines);  
+      
   } @else {
        $fontsize: setSize($sizes, s1, fontsize);
-   $topmargin: setSize($sizes, s1, margintop);
-   $bottommargin: setSize($sizes, s1, marginbottom);
-   $lineheight: setSize($sizes, s1, lineheight);
-    @include emSize($fontsize);
-    @include line-height($lineheight);
-    @include margin-bottom($bottommargin);
-    @include margin-top($topmargin);
+          $lines: lines-for-font-size($fontsize);
+    @include adjust-font-size-to($fontsize);
+    @include adjust-leading-to($lines);  
   }
   };
 
@@ -122,7 +130,8 @@ $standardmeasure: calc(1rem * #{$bl});
 /* TYPOGRAPHY RESET */
 html {
   /* Change default typefaces here */
-    font-size: #{$base-font-size + '%'};
+    font-size: $base-font-size;
+    line-height:24px;
     @include setTypeFace('primary');
 }
 
@@ -131,16 +140,71 @@ p {
   @include setTypeSize('s1');
   color: colour(charcoal, 600);
   text-align:left;
+  margin-top: rhythm(2);
+  margin-bottom: rhythm(5);
+  @include adjust-leading-to(6);
 }
+
+.lead + p {margin-top: rhythm(4);}
+h1 + p, h1 + ul, header + p {margin-top: rhythm(9); 
+        margin-bottom: rhythm(7);}
+h2 + p { margin-top: rhythm(4);
+         margin-bottom: rhythm(3);}
+h3 + p, h4 + p, h5 + p, h6 + p { margin-top: rhythm(4);
+         margin-bottom: rhythm(3);}
+
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */    
+  color: colour(blue, 700);
+}
+
+h1 {
+@include setTypeSize('s4');
+@include setTypeFace('secondary');
+margin-bottom: rhythm(3);
+}
+h2{
+@include setTypeSize('s3');
+@include setTypeFace('secondary');
+margin-bottom: rhythm(1); 
+}
+h3, h4, h5, h6 {
+@include setTypeSize('s2');
+@include setTypeFace('secondary');
+margin-bottom: rhythm(1);
+}
+
+
+
+/* Leading paragraph text */
+.lead {
+   margin-top: rhythm(3);
+    max-width:45ch;
+    text-align:center;
+    margin-left:auto;
+     margin-right:auto;
+    @include setTypeSize('s2');
+}
+
+.intro {@extend .lead;}
+
 ul,
 ol {
-  margin-top: $standardmeasure;
-  margin-bottom: $standardmeasure;
-  color: colour(charcoal, 600);
+  margin-top: rhythm(2) 0;
+ margin-bottom: rhythm(7);
 }
 ul li,
 ol li {
-  line-height: $standardmeasure;
+  vertical-align: baseline;
+  @include setTypeSize('s1');
+  margin: rhythm(2) 0;
   color: colour(charcoal, 600);
 }
 ul ul,
@@ -151,9 +215,8 @@ ol ol {
   margin-bottom: 0;
 }
 blockquote {
-  line-height: $standardmeasure;
-  margin-top: $standardmeasure;
-  margin-bottom: $standardmeasure;
+  margin: rhythm(3) 0;
+  @include setTypeSize('s1');
   background:white;
   border-radius:15px;
   overflow:hidden;
@@ -175,42 +238,16 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* Change heading typefaces here */
-  margin-top: $standardmeasure;
-  margin-bottom: 0;
-  line-height: $standardmeasure;
-  color: colour(blue, 700);
-}
-h1 {
-@include setTypeSize('s4');
-@include setTypeFace('secondary');
-}
-h2  {
-@include setTypeSize('s3');
-@include setTypeFace('secondary');
-}
-h3, h4, h5, h6 {
-@include setTypeSize('s2');
-@include setTypeFace('secondary');
-}
-
 /* Tables */
 table {
-  margin: $standardmeasure 0;
+  margin: rhythm(3) 0;
   border-spacing: 0px;
   border-collapse: collapse;
 }
 table td,
 table th {
   padding: calc(1.75rem/2);
-  line-height: $standardmeasure;
+  @include setTypeSize('s1');
 }
 
 
@@ -220,14 +257,7 @@ table th {color:colour(blue,600);}
 code {
   vertical-align: bottom;
 }
-/* Leading paragraph text */
-.lead, .intro {
-  @include setTypeSize('s2');
-  text-align:center;
-   max-width:40ch;
-  margin-left: auto;
- margin-right: auto;
-}
+
 /* Hug the block above you */
 .hug {
   margin-top: 0;
@@ -235,7 +265,7 @@ code {
 
 p + figure, figure + figure {margin:4.5rem 0;}
 
-figure + p {margin-top:4.5em;}
+figure + p, h3 + figure {margin-top:4.5em;}
 
 figure + h3 {margin-top:2rem;}
 
@@ -290,9 +320,9 @@ p a:hover {color:colour(teal,900);
 }
 
 @mixin button(){
+    @include setTypeFace('primary');
     color: white;
     font-weight: 700;
-    @include setTypeFace('primary');
     text-decoration:none;
     display:inline-block;
     min-width:80px;
@@ -313,14 +343,18 @@ p a:hover {color:colour(teal,900);
     user-select: none;
     transition: all .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
     will-change: '';
--webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
     background: colour(teal, 600);
-    box-shadow: 0px 5px 10px transparentize(colour(teal, 600), 0.60);
-    :focus {outline:2px solid colour(charcoal,500);}
+    box-shadow: 0px 2px 1px -1px transparentize(colour(charcoal, 500), 0.2),0px 1px 1px 0px transparentize(colour(charcoal, 500), 0.14),0px 1px 3px 0px transparentize(colour(charcoal, 500), .12);
+   
+    &:focus {outline:2px solid colour(charcoal,500);}
+    
     &:hover {
         background: colour(teal, 700);
         transform: scale(1.1);
+        box-shadow: 0px 2px 8px -1px transparentize(colour(charcoal, 600), 0.2),0px 1px 1px 0px transparentize(colour(charcoal, 600), 0.14),0px 1px 3px 0px transparentize(colour(charcoal, 600), .12);
     }
+    
     &::-moz-focus-inner {
     border: 0;
   }
@@ -336,6 +370,162 @@ p a:hover {color:colour(teal,900);
 
 /*OVERRIDES*/
 // -------------------------------------------------- */
+
+/*homepage*/
+body.home {
+    .page_header {
+        color: colour(teal, 600);
+        margin-bottom: rhythm(3);
+        @include for-size(tablet-landscape-up){
+            text-align:left;
+        }
+    }
+    .page_lead {
+            @include setTypeSize(s1);
+            @include setTypeFace(primary);
+            @include adjust-leading-to(6);
+            text-align:center;
+            color:colour(blue,500);
+            margin-top: rhythm(2);
+            margin-bottom: rhythm(5);
+             
+        @include for-size(header_breakpoint){
+            @include setTypeSize(s2);
+            text-align:left;
+            color:colour(blue,300);
+            margin-top: rhythm(3);
+        }
+        
+        }
+    .work_header, .blog_header {
+        margin-bottom: rhythm(4);
+        padding:0;
+}
+    .client_header{
+        font-weight:600;
+        text-align:center;
+        @include setTypeSize('s1');
+        color:colour(blue,500);
+    }
+    
+    .services h5 {
+        margin-top: rhythm(8);
+        margin-bottom: rhythm(4);
+    }
+}
+
+/* work items */
+body.workitem {
+        .workitem_components {@include subhead_large();
+                              margin-top: rhythm(4);
+                              margin-bottom: rhythm(4);
+                               text-align:center;
+                               margin-left: auto;
+                               margin-right: auto;}
+             .workitem_title {
+                  text-align:center;
+                @include setTypeSize('s3');
+                 margin-bottom: rhythm(2);
+                 @include for-size(tablet-landscape-up){
+                 @include setTypeSize('s4');
+                margin-bottom: rhythm(8);
+                               }
+    }
+}
+
+
+/* Cards */
+.card_list{
+    .card_title {
+                 @include setTypeSize('s2');
+                 @include setTypeFace('secondary');
+                 margin-top: rhythm(4);
+                 text-align:left;
+                }
+    
+    .work_components, .post_time {@include setTypeSize('s12');
+                      font-weight:600;
+                      margin: rhythm(2) 0;
+                      text-transform: uppercase;
+                      letter-spacing:1.5px;
+                      color:colour(teal, 500);}
+   
+    .card_title a {text-decoration:none;}
+    .card_title a, .card_title a:visited {color: colour(blue, 400);}
+
+    
+    .card_article .card:hover {
+        .card_title a {color: colour(blue, 600);}
+        .work_components {color: colour(teal, 700);}
+}
+}
+
+
+
+/* site footer */
+.site_footer {
+    .footer_bottom {
+        @include for-size(tablet-portrait-up){
+        padding-top: rhythm(4);   
+        }
+        }
+    
+    h3 {text-align:left;
+        margin: rhythm(6) 0;
+        color: colour(yellow, 100);
+        }
+    
+    
+    label p {
+            @include setTypeSize('s0');    
+            margin: rhythm(2) 0; 
+            color: colour(yellow, 200);
+            }
+    textarea, input {margin-top: rhythm(2);
+                     margin-bottom: rhythm(5);
+    background-color: colour(blue, 800);
+    border:1px solid colour(blue, 700);
+    display:block;
+    width:100%;
+    padding: 0.5rem 1rem;
+    color: colour(blue, 300);
+        @include setTypeFace('primary');
+        @include setTypeSize('s1');
+        border-radius: $gutter/4;
+        transition: all .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    will-change: '';
+    
+        &:active, &:focus {border:1px solid colour(blue,400);
+        background-color: colour(blue, 700);}
+    
+    }
+    
+    button {@include button;
+            @include setTypeSize('s1');}
+    
+    .copyright p {
+        color: colour(blue, 200);
+        @include setTypeSize('s10');
+        text-align:center;
+        
+        @include for-size(tablet-portrait-up){
+         @include setTypeSize('s0');   
+         text-align:center;
+        }
+        
+        @include for-size(tablet-landscape-up){
+            text-align:left;
+        }
+                    }
+}
+
+
+
+
+
+
+
+
 
 figure.media, .single_post figure {figcaption, figcaption p {font-style: italic;
                                @include setTypeSize('s1');
@@ -393,80 +583,12 @@ figure.media, .single_post figure {figcaption, figcaption p {font-style: italic;
 .page_header a:link, .page_header a:visited, .page_header a:hover {text-decoration:none;}
 .work_header, .blog_header, .about_header {@include mainhead();}
 
-body.home {
-    .page_header {
-        color: colour(teal, 600);
-        @include for-size(tablet-landscape-up){
-            text-align:left;
-        }
-    }
-    .page_lead {@include setTypeSize(s2);
-            font-weight:400;
-            text-align:center;
-            color:colour(blue,300);
-             @include setTypeFace(primary);
-             
-        @include for-size(header_breakpoint){
-            text-align:left;
-        }
-        
-        }
-    .work_header {
-        margin-top:0;
-        padding:0;
-}
-    .client_header{
-        font-weight:600;
-        text-align:center;
-        @include setTypeSize('s1');
-        color:colour(blue,500);
-    }
-}
+
 
 body.mywork, body.blog, body.error, body.blogpost {
     .page_header {text-shadow: 0px 5px 10px transparentize(colour(teal, 800), 0.40);}
 }
 
-
-/* portfolio module */
-.portfolio, .relatedwork, .relatedposts{
-.work_article .card, .list_of_related_posts .card {
-    .card_caption {text-align:center;}
-    .work_title, .post_title {@include setTypeSize('s2');
-                 @include setTypeFace('secondary');
-                  text-align:left;
-                }
-    .work_components {@include subhead();
-                      line-height:1.3125rem;
-                      margin-top:0;}
-    .work_title a, .post_title a {text-decoration:none;}
-    .work_title a, .work_title a:visited, .post_title a, .post_title a:visited{color: colour(blue, 400);}
-    }
-    .work_article .card:hover, .list_of_related_posts .card:hover {
-        .work_title a {color: colour(blue, 600);}
-        .work_components {color: colour(teal, 700);}
-}
-}
-
-
-.relatedposts li.post {
-    .post_time {margin-bottom: $standardmeasure;} 
-}
-
-/* work items */
-body.workitem {
-        .workitem_components {@include subhead_large();
-                               text-align:center;
-                               margin-left: auto;
-                               margin-right: auto;}
-             .workitem_title {
-                  text-align:center;
-                @include setTypeSize('s3');
-                 @include for-size(tablet-landscape-up){
-                 @include setTypeSize('s4');
-                               }
-    }
-}
 
 /* notebook post extracts */
 li.post {
@@ -568,6 +690,8 @@ text-decoration:none;
 } 
 
 body.blog, body.blogpost {
+     aside.sidebar {padding-top:rhythm(3);}
+    .sidebar h3 {margin-bottom: rhythm(4);}
     .pagination_links {
         
         .current, .page_nav {
@@ -603,6 +727,14 @@ text-decoration:none;
     
     
 }
+    .post_title, .category_title {
+                  text-align:center;
+                @include setTypeSize('s35');
+                 margin-top: rhythm(3);
+                margin-bottom: rhythm(1);
+    }
+    
+    .category_title {margin-bottom: rhythm(4);}
 }
 
 body.blogpost {
@@ -621,53 +753,19 @@ body.blogpost {
             
         }    
     }
-    .post_title {
-                  text-align:center;
-                @include setTypeSize('s3');
-                margin-bottom:0 !important;
-    }
-    .post_header .post_time {text-align:center;
-                @include setTypeSize('s1');
-                margin-top:0;
-                color:colour(teal,700);}
+    .post_header .post_time {@include setTypeSize('s1');
+                      font-weight:600;
+                      margin: rhythm(2) 0;
+                      text-transform: uppercase;
+                      text-align:center;
+                      letter-spacing:1.5px;
+                      color:colour(teal, 500);}
+    .post_header { margin-bottom: rhythm(8);}
+    .post_area h3 {margin: rhythm(4) 0;}
 }
 
 
-/* site footer */
-.site_footer {
-    h3 {text-align:left;
-        color: colour(yellow, 100);
-        }
-    label p {margin:0; color: colour(yellow, 200);
-            @include setTypeSize('s0');}
-    textarea, input {margin-top: calc(#{$standardmeasure}/2);
-    background-color: colour(blue, 800);
-    border:1px solid colour(blue, 700);
-    display:block;
-    width:100%;
-    padding: 0.5rem 1rem;
-  color: colour(blue, 300);
-        @include setTypeFace('primary');
-        @include setTypeSize('s1');
-        margin:0;
-        border-radius: $gutter/4;
-        transition: all .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
-    will-change: '';
-    
-        &:active, &:focus {border:1px solid colour(blue,400);
-        background-color: colour(blue, 700);}
-    
-    }
-    
-    .name, .email, .message {margin-bottom: $standardmeasure;}
-    
-    button {@include button;
-            font-size:1rem;}
-    
-    .copyright p {@include setTypeSize('s0');
-                 color: colour(blue, 200);
-                    }
-}
+
 
 
 // -------------------------------------------------- */

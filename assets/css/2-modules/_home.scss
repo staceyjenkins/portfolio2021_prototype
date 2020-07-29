@@ -59,14 +59,12 @@ body.home {
     }
     
 .title_overlay {
-    
-       @include gridsupport(){
+     @include gridsupport(){
         grid-column:1/-1;
         width:100%;
         margin-left:0;
         margin-right:0;
     }
-    
      @include for-size(tablet-landscape-up){
         @include gridsupport(){
         grid-column:1/6;

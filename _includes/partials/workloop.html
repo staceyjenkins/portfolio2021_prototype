@@ -1,8 +1,8 @@
-<li class="work_article">
+<li class="card_article">
                 <div class="card">
                     <div class="card_caption">
                         <div class="card_text">
-                        <h5 class="work_title">
+                        <h5 class="card_title">
                         <a href="{{site.baseurl}}{{item.url}}">
                         {{item.title}}
                         </a>    
@@ -14,6 +14,7 @@
                     
             </div>
                     <div class="card_image">
+                        {% include /partials/card_border.html %}
                             <figure>
                                 <a href="{{site.url}}/{{site.baseurl}}{{item.url}}">
                             <img src="{{site.url}}/{{site.baseurl}}/assets/img/{{item.thumb}}" alt="{{item.title}}">
