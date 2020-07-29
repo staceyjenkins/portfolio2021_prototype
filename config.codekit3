@@ -479,23 +479,15 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_posts/2020-05-25-welcome-to-jekyll.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/_posts/2020-07-15-a-forestry.io-test-post.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_posts/2020-07-15-a-forestry.io-test-post.html",
-		"oF": 0
 		},
 	"/_posts/2020-07-15-a-forestry.io-test-post.md": {
 		"cB": 0,
@@ -506,9 +498,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_posts/2020-07-15-a-forestry.io-test-post.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -525,9 +517,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/_posts/2020-07-28-long-post.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -4212,14 +4204,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_site/sitemap.xml",
-		"oF": 1
-		},
-	"/_site/typographytest.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_site/typographytest.html",
 		"oF": 1
 		},
 	"/_workitems/awaydays.html": {
@@ -7978,14 +7962,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/typographytest.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/typographytest.html",
-		"oF": 0
 		}
 	},
 "hooks": [
