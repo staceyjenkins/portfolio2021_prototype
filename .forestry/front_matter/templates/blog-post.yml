@@ -24,5 +24,4 @@ fields:
   name: title
   label: title
 pages:
-- _posts/2020-05-25-welcome-to-jekyll.md
 - _posts/announcing-the-brand-new-staceyjenkins.co.uk.md
